@@ -29,179 +29,152 @@
         private void InitializeComponent()
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.ayarlarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.genelAyarlarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.lokalAyarlarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.bankalarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.dizaynlarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.hızlıTuşPaletToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.kullanıcılarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.şifreDegiştirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.işlemlerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.raporlarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.button1 = new System.Windows.Forms.Button();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.menuStrip1.SuspendLayout();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.menuStrip2 = new System.Windows.Forms.MenuStrip();
+            this.ayarlarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.işlemlerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.raporlarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
-            this.tabPage1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
+            this.menuStrip2.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ayarlarToolStripMenuItem,
-            this.işlemlerToolStripMenuItem,
-            this.raporlarToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1902, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1902, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // ayarlarToolStripMenuItem
+            // panel1
             // 
-            this.ayarlarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.genelAyarlarToolStripMenuItem,
-            this.lokalAyarlarToolStripMenuItem,
-            this.bankalarToolStripMenuItem,
-            this.dizaynlarToolStripMenuItem,
-            this.hızlıTuşPaletToolStripMenuItem,
-            this.kullanıcılarToolStripMenuItem,
-            this.şifreDegiştirToolStripMenuItem});
-            this.ayarlarToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.ayarlarToolStripMenuItem.Name = "ayarlarToolStripMenuItem";
-            this.ayarlarToolStripMenuItem.Size = new System.Drawing.Size(74, 24);
-            this.ayarlarToolStripMenuItem.Text = "Ayarlar";
-            // 
-            // genelAyarlarToolStripMenuItem
-            // 
-            this.genelAyarlarToolStripMenuItem.Name = "genelAyarlarToolStripMenuItem";
-            this.genelAyarlarToolStripMenuItem.Size = new System.Drawing.Size(195, 26);
-            this.genelAyarlarToolStripMenuItem.Text = "Genel Ayarlar ";
-            // 
-            // lokalAyarlarToolStripMenuItem
-            // 
-            this.lokalAyarlarToolStripMenuItem.Name = "lokalAyarlarToolStripMenuItem";
-            this.lokalAyarlarToolStripMenuItem.Size = new System.Drawing.Size(195, 26);
-            this.lokalAyarlarToolStripMenuItem.Text = "Lokal Ayarlar";
-            // 
-            // bankalarToolStripMenuItem
-            // 
-            this.bankalarToolStripMenuItem.Name = "bankalarToolStripMenuItem";
-            this.bankalarToolStripMenuItem.Size = new System.Drawing.Size(195, 26);
-            this.bankalarToolStripMenuItem.Text = "Bankalar";
-            // 
-            // dizaynlarToolStripMenuItem
-            // 
-            this.dizaynlarToolStripMenuItem.Name = "dizaynlarToolStripMenuItem";
-            this.dizaynlarToolStripMenuItem.Size = new System.Drawing.Size(195, 26);
-            this.dizaynlarToolStripMenuItem.Text = "Dizaynlar";
-            // 
-            // hızlıTuşPaletToolStripMenuItem
-            // 
-            this.hızlıTuşPaletToolStripMenuItem.Name = "hızlıTuşPaletToolStripMenuItem";
-            this.hızlıTuşPaletToolStripMenuItem.Size = new System.Drawing.Size(195, 26);
-            this.hızlıTuşPaletToolStripMenuItem.Text = "Hızlı Tuş Palet";
-            // 
-            // kullanıcılarToolStripMenuItem
-            // 
-            this.kullanıcılarToolStripMenuItem.Name = "kullanıcılarToolStripMenuItem";
-            this.kullanıcılarToolStripMenuItem.Size = new System.Drawing.Size(195, 26);
-            this.kullanıcılarToolStripMenuItem.Text = "Kullanıcılar";
-            // 
-            // şifreDegiştirToolStripMenuItem
-            // 
-            this.şifreDegiştirToolStripMenuItem.Name = "şifreDegiştirToolStripMenuItem";
-            this.şifreDegiştirToolStripMenuItem.Size = new System.Drawing.Size(195, 26);
-            this.şifreDegiştirToolStripMenuItem.Text = "Şifre Degiştir";
-            // 
-            // işlemlerToolStripMenuItem
-            // 
-            this.işlemlerToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.işlemlerToolStripMenuItem.Name = "işlemlerToolStripMenuItem";
-            this.işlemlerToolStripMenuItem.Size = new System.Drawing.Size(79, 24);
-            this.işlemlerToolStripMenuItem.Text = "İşlemler";
-            // 
-            // raporlarToolStripMenuItem
-            // 
-            this.raporlarToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.raporlarToolStripMenuItem.Name = "raporlarToolStripMenuItem";
-            this.raporlarToolStripMenuItem.Size = new System.Drawing.Size(83, 24);
-            this.raporlarToolStripMenuItem.Text = "Raporlar";
+            this.panel1.Controls.Add(this.menuStrip2);
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1902, 41);
+            this.panel1.TabIndex = 1;
             // 
             // tabControl1
             // 
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Location = new System.Drawing.Point(-2, 31);
+            this.tabControl1.Controls.Add(this.tabPage3);
+            this.tabControl1.Controls.Add(this.tabPage4);
+            this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1904, 1005);
+            this.tabControl1.Size = new System.Drawing.Size(1335, 993);
             this.tabControl1.TabIndex = 1;
-            this.tabControl1.Tag = "";
             // 
             // tabPage1
             // 
-            this.tabPage1.Controls.Add(this.button1);
             this.tabPage1.Location = new System.Drawing.Point(4, 29);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1896, 972);
+            this.tabPage1.Size = new System.Drawing.Size(1890, 963);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "tabPage1";
+            this.tabPage1.Text = "Satış Ekranı";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // tabPage2
             // 
-            this.tabPage2.Controls.Add(this.checkBox1);
             this.tabPage2.Location = new System.Drawing.Point(4, 29);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1896, 972);
+            this.tabPage2.Size = new System.Drawing.Size(1890, 963);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "tabPage2";
+            this.tabPage2.Text = "Müşderiler";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // tabPage3
             // 
-            this.button1.Location = new System.Drawing.Point(49, 62);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(94, 29);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.tabPage3.Location = new System.Drawing.Point(4, 29);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(1890, 963);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Ürünler";
+            this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // checkBox1
+            // tabPage4
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(266, 34);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(101, 24);
-            this.checkBox1.TabIndex = 0;
-            this.checkBox1.Text = "checkBox1";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.tabPage4.Location = new System.Drawing.Point(4, 29);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4.Size = new System.Drawing.Size(1327, 960);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "Toptancı";
+            this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // menuStrip2
+            // 
+            this.menuStrip2.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ayarlarToolStripMenuItem,
+            this.işlemlerToolStripMenuItem,
+            this.raporlarToolStripMenuItem});
+            this.menuStrip2.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip2.Name = "menuStrip2";
+            this.menuStrip2.Size = new System.Drawing.Size(1902, 36);
+            this.menuStrip2.TabIndex = 0;
+            this.menuStrip2.Text = "menuStrip2";
+            // 
+            // ayarlarToolStripMenuItem
+            // 
+            this.ayarlarToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.ayarlarToolStripMenuItem.Name = "ayarlarToolStripMenuItem";
+            this.ayarlarToolStripMenuItem.Size = new System.Drawing.Size(95, 32);
+            this.ayarlarToolStripMenuItem.Text = "Ayarlar";
+            // 
+            // işlemlerToolStripMenuItem
+            // 
+            this.işlemlerToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.işlemlerToolStripMenuItem.Name = "işlemlerToolStripMenuItem";
+            this.işlemlerToolStripMenuItem.Size = new System.Drawing.Size(101, 32);
+            this.işlemlerToolStripMenuItem.Text = "İşlemler";
+            // 
+            // raporlarToolStripMenuItem
+            // 
+            this.raporlarToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.raporlarToolStripMenuItem.Name = "raporlarToolStripMenuItem";
+            this.raporlarToolStripMenuItem.Size = new System.Drawing.Size(107, 32);
+            this.raporlarToolStripMenuItem.Text = "Raporlar";
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.tabControl1);
+            this.panel2.Location = new System.Drawing.Point(0, 39);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1335, 993);
+            this.panel2.TabIndex = 2;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1902, 1033);
-            this.Controls.Add(this.tabControl1);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Zenoyap";
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.tabControl1.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
-            this.tabPage2.ResumeLayout(false);
-            this.tabPage2.PerformLayout();
+            this.menuStrip2.ResumeLayout(false);
+            this.menuStrip2.PerformLayout();
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -210,20 +183,16 @@
         #endregion
 
         private MenuStrip menuStrip1;
-        private ToolStripMenuItem ayarlarToolStripMenuItem;
-        private ToolStripMenuItem genelAyarlarToolStripMenuItem;
-        private ToolStripMenuItem lokalAyarlarToolStripMenuItem;
-        private ToolStripMenuItem bankalarToolStripMenuItem;
-        private ToolStripMenuItem dizaynlarToolStripMenuItem;
-        private ToolStripMenuItem hızlıTuşPaletToolStripMenuItem;
-        private ToolStripMenuItem kullanıcılarToolStripMenuItem;
-        private ToolStripMenuItem şifreDegiştirToolStripMenuItem;
-        private ToolStripMenuItem işlemlerToolStripMenuItem;
-        private ToolStripMenuItem raporlarToolStripMenuItem;
+        private Panel panel1;
         private TabControl tabControl1;
         private TabPage tabPage1;
         private TabPage tabPage2;
-        private Button button1;
-        private CheckBox checkBox1;
+        private TabPage tabPage3;
+        private TabPage tabPage4;
+        private MenuStrip menuStrip2;
+        private ToolStripMenuItem ayarlarToolStripMenuItem;
+        private ToolStripMenuItem işlemlerToolStripMenuItem;
+        private ToolStripMenuItem raporlarToolStripMenuItem;
+        private Panel panel2;
     }
 }
