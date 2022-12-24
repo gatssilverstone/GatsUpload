@@ -61,7 +61,7 @@
             this.flowLayoutPanel1.Controls.Add(this.tabControl1);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 86);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1901, 946);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1346, 633);
             this.flowLayoutPanel1.TabIndex = 1;
             // 
             // tabPage4
@@ -103,7 +103,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 29);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1879, 899);
+            this.tabPage1.Size = new System.Drawing.Size(1325, 587);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Satış Ekranı";
             this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
@@ -130,7 +130,7 @@
             this.tabControl1.Multiline = true;
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1887, 932);
+            this.tabControl1.Size = new System.Drawing.Size(1333, 620);
             this.tabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.tabControl1.TabIndex = 0;
             // 
@@ -144,7 +144,7 @@
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1481, 80);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1204, 80);
             this.tableLayoutPanel1.TabIndex = 2;
             // 
             // menuStrip1
@@ -159,7 +159,7 @@
             this.yardımToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(740, 31);
+            this.menuStrip1.Size = new System.Drawing.Size(602, 31);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -209,7 +209,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1902, 1033);
+            this.ClientSize = new System.Drawing.Size(1348, 721);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Name = "Form1";
