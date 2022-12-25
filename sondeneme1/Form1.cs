@@ -31,5 +31,10 @@ namespace sondeneme1
         {
 
         }
+
+        private void button26_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
