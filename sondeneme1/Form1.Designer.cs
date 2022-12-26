@@ -111,12 +111,12 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.button32 = new System.Windows.Forms.Button();
             this.button22 = new System.Windows.Forms.Button();
             this.button21 = new System.Windows.Forms.Button();
             this.button31 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.button32 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -1002,6 +1002,16 @@
             this.tabPage3.Text = "Müşteriler              ";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
+            // button32
+            // 
+            this.button32.Location = new System.Drawing.Point(627, 57);
+            this.button32.Name = "button32";
+            this.button32.Size = new System.Drawing.Size(158, 106);
+            this.button32.TabIndex = 4;
+            this.button32.Text = "button32";
+            this.button32.UseVisualStyleBackColor = true;
+            this.button32.Click += new System.EventHandler(this.button32_Click);
+            // 
             // button22
             // 
             this.button22.Location = new System.Drawing.Point(352, 154);
@@ -1048,15 +1058,6 @@
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "İstoç Toptan";
             this.tabPage4.UseVisualStyleBackColor = true;
-            // 
-            // button32
-            // 
-            this.button32.Location = new System.Drawing.Point(627, 57);
-            this.button32.Name = "button32";
-            this.button32.Size = new System.Drawing.Size(158, 106);
-            this.button32.TabIndex = 4;
-            this.button32.Text = "button32";
-            this.button32.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
