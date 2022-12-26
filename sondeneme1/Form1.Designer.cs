@@ -117,6 +117,7 @@
             this.button31 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.button33 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -989,6 +990,7 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.button33);
             this.tabPage3.Controls.Add(this.button32);
             this.tabPage3.Controls.Add(this.button22);
             this.tabPage3.Controls.Add(this.button21);
@@ -1058,6 +1060,15 @@
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "İstoç Toptan";
             this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // button33
+            // 
+            this.button33.Location = new System.Drawing.Point(470, 169);
+            this.button33.Name = "button33";
+            this.button33.Size = new System.Drawing.Size(172, 112);
+            this.button33.TabIndex = 5;
+            this.button33.Text = "button33";
+            this.button33.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -1196,5 +1207,6 @@
         private Button button6;
         private Button button31;
         private Button button32;
+        private Button button33;
     }
 }
