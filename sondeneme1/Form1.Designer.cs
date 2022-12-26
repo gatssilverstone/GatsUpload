@@ -282,7 +282,7 @@
             this.tabPage6.Location = new System.Drawing.Point(4, 24);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(496, 403);
+            this.tabPage6.Size = new System.Drawing.Size(521, 319);
             this.tabPage6.TabIndex = 1;
             this.tabPage6.Text = "Kasa 2";
             this.tabPage6.UseVisualStyleBackColor = true;
@@ -294,7 +294,7 @@
             this.dataGridView2.Location = new System.Drawing.Point(3, 3);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowTemplate.Height = 25;
-            this.dataGridView2.Size = new System.Drawing.Size(490, 397);
+            this.dataGridView2.Size = new System.Drawing.Size(515, 313);
             this.dataGridView2.TabIndex = 6;
             // 
             // tabPage7
@@ -303,7 +303,7 @@
             this.tabPage7.Location = new System.Drawing.Point(4, 24);
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(496, 403);
+            this.tabPage7.Size = new System.Drawing.Size(521, 319);
             this.tabPage7.TabIndex = 2;
             this.tabPage7.Text = "Kasa 3";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -315,7 +315,7 @@
             this.dataGridView3.Location = new System.Drawing.Point(3, 3);
             this.dataGridView3.Name = "dataGridView3";
             this.dataGridView3.RowTemplate.Height = 25;
-            this.dataGridView3.Size = new System.Drawing.Size(490, 397);
+            this.dataGridView3.Size = new System.Drawing.Size(515, 313);
             this.dataGridView3.TabIndex = 6;
             // 
             // tabPage8
@@ -324,7 +324,7 @@
             this.tabPage8.Location = new System.Drawing.Point(4, 24);
             this.tabPage8.Name = "tabPage8";
             this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage8.Size = new System.Drawing.Size(496, 403);
+            this.tabPage8.Size = new System.Drawing.Size(521, 319);
             this.tabPage8.TabIndex = 3;
             this.tabPage8.Text = "Kasa 4";
             this.tabPage8.UseVisualStyleBackColor = true;
@@ -336,7 +336,7 @@
             this.dataGridView4.Location = new System.Drawing.Point(3, 3);
             this.dataGridView4.Name = "dataGridView4";
             this.dataGridView4.RowTemplate.Height = 25;
-            this.dataGridView4.Size = new System.Drawing.Size(490, 397);
+            this.dataGridView4.Size = new System.Drawing.Size(515, 313);
             this.dataGridView4.TabIndex = 6;
             // 
             // tabPage9
@@ -345,7 +345,7 @@
             this.tabPage9.Location = new System.Drawing.Point(4, 24);
             this.tabPage9.Name = "tabPage9";
             this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage9.Size = new System.Drawing.Size(496, 403);
+            this.tabPage9.Size = new System.Drawing.Size(521, 319);
             this.tabPage9.TabIndex = 4;
             this.tabPage9.Text = "Kasa 5";
             this.tabPage9.UseVisualStyleBackColor = true;
@@ -357,7 +357,7 @@
             this.dataGridView5.Location = new System.Drawing.Point(3, 3);
             this.dataGridView5.Name = "dataGridView5";
             this.dataGridView5.RowTemplate.Height = 25;
-            this.dataGridView5.Size = new System.Drawing.Size(490, 397);
+            this.dataGridView5.Size = new System.Drawing.Size(515, 313);
             this.dataGridView5.TabIndex = 6;
             // 
             // panel7
@@ -725,7 +725,7 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.Turquoise;
+            this.button2.BackColor = System.Drawing.Color.Tomato;
             this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
@@ -921,7 +921,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 30);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1107, 667);
+            this.tabPage2.Size = new System.Drawing.Size(1132, 583);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Ürünler";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -931,7 +931,7 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 30);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(1107, 667);
+            this.tabPage3.Size = new System.Drawing.Size(1132, 583);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Müşteriler              ";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -941,7 +941,7 @@
             this.tabPage4.Location = new System.Drawing.Point(4, 30);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(1107, 667);
+            this.tabPage4.Size = new System.Drawing.Size(1132, 583);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "İstoç Toptan";
             this.tabPage4.UseVisualStyleBackColor = true;
