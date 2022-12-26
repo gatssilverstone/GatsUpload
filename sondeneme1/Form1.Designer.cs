@@ -110,6 +110,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.button34 = new System.Windows.Forms.Button();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.button23 = new System.Windows.Forms.Button();
             this.button33 = new System.Windows.Forms.Button();
@@ -119,7 +120,7 @@
             this.button31 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.button34 = new System.Windows.Forms.Button();
+            this.button35 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -147,6 +148,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
+            this.tabPage4.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -992,6 +994,15 @@
             this.tabPage2.Text = "Ürünler";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // button34
+            // 
+            this.button34.Location = new System.Drawing.Point(125, 62);
+            this.button34.Name = "button34";
+            this.button34.Size = new System.Drawing.Size(75, 60);
+            this.button34.TabIndex = 0;
+            this.button34.Text = "button34";
+            this.button34.UseVisualStyleBackColor = true;
+            // 
             // tabPage3
             // 
             this.tabPage3.Controls.Add(this.button23);
@@ -1076,6 +1087,7 @@
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.button35);
             this.tabPage4.Location = new System.Drawing.Point(4, 30);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
@@ -1084,14 +1096,14 @@
             this.tabPage4.Text = "İstoç Toptan";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
-            // button34
+            // button35
             // 
-            this.button34.Location = new System.Drawing.Point(125, 62);
-            this.button34.Name = "button34";
-            this.button34.Size = new System.Drawing.Size(75, 60);
-            this.button34.TabIndex = 0;
-            this.button34.Text = "button34";
-            this.button34.UseVisualStyleBackColor = true;
+            this.button35.Location = new System.Drawing.Point(425, 132);
+            this.button35.Name = "button35";
+            this.button35.Size = new System.Drawing.Size(75, 129);
+            this.button35.TabIndex = 0;
+            this.button35.Text = "button35";
+            this.button35.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -1135,6 +1147,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
+            this.tabPage4.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1233,5 +1246,6 @@
         private Button button32;
         private Button button33;
         private Button button34;
+        private Button button35;
     }
 }
