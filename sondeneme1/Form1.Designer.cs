@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.ayarlarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -111,11 +111,12 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.button22 = new System.Windows.Forms.Button();
+            this.button21 = new System.Windows.Forms.Button();
+            this.button31 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.button31 = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
+            this.button32 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -280,14 +281,14 @@
             // 
             // dataGridView1
             // 
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Barkod,
@@ -988,6 +989,7 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.button32);
             this.tabPage3.Controls.Add(this.button22);
             this.tabPage3.Controls.Add(this.button21);
             this.tabPage3.Controls.Add(this.button31);
@@ -999,6 +1001,33 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Müşteriler              ";
             this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // button22
+            // 
+            this.button22.Location = new System.Drawing.Point(352, 154);
+            this.button22.Name = "button22";
+            this.button22.Size = new System.Drawing.Size(75, 108);
+            this.button22.TabIndex = 3;
+            this.button22.Text = "button22";
+            this.button22.UseVisualStyleBackColor = true;
+            // 
+            // button21
+            // 
+            this.button21.Location = new System.Drawing.Point(234, 146);
+            this.button21.Name = "button21";
+            this.button21.Size = new System.Drawing.Size(75, 65);
+            this.button21.TabIndex = 2;
+            this.button21.Text = "button21";
+            this.button21.UseVisualStyleBackColor = true;
+            // 
+            // button31
+            // 
+            this.button31.Location = new System.Drawing.Point(89, 69);
+            this.button31.Name = "button31";
+            this.button31.Size = new System.Drawing.Size(109, 94);
+            this.button31.TabIndex = 1;
+            this.button31.Text = "button31";
+            this.button31.UseVisualStyleBackColor = true;
             // 
             // button6
             // 
@@ -1020,32 +1049,14 @@
             this.tabPage4.Text = "İstoç Toptan";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
-            // button31
+            // button32
             // 
-            this.button31.Location = new System.Drawing.Point(89, 69);
-            this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(109, 94);
-            this.button31.TabIndex = 1;
-            this.button31.Text = "button31";
-            this.button31.UseVisualStyleBackColor = true;
-            // 
-            // button21
-            // 
-            this.button21.Location = new System.Drawing.Point(234, 146);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(75, 65);
-            this.button21.TabIndex = 2;
-            this.button21.Text = "button21";
-            this.button21.UseVisualStyleBackColor = true;
-            // 
-            // button22
-            // 
-            this.button22.Location = new System.Drawing.Point(352, 154);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(75, 108);
-            this.button22.TabIndex = 3;
-            this.button22.Text = "button22";
-            this.button22.UseVisualStyleBackColor = true;
+            this.button32.Location = new System.Drawing.Point(627, 57);
+            this.button32.Name = "button32";
+            this.button32.Size = new System.Drawing.Size(158, 106);
+            this.button32.TabIndex = 4;
+            this.button32.Text = "button32";
+            this.button32.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -1183,5 +1194,6 @@
         private DataGridViewTextBoxColumn Tutar;
         private Button button6;
         private Button button31;
+        private Button button32;
     }
 }
