@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.ayarlarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -44,6 +45,12 @@
             this.tabControl2 = new System.Windows.Forms.TabControl();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Barkod = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.urunadi = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.miktar = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.birim = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Fiyatt = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Tutar = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.tabPage7 = new System.Windows.Forms.TabPage();
@@ -73,7 +80,7 @@
             this.button9 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.button = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.button30 = new System.Windows.Forms.Button();
             this.button29 = new System.Windows.Forms.Button();
@@ -268,13 +275,58 @@
             // 
             // dataGridView1
             // 
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Barkod,
+            this.urunadi,
+            this.miktar,
+            this.birim,
+            this.Fiyatt,
+            this.Tutar});
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(3, 3);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 25;
             this.dataGridView1.Size = new System.Drawing.Size(515, 307);
             this.dataGridView1.TabIndex = 6;
+            // 
+            // Barkod
+            // 
+            this.Barkod.HeaderText = "Barkod";
+            this.Barkod.Name = "Barkod";
+            // 
+            // urunadi
+            // 
+            this.urunadi.HeaderText = "Ürün Adı";
+            this.urunadi.Name = "urunadi";
+            // 
+            // miktar
+            // 
+            this.miktar.HeaderText = "miktar";
+            this.miktar.Name = "miktar";
+            // 
+            // birim
+            // 
+            this.birim.HeaderText = "Birim";
+            this.birim.Name = "birim";
+            // 
+            // Fiyatt
+            // 
+            this.Fiyatt.HeaderText = "Fiyat";
+            this.Fiyatt.Name = "Fiyatt";
+            // 
+            // Tutar
+            // 
+            this.Tutar.HeaderText = "Tutar";
+            this.Tutar.Name = "Tutar";
             // 
             // tabPage6
             // 
@@ -374,29 +426,31 @@
             // 
             // button28
             // 
-            this.button28.Location = new System.Drawing.Point(337, 3);
+            this.button28.Location = new System.Drawing.Point(466, 0);
             this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(168, 47);
+            this.button28.Size = new System.Drawing.Size(65, 53);
             this.button28.TabIndex = 2;
-            this.button28.Text = "Ödeme seçenek 1";
+            this.button28.Text = "Yazdır";
             this.button28.UseVisualStyleBackColor = true;
             // 
             // button27
             // 
-            this.button27.Location = new System.Drawing.Point(162, 3);
+            this.button27.Location = new System.Drawing.Point(99, 0);
             this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(169, 47);
+            this.button27.Size = new System.Drawing.Size(105, 51);
             this.button27.TabIndex = 1;
-            this.button27.Text = "Ödeme seçenek 1";
+            this.button27.Text = "Taksitli Fiyat";
             this.button27.UseVisualStyleBackColor = true;
             // 
             // button26
             // 
-            this.button26.Location = new System.Drawing.Point(3, 3);
+            this.button26.Dock = System.Windows.Forms.DockStyle.Left;
+            this.button26.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button26.Location = new System.Drawing.Point(0, 0);
             this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(153, 47);
+            this.button26.Size = new System.Drawing.Size(101, 51);
             this.button26.TabIndex = 0;
-            this.button26.Text = "Ödeme seçenek 1";
+            this.button26.Text = "Nakit Fiyat";
             this.button26.UseVisualStyleBackColor = true;
             this.button26.Click += new System.EventHandler(this.button26_Click);
             // 
@@ -441,7 +495,7 @@
             this.tableLayoutPanel1.Controls.Add(this.button9, 3, 0);
             this.tableLayoutPanel1.Controls.Add(this.button8, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.button7, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.button6, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.button, 0, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -609,16 +663,16 @@
             this.button7.Text = "Kısa Yol";
             this.button7.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // button
             // 
-            this.button6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Location = new System.Drawing.Point(3, 3);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 91);
-            this.button6.TabIndex = 0;
-            this.button6.Text = "Kısa Yol";
-            this.button6.UseVisualStyleBackColor = true;
+            this.button.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button.Location = new System.Drawing.Point(3, 3);
+            this.button.Name = "button";
+            this.button.Size = new System.Drawing.Size(75, 91);
+            this.button.TabIndex = 0;
+            this.button.Text = "Kısa Yol";
+            this.button.UseVisualStyleBackColor = true;
             // 
             // panel3
             // 
@@ -1034,7 +1088,7 @@
         private Panel panel7;
         private Button button26;
         private FlowLayoutPanel flowLayoutPanel1;
-        private Button button6;
+        private Button button;
         private Button button7;
         private Button button8;
         private Button button9;
@@ -1059,7 +1113,6 @@
         private Panel panel8;
         private TabControl tabControl2;
         private TabPage tabPage5;
-        private DataGridView dataGridView1;
         private TabPage tabPage6;
         private DataGridView dataGridView2;
         private TabPage tabPage7;
@@ -1073,5 +1126,12 @@
         private Button button5;
         private Button button4;
         private TableLayoutPanel tableLayoutPanel1;
+        private DataGridView dataGridView1;
+        private DataGridViewTextBoxColumn Barkod;
+        private DataGridViewTextBoxColumn urunadi;
+        private DataGridViewTextBoxColumn miktar;
+        private DataGridViewTextBoxColumn birim;
+        private DataGridViewTextBoxColumn Fiyatt;
+        private DataGridViewTextBoxColumn Tutar;
     }
 }
