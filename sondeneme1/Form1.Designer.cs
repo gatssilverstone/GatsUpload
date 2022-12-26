@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.ayarlarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -120,6 +120,7 @@
             this.button6 = new System.Windows.Forms.Button();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.button34 = new System.Windows.Forms.Button();
+            this.button2466666 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -285,14 +286,14 @@
             // 
             // dataGridView1
             // 
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Barkod,
@@ -342,10 +343,10 @@
             // tabPage6
             // 
             this.tabPage6.Controls.Add(this.dataGridView2);
-            this.tabPage6.Location = new System.Drawing.Point(4, 24);
+            this.tabPage6.Location = new System.Drawing.Point(4, 30);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(521, 319);
+            this.tabPage6.Size = new System.Drawing.Size(521, 313);
             this.tabPage6.TabIndex = 1;
             this.tabPage6.Text = "Kasa 2";
             this.tabPage6.UseVisualStyleBackColor = true;
@@ -357,16 +358,16 @@
             this.dataGridView2.Location = new System.Drawing.Point(3, 3);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowTemplate.Height = 25;
-            this.dataGridView2.Size = new System.Drawing.Size(515, 313);
+            this.dataGridView2.Size = new System.Drawing.Size(515, 307);
             this.dataGridView2.TabIndex = 6;
             // 
             // tabPage7
             // 
             this.tabPage7.Controls.Add(this.dataGridView3);
-            this.tabPage7.Location = new System.Drawing.Point(4, 24);
+            this.tabPage7.Location = new System.Drawing.Point(4, 30);
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(521, 319);
+            this.tabPage7.Size = new System.Drawing.Size(521, 313);
             this.tabPage7.TabIndex = 2;
             this.tabPage7.Text = "Kasa 3";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -378,16 +379,16 @@
             this.dataGridView3.Location = new System.Drawing.Point(3, 3);
             this.dataGridView3.Name = "dataGridView3";
             this.dataGridView3.RowTemplate.Height = 25;
-            this.dataGridView3.Size = new System.Drawing.Size(515, 313);
+            this.dataGridView3.Size = new System.Drawing.Size(515, 307);
             this.dataGridView3.TabIndex = 6;
             // 
             // tabPage8
             // 
             this.tabPage8.Controls.Add(this.dataGridView4);
-            this.tabPage8.Location = new System.Drawing.Point(4, 24);
+            this.tabPage8.Location = new System.Drawing.Point(4, 30);
             this.tabPage8.Name = "tabPage8";
             this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage8.Size = new System.Drawing.Size(521, 319);
+            this.tabPage8.Size = new System.Drawing.Size(521, 313);
             this.tabPage8.TabIndex = 3;
             this.tabPage8.Text = "Kasa 4";
             this.tabPage8.UseVisualStyleBackColor = true;
@@ -399,16 +400,16 @@
             this.dataGridView4.Location = new System.Drawing.Point(3, 3);
             this.dataGridView4.Name = "dataGridView4";
             this.dataGridView4.RowTemplate.Height = 25;
-            this.dataGridView4.Size = new System.Drawing.Size(515, 313);
+            this.dataGridView4.Size = new System.Drawing.Size(515, 307);
             this.dataGridView4.TabIndex = 6;
             // 
             // tabPage9
             // 
             this.tabPage9.Controls.Add(this.dataGridView5);
-            this.tabPage9.Location = new System.Drawing.Point(4, 24);
+            this.tabPage9.Location = new System.Drawing.Point(4, 30);
             this.tabPage9.Name = "tabPage9";
             this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage9.Size = new System.Drawing.Size(521, 319);
+            this.tabPage9.Size = new System.Drawing.Size(521, 313);
             this.tabPage9.TabIndex = 4;
             this.tabPage9.Text = "Kasa 5";
             this.tabPage9.UseVisualStyleBackColor = true;
@@ -420,7 +421,7 @@
             this.dataGridView5.Location = new System.Drawing.Point(3, 3);
             this.dataGridView5.Name = "dataGridView5";
             this.dataGridView5.RowTemplate.Height = 25;
-            this.dataGridView5.Size = new System.Drawing.Size(515, 313);
+            this.dataGridView5.Size = new System.Drawing.Size(515, 307);
             this.dataGridView5.TabIndex = 6;
             // 
             // panel7
@@ -983,6 +984,7 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.button2466666);
             this.tabPage2.Controls.Add(this.button34);
             this.tabPage2.Location = new System.Drawing.Point(4, 30);
             this.tabPage2.Name = "tabPage2";
@@ -1093,6 +1095,16 @@
             this.button34.Text = "button34";
             this.button34.UseVisualStyleBackColor = true;
             // 
+            // button2466666
+            // 
+            this.button2466666.Location = new System.Drawing.Point(367, 269);
+            this.button2466666.Name = "button2466666";
+            this.button2466666.Size = new System.Drawing.Size(75, 66);
+            this.button2466666.TabIndex = 1;
+            this.button2466666.Text = "button24";
+            this.button2466666.UseVisualStyleBackColor = true;
+            this.button2466666.Click += new System.EventHandler(this.button2466666_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -1201,7 +1213,7 @@
         private Button button21;
         private Button button22;
         private Button button23;
-        private Button button24;
+        private Button button2466666;
         private Button button25;
         private Button button28;
         private Button button27;

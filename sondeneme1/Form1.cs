@@ -56,5 +56,15 @@ namespace sondeneme1
         {
             Console.WriteLine("Hello world");
         }
+
+      
+        
+        
+        
+        
+        private void button2466666_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
