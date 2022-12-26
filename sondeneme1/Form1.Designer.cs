@@ -111,8 +111,9 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
             this.button6 = new System.Windows.Forms.Button();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.button31 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -985,6 +986,7 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.button31);
             this.tabPage3.Controls.Add(this.button6);
             this.tabPage3.Location = new System.Drawing.Point(4, 30);
             this.tabPage3.Name = "tabPage3";
@@ -993,6 +995,16 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Müşteriler              ";
             this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.Black;
+            this.button6.Location = new System.Drawing.Point(256, 57);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(201, 71);
+            this.button6.TabIndex = 0;
+            this.button6.Text = "button6";
+            this.button6.UseVisualStyleBackColor = false;
             // 
             // tabPage4
             // 
@@ -1004,15 +1016,14 @@
             this.tabPage4.Text = "İstoç Toptan";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // button31
             // 
-            this.button6.BackColor = System.Drawing.Color.Black;
-            this.button6.Location = new System.Drawing.Point(256, 57);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(201, 71);
-            this.button6.TabIndex = 0;
-            this.button6.Text = "button6";
-            this.button6.UseVisualStyleBackColor = false;
+            this.button31.Location = new System.Drawing.Point(89, 69);
+            this.button31.Name = "button31";
+            this.button31.Size = new System.Drawing.Size(109, 94);
+            this.button31.TabIndex = 1;
+            this.button31.Text = "button31";
+            this.button31.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -1149,5 +1160,6 @@
         private DataGridViewTextBoxColumn Fiyatt;
         private DataGridViewTextBoxColumn Tutar;
         private Button button6;
+        private Button button31;
     }
 }
