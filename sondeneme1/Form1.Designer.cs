@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.AnaekranmenuStrip = new System.Windows.Forms.MenuStrip();
             this.ayarlarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -232,7 +232,6 @@
             this.fiyatıDeğişenlerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.iadeListesiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.iparişSayısmToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.dataGridView8 = new System.Windows.Forms.DataGridView();
             this.panel10 = new System.Windows.Forms.Panel();
             this.ToptanKategoricomboBox = new System.Windows.Forms.ComboBox();
             this.ToptancheckBox = new System.Windows.Forms.CheckBox();
@@ -309,7 +308,6 @@
             this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ToptansplitContainer1)).BeginInit();
             this.ToptansplitContainer1.Panel1.SuspendLayout();
-            this.ToptansplitContainer1.Panel2.SuspendLayout();
             this.ToptansplitContainer1.SuspendLayout();
             this.menuStrip16.SuspendLayout();
             this.menuStrip17.SuspendLayout();
@@ -321,7 +319,6 @@
             this.ToptanciSiparismenuStrip23.SuspendLayout();
             this.menuStrip24.SuspendLayout();
             this.menuStrip25.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView8)).BeginInit();
             this.panel10.SuspendLayout();
             this.panel11.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -463,14 +460,14 @@
             // 
             // dataGridView1
             // 
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Barkod,
@@ -1180,11 +1177,13 @@
             this.UrunlersplitContainer1.BackColor = System.Drawing.Color.IndianRed;
             this.UrunlersplitContainer1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.UrunlersplitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.UrunlersplitContainer1.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
             this.UrunlersplitContainer1.Location = new System.Drawing.Point(3, 103);
             this.UrunlersplitContainer1.Name = "UrunlersplitContainer1";
             // 
             // UrunlersplitContainer1.Panel1
             // 
+            this.UrunlersplitContainer1.Panel1.AllowDrop = true;
             this.UrunlersplitContainer1.Panel1.BackColor = System.Drawing.Color.White;
             this.UrunlersplitContainer1.Panel1.Controls.Add(this.menuStrip5);
             this.UrunlersplitContainer1.Panel1.Controls.Add(this.menuStrip4);
@@ -1199,7 +1198,7 @@
             this.UrunlersplitContainer1.Panel2.BackColor = System.Drawing.Color.White;
             this.UrunlersplitContainer1.Panel2.Controls.Add(this.dataGridView6);
             this.UrunlersplitContainer1.Size = new System.Drawing.Size(1126, 477);
-            this.UrunlersplitContainer1.SplitterDistance = 171;
+            this.UrunlersplitContainer1.SplitterDistance = 216;
             this.UrunlersplitContainer1.TabIndex = 1;
             // 
             // menuStrip5
@@ -1209,7 +1208,7 @@
             this.UrunlerDosyatoolStripMenuItem});
             this.menuStrip5.Location = new System.Drawing.Point(0, 147);
             this.menuStrip5.Name = "menuStrip5";
-            this.menuStrip5.Size = new System.Drawing.Size(167, 24);
+            this.menuStrip5.Size = new System.Drawing.Size(212, 24);
             this.menuStrip5.TabIndex = 6;
             this.menuStrip5.Text = "menuStrip1";
             // 
@@ -1243,7 +1242,7 @@
             this.UrunlerFiyatdegistoolStripMenuItem});
             this.menuStrip4.Location = new System.Drawing.Point(0, 123);
             this.menuStrip4.Name = "menuStrip4";
-            this.menuStrip4.Size = new System.Drawing.Size(167, 24);
+            this.menuStrip4.Size = new System.Drawing.Size(212, 24);
             this.menuStrip4.TabIndex = 5;
             this.menuStrip4.Text = "menuStrip1";
             // 
@@ -1290,7 +1289,7 @@
             this.UrunlerStokkartitoolStripMenuItem});
             this.menuStrip3.Location = new System.Drawing.Point(0, 99);
             this.menuStrip3.Name = "menuStrip3";
-            this.menuStrip3.Size = new System.Drawing.Size(167, 24);
+            this.menuStrip3.Size = new System.Drawing.Size(212, 24);
             this.menuStrip3.TabIndex = 4;
             this.menuStrip3.Text = "menuStrip1";
             // 
@@ -1308,7 +1307,7 @@
             this.UrunlerSayimtoolStripMenuItem});
             this.menuStrip2.Location = new System.Drawing.Point(0, 75);
             this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(167, 24);
+            this.menuStrip2.Size = new System.Drawing.Size(212, 24);
             this.menuStrip2.TabIndex = 3;
             this.menuStrip2.Text = "menuStrip1";
             // 
@@ -1326,7 +1325,7 @@
             this.UrunlerGiriscikistoolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 51);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(167, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(212, 24);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -1395,7 +1394,7 @@
             this.UrunlerUrunkartitoolStripMenuItem});
             this.UrunlerUrunkatimenuStrip.Location = new System.Drawing.Point(0, 27);
             this.UrunlerUrunkatimenuStrip.Name = "UrunlerUrunkatimenuStrip";
-            this.UrunlerUrunkatimenuStrip.Size = new System.Drawing.Size(167, 24);
+            this.UrunlerUrunkatimenuStrip.Size = new System.Drawing.Size(212, 24);
             this.UrunlerUrunkatimenuStrip.TabIndex = 1;
             this.UrunlerUrunkatimenuStrip.Text = "Urun Kartı";
             // 
@@ -1413,7 +1412,7 @@
             this.UrunelerUrunekleToolStripMenuItem});
             this.UrunlerUruneklemenuStrip.Location = new System.Drawing.Point(0, 0);
             this.UrunlerUruneklemenuStrip.Name = "UrunlerUruneklemenuStrip";
-            this.UrunlerUruneklemenuStrip.Size = new System.Drawing.Size(167, 27);
+            this.UrunlerUruneklemenuStrip.Size = new System.Drawing.Size(212, 27);
             this.UrunlerUruneklemenuStrip.TabIndex = 0;
             this.UrunlerUruneklemenuStrip.Text = "menuStrip1";
             // 
@@ -1434,7 +1433,7 @@
             this.dataGridView6.Location = new System.Drawing.Point(0, 0);
             this.dataGridView6.Name = "dataGridView6";
             this.dataGridView6.RowTemplate.Height = 25;
-            this.dataGridView6.Size = new System.Drawing.Size(947, 473);
+            this.dataGridView6.Size = new System.Drawing.Size(902, 473);
             this.dataGridView6.TabIndex = 0;
             // 
             // UrunlerUstpanel
@@ -1577,6 +1576,7 @@
             this.MusterilersplitContainer.BackColor = System.Drawing.Color.Tomato;
             this.MusterilersplitContainer.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.MusterilersplitContainer.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.MusterilersplitContainer.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
             this.MusterilersplitContainer.Location = new System.Drawing.Point(3, 103);
             this.MusterilersplitContainer.Name = "MusterilersplitContainer";
             // 
@@ -2000,6 +2000,7 @@
             // 
             this.ToptansplitContainer1.BackColor = System.Drawing.Color.Tomato;
             this.ToptansplitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ToptansplitContainer1.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
             this.ToptansplitContainer1.Location = new System.Drawing.Point(3, 103);
             this.ToptansplitContainer1.Name = "ToptansplitContainer1";
             // 
@@ -2020,7 +2021,6 @@
             // ToptansplitContainer1.Panel2
             // 
             this.ToptansplitContainer1.Panel2.BackColor = System.Drawing.Color.White;
-            this.ToptansplitContainer1.Panel2.Controls.Add(this.dataGridView8);
             this.ToptansplitContainer1.Size = new System.Drawing.Size(1126, 477);
             this.ToptansplitContainer1.SplitterDistance = 219;
             this.ToptansplitContainer1.TabIndex = 1;
@@ -2317,16 +2317,6 @@
             this.iparişSayısmToolStripMenuItem.Size = new System.Drawing.Size(246, 24);
             this.iparişSayısmToolStripMenuItem.Text = "Gelen Sipariş Kontrol Listesi";
             // 
-            // dataGridView8
-            // 
-            this.dataGridView8.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView8.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView8.Name = "dataGridView8";
-            this.dataGridView8.RowTemplate.Height = 25;
-            this.dataGridView8.Size = new System.Drawing.Size(903, 477);
-            this.dataGridView8.TabIndex = 0;
-            // 
             // panel10
             // 
             this.panel10.Controls.Add(this.ToptanKategoricomboBox);
@@ -2555,7 +2545,6 @@
             this.tabPage4.ResumeLayout(false);
             this.ToptansplitContainer1.Panel1.ResumeLayout(false);
             this.ToptansplitContainer1.Panel1.PerformLayout();
-            this.ToptansplitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.ToptansplitContainer1)).EndInit();
             this.ToptansplitContainer1.ResumeLayout(false);
             this.menuStrip16.ResumeLayout(false);
@@ -2578,7 +2567,6 @@
             this.menuStrip24.PerformLayout();
             this.menuStrip25.ResumeLayout(false);
             this.menuStrip25.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView8)).EndInit();
             this.panel10.ResumeLayout(false);
             this.panel10.PerformLayout();
             this.panel11.ResumeLayout(false);
@@ -2807,7 +2795,6 @@
         private ComboBox ToptanFirmacomboBox;
         private TextBox ToptanUrunaditextBox;
         private Panel panel11;
-        private DataGridView dataGridView8;
         private PictureBox pictureBox1;
     }
 }
