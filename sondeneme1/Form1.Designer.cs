@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.AnaekranmenuStrip = new System.Windows.Forms.MenuStrip();
             this.ayarlarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -196,9 +196,44 @@
             this.panel9 = new System.Windows.Forms.Panel();
             this.MusterilerpictureBox1 = new System.Windows.Forms.PictureBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.ToptansplitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.menuStrip16 = new System.Windows.Forms.MenuStrip();
+            this.ToptanKaralistetoolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip17 = new System.Windows.Forms.MenuStrip();
+            this.ToptanAlimdurtoolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip18 = new System.Windows.Forms.MenuStrip();
+            this.ToptanTicarianaliztoolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip19 = new System.Windows.Forms.MenuStrip();
+            this.ToptanDekonttoolStripMenuItem8 = new System.Windows.Forms.ToolStripMenuItem();
+            this.dekontGönderToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip20 = new System.Windows.Forms.MenuStrip();
+            this.ToptanFaturatoolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem10 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem11 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem17 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip21 = new System.Windows.Forms.MenuStrip();
+            this.ToptanExtrelertoolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip22 = new System.Windows.Forms.MenuStrip();
+            this.ToptanTahsilattoolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ödemesiYapılanlarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ödemeBekleyenlerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ToptanciSiparismenuStrip23 = new System.Windows.Forms.MenuStrip();
+            this.ToptanSiparistoolStripMenuItem20 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem21 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem22 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem23 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem24 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip24 = new System.Windows.Forms.MenuStrip();
+            this.toolStripMenuItem26 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip25 = new System.Windows.Forms.MenuStrip();
+            this.ToptanStogumtoolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sparişeDüşenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.siparişlerimToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fiyatıDeğişenlerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.iadeListesiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.iparişSayısmToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dataGridView8 = new System.Windows.Forms.DataGridView();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.panel11 = new System.Windows.Forms.Panel();
             this.ToptanKategoricomboBox = new System.Windows.Forms.ComboBox();
             this.ToptancheckBox = new System.Windows.Forms.CheckBox();
             this.ToptanListelebutton = new System.Windows.Forms.Button();
@@ -209,42 +244,9 @@
             this.ToptanStokcomboBox = new System.Windows.Forms.ComboBox();
             this.ToptanFirmacomboBox = new System.Windows.Forms.ComboBox();
             this.ToptanUrunaditextBox = new System.Windows.Forms.TextBox();
-            this.ToptansplitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.menuStrip16 = new System.Windows.Forms.MenuStrip();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip17 = new System.Windows.Forms.MenuStrip();
-            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip18 = new System.Windows.Forms.MenuStrip();
-            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip19 = new System.Windows.Forms.MenuStrip();
-            this.toolStripMenuItem8 = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip20 = new System.Windows.Forms.MenuStrip();
-            this.toolStripMenuItem9 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem10 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem11 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem17 = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip21 = new System.Windows.Forms.MenuStrip();
-            this.toolStripMenuItem18 = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip22 = new System.Windows.Forms.MenuStrip();
-            this.toolStripMenuItem19 = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip23 = new System.Windows.Forms.MenuStrip();
-            this.toolStripMenuItem20 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem21 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem22 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem23 = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip24 = new System.Windows.Forms.MenuStrip();
-            this.toolStripMenuItem26 = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip25 = new System.Windows.Forms.MenuStrip();
-            this.ToptanStogumtoolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sparişeDüşenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.siparişlerimToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.fiyatıDeğişenlerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.iadeListesiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.iparişSayısmToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ödemesiYapılanlarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ödemeBekleyenlerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.dekontGönderToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem24 = new System.Windows.Forms.ToolStripMenuItem();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.AnaekranmenuStrip.SuspendLayout();
             this.panel1.SuspendLayout();
             this.AnaekrantabControl.SuspendLayout();
@@ -305,9 +307,9 @@
             this.panel9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.MusterilerpictureBox1)).BeginInit();
             this.tabPage4.SuspendLayout();
-            this.panel10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ToptansplitContainer1)).BeginInit();
             this.ToptansplitContainer1.Panel1.SuspendLayout();
+            this.ToptansplitContainer1.Panel2.SuspendLayout();
             this.ToptansplitContainer1.SuspendLayout();
             this.menuStrip16.SuspendLayout();
             this.menuStrip17.SuspendLayout();
@@ -316,9 +318,13 @@
             this.menuStrip20.SuspendLayout();
             this.menuStrip21.SuspendLayout();
             this.menuStrip22.SuspendLayout();
-            this.menuStrip23.SuspendLayout();
+            this.ToptanciSiparismenuStrip23.SuspendLayout();
             this.menuStrip24.SuspendLayout();
             this.menuStrip25.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView8)).BeginInit();
+            this.panel10.SuspendLayout();
+            this.panel11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // AnaekranmenuStrip
@@ -457,14 +463,14 @@
             // 
             // dataGridView1
             // 
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Barkod,
@@ -1990,124 +1996,6 @@
             this.tabPage4.UseVisualStyleBackColor = true;
             this.tabPage4.Click += new System.EventHandler(this.tabPage4_Click);
             // 
-            // panel10
-            // 
-            this.panel10.Controls.Add(this.ToptanKategoricomboBox);
-            this.panel10.Controls.Add(this.ToptancheckBox);
-            this.panel10.Controls.Add(this.ToptanListelebutton);
-            this.panel10.Controls.Add(this.ToptanStoklabel);
-            this.panel10.Controls.Add(this.ToptanFirmalabel);
-            this.panel10.Controls.Add(this.ToptanKatagorilabel);
-            this.panel10.Controls.Add(this.ToptanUrunadilabel);
-            this.panel10.Controls.Add(this.ToptanStokcomboBox);
-            this.panel10.Controls.Add(this.ToptanFirmacomboBox);
-            this.panel10.Controls.Add(this.ToptanUrunaditextBox);
-            this.panel10.Controls.Add(this.panel11);
-            this.panel10.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel10.Location = new System.Drawing.Point(3, 3);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(1126, 100);
-            this.panel10.TabIndex = 0;
-            // 
-            // panel11
-            // 
-            this.panel11.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel11.Location = new System.Drawing.Point(0, 0);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(182, 100);
-            this.panel11.TabIndex = 0;
-            // 
-            // ToptanKategoricomboBox
-            // 
-            this.ToptanKategoricomboBox.FormattingEnabled = true;
-            this.ToptanKategoricomboBox.Location = new System.Drawing.Point(501, 32);
-            this.ToptanKategoricomboBox.Name = "ToptanKategoricomboBox";
-            this.ToptanKategoricomboBox.Size = new System.Drawing.Size(166, 29);
-            this.ToptanKategoricomboBox.TabIndex = 31;
-            // 
-            // ToptancheckBox
-            // 
-            this.ToptancheckBox.AutoSize = true;
-            this.ToptancheckBox.Font = new System.Drawing.Font("Sitka Text", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.ToptancheckBox.Location = new System.Drawing.Point(237, 65);
-            this.ToptancheckBox.Name = "ToptancheckBox";
-            this.ToptancheckBox.Size = new System.Drawing.Size(156, 24);
-            this.ToptancheckBox.TabIndex = 30;
-            this.ToptancheckBox.Text = "Detaylı Arama Yap";
-            this.ToptancheckBox.UseVisualStyleBackColor = true;
-            // 
-            // ToptanListelebutton
-            // 
-            this.ToptanListelebutton.BackColor = System.Drawing.Color.Tomato;
-            this.ToptanListelebutton.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.ToptanListelebutton.Image = ((System.Drawing.Image)(resources.GetObject("ToptanListelebutton.Image")));
-            this.ToptanListelebutton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.ToptanListelebutton.Location = new System.Drawing.Point(978, 32);
-            this.ToptanListelebutton.Name = "ToptanListelebutton";
-            this.ToptanListelebutton.Size = new System.Drawing.Size(115, 30);
-            this.ToptanListelebutton.TabIndex = 29;
-            this.ToptanListelebutton.Text = "Listele";
-            this.ToptanListelebutton.UseVisualStyleBackColor = false;
-            // 
-            // ToptanStoklabel
-            // 
-            this.ToptanStoklabel.AutoSize = true;
-            this.ToptanStoklabel.Location = new System.Drawing.Point(842, 9);
-            this.ToptanStoklabel.Name = "ToptanStoklabel";
-            this.ToptanStoklabel.Size = new System.Drawing.Size(109, 21);
-            this.ToptanStoklabel.TabIndex = 28;
-            this.ToptanStoklabel.Text = "Stok Durumu";
-            // 
-            // ToptanFirmalabel
-            // 
-            this.ToptanFirmalabel.AutoSize = true;
-            this.ToptanFirmalabel.Location = new System.Drawing.Point(677, 9);
-            this.ToptanFirmalabel.Name = "ToptanFirmalabel";
-            this.ToptanFirmalabel.Size = new System.Drawing.Size(110, 21);
-            this.ToptanFirmalabel.TabIndex = 27;
-            this.ToptanFirmalabel.Text = "Toptan Firma";
-            // 
-            // ToptanKatagorilabel
-            // 
-            this.ToptanKatagorilabel.AutoSize = true;
-            this.ToptanKatagorilabel.Location = new System.Drawing.Point(503, 9);
-            this.ToptanKatagorilabel.Name = "ToptanKatagorilabel";
-            this.ToptanKatagorilabel.Size = new System.Drawing.Size(75, 21);
-            this.ToptanKatagorilabel.TabIndex = 26;
-            this.ToptanKatagorilabel.Text = "Katagori";
-            // 
-            // ToptanUrunadilabel
-            // 
-            this.ToptanUrunadilabel.AutoSize = true;
-            this.ToptanUrunadilabel.Location = new System.Drawing.Point(237, 10);
-            this.ToptanUrunadilabel.Name = "ToptanUrunadilabel";
-            this.ToptanUrunadilabel.Size = new System.Drawing.Size(76, 21);
-            this.ToptanUrunadilabel.TabIndex = 25;
-            this.ToptanUrunadilabel.Text = "Ürün Adı";
-            // 
-            // ToptanStokcomboBox
-            // 
-            this.ToptanStokcomboBox.FormattingEnabled = true;
-            this.ToptanStokcomboBox.Location = new System.Drawing.Point(840, 33);
-            this.ToptanStokcomboBox.Name = "ToptanStokcomboBox";
-            this.ToptanStokcomboBox.Size = new System.Drawing.Size(126, 29);
-            this.ToptanStokcomboBox.TabIndex = 24;
-            // 
-            // ToptanFirmacomboBox
-            // 
-            this.ToptanFirmacomboBox.FormattingEnabled = true;
-            this.ToptanFirmacomboBox.Location = new System.Drawing.Point(675, 32);
-            this.ToptanFirmacomboBox.Name = "ToptanFirmacomboBox";
-            this.ToptanFirmacomboBox.Size = new System.Drawing.Size(159, 29);
-            this.ToptanFirmacomboBox.TabIndex = 23;
-            // 
-            // ToptanUrunaditextBox
-            // 
-            this.ToptanUrunaditextBox.Location = new System.Drawing.Point(237, 33);
-            this.ToptanUrunaditextBox.Name = "ToptanUrunaditextBox";
-            this.ToptanUrunaditextBox.Size = new System.Drawing.Size(256, 26);
-            this.ToptanUrunaditextBox.TabIndex = 22;
-            // 
             // ToptansplitContainer1
             // 
             this.ToptansplitContainer1.BackColor = System.Drawing.Color.Tomato;
@@ -2125,13 +2013,14 @@
             this.ToptansplitContainer1.Panel1.Controls.Add(this.menuStrip20);
             this.ToptansplitContainer1.Panel1.Controls.Add(this.menuStrip21);
             this.ToptansplitContainer1.Panel1.Controls.Add(this.menuStrip22);
-            this.ToptansplitContainer1.Panel1.Controls.Add(this.menuStrip23);
+            this.ToptansplitContainer1.Panel1.Controls.Add(this.ToptanciSiparismenuStrip23);
             this.ToptansplitContainer1.Panel1.Controls.Add(this.menuStrip24);
             this.ToptansplitContainer1.Panel1.Controls.Add(this.menuStrip25);
             // 
             // ToptansplitContainer1.Panel2
             // 
             this.ToptansplitContainer1.Panel2.BackColor = System.Drawing.Color.White;
+            this.ToptansplitContainer1.Panel2.Controls.Add(this.dataGridView8);
             this.ToptansplitContainer1.Size = new System.Drawing.Size(1126, 477);
             this.ToptansplitContainer1.SplitterDistance = 219;
             this.ToptansplitContainer1.TabIndex = 1;
@@ -2140,177 +2029,195 @@
             // 
             this.menuStrip16.BackColor = System.Drawing.Color.White;
             this.menuStrip16.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem2});
+            this.ToptanKaralistetoolStripMenuItem2});
             this.menuStrip16.Location = new System.Drawing.Point(0, 219);
             this.menuStrip16.Name = "menuStrip16";
             this.menuStrip16.Size = new System.Drawing.Size(219, 24);
             this.menuStrip16.TabIndex = 26;
             this.menuStrip16.Text = "Urun Kartı";
             // 
-            // toolStripMenuItem2
+            // ToptanKaralistetoolStripMenuItem2
             // 
-            this.toolStripMenuItem2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuItem2.Image")));
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(150, 20);
-            this.toolStripMenuItem2.Text = "Ürünü Kara Listeye AL";
+            this.ToptanKaralistetoolStripMenuItem2.Image = ((System.Drawing.Image)(resources.GetObject("ToptanKaralistetoolStripMenuItem2.Image")));
+            this.ToptanKaralistetoolStripMenuItem2.Name = "ToptanKaralistetoolStripMenuItem2";
+            this.ToptanKaralistetoolStripMenuItem2.Size = new System.Drawing.Size(150, 20);
+            this.ToptanKaralistetoolStripMenuItem2.Text = "Ürünü Kara Listeye AL";
             // 
             // menuStrip17
             // 
             this.menuStrip17.BackColor = System.Drawing.Color.White;
             this.menuStrip17.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem3});
+            this.ToptanAlimdurtoolStripMenuItem3});
             this.menuStrip17.Location = new System.Drawing.Point(0, 195);
             this.menuStrip17.Name = "menuStrip17";
             this.menuStrip17.Size = new System.Drawing.Size(219, 24);
             this.menuStrip17.TabIndex = 25;
             this.menuStrip17.Text = "Urun Kartı";
             // 
-            // toolStripMenuItem3
+            // ToptanAlimdurtoolStripMenuItem3
             // 
-            this.toolStripMenuItem3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuItem3.Image")));
-            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(172, 20);
-            this.toolStripMenuItem3.Text = "Alımı Durdurulan Firmalar";
+            this.ToptanAlimdurtoolStripMenuItem3.Image = ((System.Drawing.Image)(resources.GetObject("ToptanAlimdurtoolStripMenuItem3.Image")));
+            this.ToptanAlimdurtoolStripMenuItem3.Name = "ToptanAlimdurtoolStripMenuItem3";
+            this.ToptanAlimdurtoolStripMenuItem3.Size = new System.Drawing.Size(172, 20);
+            this.ToptanAlimdurtoolStripMenuItem3.Text = "Alımı Durdurulan Firmalar";
             // 
             // menuStrip18
             // 
             this.menuStrip18.BackColor = System.Drawing.Color.White;
             this.menuStrip18.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem4});
+            this.ToptanTicarianaliztoolStripMenuItem4});
             this.menuStrip18.Location = new System.Drawing.Point(0, 171);
             this.menuStrip18.Name = "menuStrip18";
             this.menuStrip18.Size = new System.Drawing.Size(219, 24);
             this.menuStrip18.TabIndex = 24;
             this.menuStrip18.Text = "Urun Kartı";
             // 
-            // toolStripMenuItem4
+            // ToptanTicarianaliztoolStripMenuItem4
             // 
-            this.toolStripMenuItem4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuItem4.Image")));
-            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(96, 20);
-            this.toolStripMenuItem4.Text = "Ticari analiz";
+            this.ToptanTicarianaliztoolStripMenuItem4.Image = ((System.Drawing.Image)(resources.GetObject("ToptanTicarianaliztoolStripMenuItem4.Image")));
+            this.ToptanTicarianaliztoolStripMenuItem4.Name = "ToptanTicarianaliztoolStripMenuItem4";
+            this.ToptanTicarianaliztoolStripMenuItem4.Size = new System.Drawing.Size(96, 20);
+            this.ToptanTicarianaliztoolStripMenuItem4.Text = "Ticari analiz";
             // 
             // menuStrip19
             // 
             this.menuStrip19.BackColor = System.Drawing.Color.White;
             this.menuStrip19.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem8});
+            this.ToptanDekonttoolStripMenuItem8});
             this.menuStrip19.Location = new System.Drawing.Point(0, 147);
             this.menuStrip19.Name = "menuStrip19";
             this.menuStrip19.Size = new System.Drawing.Size(219, 24);
             this.menuStrip19.TabIndex = 23;
             this.menuStrip19.Text = "menuStrip1";
             // 
-            // toolStripMenuItem8
+            // ToptanDekonttoolStripMenuItem8
             // 
-            this.toolStripMenuItem8.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ToptanDekonttoolStripMenuItem8.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.dekontGönderToolStripMenuItem});
-            this.toolStripMenuItem8.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuItem8.Image")));
-            this.toolStripMenuItem8.Name = "toolStripMenuItem8";
-            this.toolStripMenuItem8.Size = new System.Drawing.Size(86, 20);
-            this.toolStripMenuItem8.Text = "Dekontlar";
+            this.ToptanDekonttoolStripMenuItem8.Image = ((System.Drawing.Image)(resources.GetObject("ToptanDekonttoolStripMenuItem8.Image")));
+            this.ToptanDekonttoolStripMenuItem8.Name = "ToptanDekonttoolStripMenuItem8";
+            this.ToptanDekonttoolStripMenuItem8.Size = new System.Drawing.Size(86, 20);
+            this.ToptanDekonttoolStripMenuItem8.Text = "Dekontlar";
+            // 
+            // dekontGönderToolStripMenuItem
+            // 
+            this.dekontGönderToolStripMenuItem.Name = "dekontGönderToolStripMenuItem";
+            this.dekontGönderToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.dekontGönderToolStripMenuItem.Text = "Dekont Gönder";
             // 
             // menuStrip20
             // 
             this.menuStrip20.BackColor = System.Drawing.Color.White;
             this.menuStrip20.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem9});
+            this.ToptanFaturatoolStripMenuItem});
             this.menuStrip20.Location = new System.Drawing.Point(0, 123);
             this.menuStrip20.Name = "menuStrip20";
             this.menuStrip20.Size = new System.Drawing.Size(219, 24);
             this.menuStrip20.TabIndex = 22;
             this.menuStrip20.Text = "menuStrip1";
             // 
-            // toolStripMenuItem9
+            // ToptanFaturatoolStripMenuItem
             // 
-            this.toolStripMenuItem9.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ToptanFaturatoolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem10,
             this.toolStripMenuItem11,
             this.toolStripMenuItem17});
-            this.toolStripMenuItem9.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuItem9.Image")));
-            this.toolStripMenuItem9.Name = "toolStripMenuItem9";
-            this.toolStripMenuItem9.Size = new System.Drawing.Size(115, 20);
-            this.toolStripMenuItem9.Text = "Fatura İşlemleri";
+            this.ToptanFaturatoolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("ToptanFaturatoolStripMenuItem.Image")));
+            this.ToptanFaturatoolStripMenuItem.Name = "ToptanFaturatoolStripMenuItem";
+            this.ToptanFaturatoolStripMenuItem.Size = new System.Drawing.Size(115, 20);
+            this.ToptanFaturatoolStripMenuItem.Text = "Fatura İşlemleri";
             // 
             // toolStripMenuItem10
             // 
             this.toolStripMenuItem10.Name = "toolStripMenuItem10";
-            this.toolStripMenuItem10.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem10.Size = new System.Drawing.Size(143, 22);
             this.toolStripMenuItem10.Text = "Satış Faturası";
             // 
             // toolStripMenuItem11
             // 
             this.toolStripMenuItem11.Name = "toolStripMenuItem11";
-            this.toolStripMenuItem11.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem11.Size = new System.Drawing.Size(143, 22);
             this.toolStripMenuItem11.Text = "İade Faturası";
             // 
             // toolStripMenuItem17
             // 
             this.toolStripMenuItem17.Name = "toolStripMenuItem17";
-            this.toolStripMenuItem17.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem17.Size = new System.Drawing.Size(143, 22);
             this.toolStripMenuItem17.Text = "Fatura Listele";
             // 
             // menuStrip21
             // 
             this.menuStrip21.BackColor = System.Drawing.Color.White;
             this.menuStrip21.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem18});
+            this.ToptanExtrelertoolStripMenuItem});
             this.menuStrip21.Location = new System.Drawing.Point(0, 99);
             this.menuStrip21.Name = "menuStrip21";
             this.menuStrip21.Size = new System.Drawing.Size(219, 24);
             this.menuStrip21.TabIndex = 21;
             this.menuStrip21.Text = "menuStrip1";
             // 
-            // toolStripMenuItem18
+            // ToptanExtrelertoolStripMenuItem
             // 
-            this.toolStripMenuItem18.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuItem18.Image")));
-            this.toolStripMenuItem18.Name = "toolStripMenuItem18";
-            this.toolStripMenuItem18.Size = new System.Drawing.Size(74, 20);
-            this.toolStripMenuItem18.Text = "Extreler";
+            this.ToptanExtrelertoolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("ToptanExtrelertoolStripMenuItem.Image")));
+            this.ToptanExtrelertoolStripMenuItem.Name = "ToptanExtrelertoolStripMenuItem";
+            this.ToptanExtrelertoolStripMenuItem.Size = new System.Drawing.Size(74, 20);
+            this.ToptanExtrelertoolStripMenuItem.Text = "Extreler";
             // 
             // menuStrip22
             // 
             this.menuStrip22.BackColor = System.Drawing.Color.White;
             this.menuStrip22.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem19});
+            this.ToptanTahsilattoolStripMenuItem});
             this.menuStrip22.Location = new System.Drawing.Point(0, 75);
             this.menuStrip22.Name = "menuStrip22";
             this.menuStrip22.Size = new System.Drawing.Size(219, 24);
             this.menuStrip22.TabIndex = 20;
             this.menuStrip22.Text = "menuStrip1";
             // 
-            // toolStripMenuItem19
+            // ToptanTahsilattoolStripMenuItem
             // 
-            this.toolStripMenuItem19.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ToptanTahsilattoolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ödemesiYapılanlarToolStripMenuItem,
             this.ödemeBekleyenlerToolStripMenuItem});
-            this.toolStripMenuItem19.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuItem19.Image")));
-            this.toolStripMenuItem19.Name = "toolStripMenuItem19";
-            this.toolStripMenuItem19.Size = new System.Drawing.Size(121, 20);
-            this.toolStripMenuItem19.Text = "Tahsilat İşlemleri";
+            this.ToptanTahsilattoolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("ToptanTahsilattoolStripMenuItem.Image")));
+            this.ToptanTahsilattoolStripMenuItem.Name = "ToptanTahsilattoolStripMenuItem";
+            this.ToptanTahsilattoolStripMenuItem.Size = new System.Drawing.Size(121, 20);
+            this.ToptanTahsilattoolStripMenuItem.Text = "Tahsilat İşlemleri";
             // 
-            // menuStrip23
+            // ödemesiYapılanlarToolStripMenuItem
             // 
-            this.menuStrip23.BackColor = System.Drawing.Color.White;
-            this.menuStrip23.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem20,
+            this.ödemesiYapılanlarToolStripMenuItem.Name = "ödemesiYapılanlarToolStripMenuItem";
+            this.ödemesiYapılanlarToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
+            this.ödemesiYapılanlarToolStripMenuItem.Text = "Ödemesi Yapılanlar";
+            // 
+            // ödemeBekleyenlerToolStripMenuItem
+            // 
+            this.ödemeBekleyenlerToolStripMenuItem.Name = "ödemeBekleyenlerToolStripMenuItem";
+            this.ödemeBekleyenlerToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
+            this.ödemeBekleyenlerToolStripMenuItem.Text = "Ödeme Bekleyenler";
+            // 
+            // ToptanciSiparismenuStrip23
+            // 
+            this.ToptanciSiparismenuStrip23.BackColor = System.Drawing.Color.White;
+            this.ToptanciSiparismenuStrip23.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ToptanSiparistoolStripMenuItem20,
             this.toolStripMenuItem24});
-            this.menuStrip23.Location = new System.Drawing.Point(0, 51);
-            this.menuStrip23.Name = "menuStrip23";
-            this.menuStrip23.Size = new System.Drawing.Size(219, 24);
-            this.menuStrip23.TabIndex = 19;
-            this.menuStrip23.Text = "menuStrip23";
+            this.ToptanciSiparismenuStrip23.Location = new System.Drawing.Point(0, 51);
+            this.ToptanciSiparismenuStrip23.Name = "ToptanciSiparismenuStrip23";
+            this.ToptanciSiparismenuStrip23.Size = new System.Drawing.Size(219, 24);
+            this.ToptanciSiparismenuStrip23.TabIndex = 19;
+            this.ToptanciSiparismenuStrip23.Text = "menuStrip23";
             // 
-            // toolStripMenuItem20
+            // ToptanSiparistoolStripMenuItem20
             // 
-            this.toolStripMenuItem20.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ToptanSiparistoolStripMenuItem20.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem21,
             this.toolStripMenuItem22,
             this.toolStripMenuItem23});
-            this.toolStripMenuItem20.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuItem20.Image")));
-            this.toolStripMenuItem20.Name = "toolStripMenuItem20";
-            this.toolStripMenuItem20.Size = new System.Drawing.Size(165, 20);
-            this.toolStripMenuItem20.Text = "Sipariş Verdiğim Firmalar";
+            this.ToptanSiparistoolStripMenuItem20.Image = ((System.Drawing.Image)(resources.GetObject("ToptanSiparistoolStripMenuItem20.Image")));
+            this.ToptanSiparistoolStripMenuItem20.Name = "ToptanSiparistoolStripMenuItem20";
+            this.ToptanSiparistoolStripMenuItem20.Size = new System.Drawing.Size(165, 20);
+            this.ToptanSiparistoolStripMenuItem20.Text = "Sipariş Verdiğim Firmalar";
             // 
             // toolStripMenuItem21
             // 
@@ -2329,6 +2236,11 @@
             this.toolStripMenuItem23.Name = "toolStripMenuItem23";
             this.toolStripMenuItem23.Size = new System.Drawing.Size(184, 22);
             this.toolStripMenuItem23.Text = "Firma Sipariş Listeleri";
+            // 
+            // toolStripMenuItem24
+            // 
+            this.toolStripMenuItem24.Name = "toolStripMenuItem24";
+            this.toolStripMenuItem24.Size = new System.Drawing.Size(12, 20);
             // 
             // menuStrip24
             // 
@@ -2405,28 +2317,145 @@
             this.iparişSayısmToolStripMenuItem.Size = new System.Drawing.Size(246, 24);
             this.iparişSayısmToolStripMenuItem.Text = "Gelen Sipariş Kontrol Listesi";
             // 
-            // ödemesiYapılanlarToolStripMenuItem
+            // dataGridView8
             // 
-            this.ödemesiYapılanlarToolStripMenuItem.Name = "ödemesiYapılanlarToolStripMenuItem";
-            this.ödemesiYapılanlarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.ödemesiYapılanlarToolStripMenuItem.Text = "Ödemesi Yapılanlar";
+            this.dataGridView8.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView8.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView8.Name = "dataGridView8";
+            this.dataGridView8.RowTemplate.Height = 25;
+            this.dataGridView8.Size = new System.Drawing.Size(903, 477);
+            this.dataGridView8.TabIndex = 0;
             // 
-            // ödemeBekleyenlerToolStripMenuItem
+            // panel10
             // 
-            this.ödemeBekleyenlerToolStripMenuItem.Name = "ödemeBekleyenlerToolStripMenuItem";
-            this.ödemeBekleyenlerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.ödemeBekleyenlerToolStripMenuItem.Text = "Ödeme Bekleyenler";
+            this.panel10.Controls.Add(this.ToptanKategoricomboBox);
+            this.panel10.Controls.Add(this.ToptancheckBox);
+            this.panel10.Controls.Add(this.ToptanListelebutton);
+            this.panel10.Controls.Add(this.ToptanStoklabel);
+            this.panel10.Controls.Add(this.ToptanFirmalabel);
+            this.panel10.Controls.Add(this.ToptanKatagorilabel);
+            this.panel10.Controls.Add(this.ToptanUrunadilabel);
+            this.panel10.Controls.Add(this.ToptanStokcomboBox);
+            this.panel10.Controls.Add(this.ToptanFirmacomboBox);
+            this.panel10.Controls.Add(this.ToptanUrunaditextBox);
+            this.panel10.Controls.Add(this.panel11);
+            this.panel10.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel10.Location = new System.Drawing.Point(3, 3);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(1126, 100);
+            this.panel10.TabIndex = 0;
             // 
-            // dekontGönderToolStripMenuItem
+            // ToptanKategoricomboBox
             // 
-            this.dekontGönderToolStripMenuItem.Name = "dekontGönderToolStripMenuItem";
-            this.dekontGönderToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.dekontGönderToolStripMenuItem.Text = "Dekont Gönder";
+            this.ToptanKategoricomboBox.FormattingEnabled = true;
+            this.ToptanKategoricomboBox.Location = new System.Drawing.Point(501, 32);
+            this.ToptanKategoricomboBox.Name = "ToptanKategoricomboBox";
+            this.ToptanKategoricomboBox.Size = new System.Drawing.Size(166, 29);
+            this.ToptanKategoricomboBox.TabIndex = 31;
             // 
-            // toolStripMenuItem24
+            // ToptancheckBox
             // 
-            this.toolStripMenuItem24.Name = "toolStripMenuItem24";
-            this.toolStripMenuItem24.Size = new System.Drawing.Size(12, 20);
+            this.ToptancheckBox.AutoSize = true;
+            this.ToptancheckBox.Font = new System.Drawing.Font("Sitka Text", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.ToptancheckBox.Location = new System.Drawing.Point(237, 65);
+            this.ToptancheckBox.Name = "ToptancheckBox";
+            this.ToptancheckBox.Size = new System.Drawing.Size(156, 24);
+            this.ToptancheckBox.TabIndex = 30;
+            this.ToptancheckBox.Text = "Detaylı Arama Yap";
+            this.ToptancheckBox.UseVisualStyleBackColor = true;
+            // 
+            // ToptanListelebutton
+            // 
+            this.ToptanListelebutton.BackColor = System.Drawing.Color.Tomato;
+            this.ToptanListelebutton.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.ToptanListelebutton.Image = ((System.Drawing.Image)(resources.GetObject("ToptanListelebutton.Image")));
+            this.ToptanListelebutton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ToptanListelebutton.Location = new System.Drawing.Point(978, 32);
+            this.ToptanListelebutton.Name = "ToptanListelebutton";
+            this.ToptanListelebutton.Size = new System.Drawing.Size(115, 30);
+            this.ToptanListelebutton.TabIndex = 29;
+            this.ToptanListelebutton.Text = "Listele";
+            this.ToptanListelebutton.UseVisualStyleBackColor = false;
+            // 
+            // ToptanStoklabel
+            // 
+            this.ToptanStoklabel.AutoSize = true;
+            this.ToptanStoklabel.Location = new System.Drawing.Point(842, 9);
+            this.ToptanStoklabel.Name = "ToptanStoklabel";
+            this.ToptanStoklabel.Size = new System.Drawing.Size(114, 21);
+            this.ToptanStoklabel.TabIndex = 28;
+            this.ToptanStoklabel.Text = "Ürün Durumu";
+            // 
+            // ToptanFirmalabel
+            // 
+            this.ToptanFirmalabel.AutoSize = true;
+            this.ToptanFirmalabel.Location = new System.Drawing.Point(677, 9);
+            this.ToptanFirmalabel.Name = "ToptanFirmalabel";
+            this.ToptanFirmalabel.Size = new System.Drawing.Size(110, 21);
+            this.ToptanFirmalabel.TabIndex = 27;
+            this.ToptanFirmalabel.Text = "Toptan Firma";
+            // 
+            // ToptanKatagorilabel
+            // 
+            this.ToptanKatagorilabel.AutoSize = true;
+            this.ToptanKatagorilabel.Location = new System.Drawing.Point(503, 9);
+            this.ToptanKatagorilabel.Name = "ToptanKatagorilabel";
+            this.ToptanKatagorilabel.Size = new System.Drawing.Size(75, 21);
+            this.ToptanKatagorilabel.TabIndex = 26;
+            this.ToptanKatagorilabel.Text = "Katagori";
+            // 
+            // ToptanUrunadilabel
+            // 
+            this.ToptanUrunadilabel.AutoSize = true;
+            this.ToptanUrunadilabel.Location = new System.Drawing.Point(237, 10);
+            this.ToptanUrunadilabel.Name = "ToptanUrunadilabel";
+            this.ToptanUrunadilabel.Size = new System.Drawing.Size(76, 21);
+            this.ToptanUrunadilabel.TabIndex = 25;
+            this.ToptanUrunadilabel.Text = "Ürün Adı";
+            // 
+            // ToptanStokcomboBox
+            // 
+            this.ToptanStokcomboBox.FormattingEnabled = true;
+            this.ToptanStokcomboBox.Location = new System.Drawing.Point(840, 33);
+            this.ToptanStokcomboBox.Name = "ToptanStokcomboBox";
+            this.ToptanStokcomboBox.Size = new System.Drawing.Size(126, 29);
+            this.ToptanStokcomboBox.TabIndex = 24;
+            this.ToptanStokcomboBox.SelectedIndexChanged += new System.EventHandler(this.ToptanStokcomboBox_SelectedIndexChanged);
+            // 
+            // ToptanFirmacomboBox
+            // 
+            this.ToptanFirmacomboBox.FormattingEnabled = true;
+            this.ToptanFirmacomboBox.Location = new System.Drawing.Point(675, 32);
+            this.ToptanFirmacomboBox.Name = "ToptanFirmacomboBox";
+            this.ToptanFirmacomboBox.Size = new System.Drawing.Size(159, 29);
+            this.ToptanFirmacomboBox.TabIndex = 23;
+            // 
+            // ToptanUrunaditextBox
+            // 
+            this.ToptanUrunaditextBox.Location = new System.Drawing.Point(237, 33);
+            this.ToptanUrunaditextBox.Name = "ToptanUrunaditextBox";
+            this.ToptanUrunaditextBox.Size = new System.Drawing.Size(256, 26);
+            this.ToptanUrunaditextBox.TabIndex = 22;
+            // 
+            // panel11
+            // 
+            this.panel11.Controls.Add(this.pictureBox1);
+            this.panel11.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel11.Location = new System.Drawing.Point(0, 0);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(182, 100);
+            this.panel11.TabIndex = 0;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(182, 100);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 
@@ -2524,10 +2553,9 @@
             this.panel9.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.MusterilerpictureBox1)).EndInit();
             this.tabPage4.ResumeLayout(false);
-            this.panel10.ResumeLayout(false);
-            this.panel10.PerformLayout();
             this.ToptansplitContainer1.Panel1.ResumeLayout(false);
             this.ToptansplitContainer1.Panel1.PerformLayout();
+            this.ToptansplitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.ToptansplitContainer1)).EndInit();
             this.ToptansplitContainer1.ResumeLayout(false);
             this.menuStrip16.ResumeLayout(false);
@@ -2544,12 +2572,17 @@
             this.menuStrip21.PerformLayout();
             this.menuStrip22.ResumeLayout(false);
             this.menuStrip22.PerformLayout();
-            this.menuStrip23.ResumeLayout(false);
-            this.menuStrip23.PerformLayout();
+            this.ToptanciSiparismenuStrip23.ResumeLayout(false);
+            this.ToptanciSiparismenuStrip23.PerformLayout();
             this.menuStrip24.ResumeLayout(false);
             this.menuStrip24.PerformLayout();
             this.menuStrip25.ResumeLayout(false);
             this.menuStrip25.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView8)).EndInit();
+            this.panel10.ResumeLayout(false);
+            this.panel10.PerformLayout();
+            this.panel11.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2729,27 +2762,27 @@
         private Panel panel10;
         private SplitContainer ToptansplitContainer1;
         private MenuStrip menuStrip16;
-        private ToolStripMenuItem toolStripMenuItem2;
+        private ToolStripMenuItem ToptanKaralistetoolStripMenuItem2;
         private MenuStrip menuStrip17;
-        private ToolStripMenuItem toolStripMenuItem3;
+        private ToolStripMenuItem ToptanAlimdurtoolStripMenuItem3;
         private MenuStrip menuStrip18;
-        private ToolStripMenuItem toolStripMenuItem4;
+        private ToolStripMenuItem ToptanTicarianaliztoolStripMenuItem4;
         private MenuStrip menuStrip19;
-        private ToolStripMenuItem toolStripMenuItem8;
+        private ToolStripMenuItem ToptanDekonttoolStripMenuItem8;
         private ToolStripMenuItem dekontGönderToolStripMenuItem;
         private MenuStrip menuStrip20;
-        private ToolStripMenuItem toolStripMenuItem9;
+        private ToolStripMenuItem ToptanFaturatoolStripMenuItem;
         private ToolStripMenuItem toolStripMenuItem10;
         private ToolStripMenuItem toolStripMenuItem11;
         private ToolStripMenuItem toolStripMenuItem17;
         private MenuStrip menuStrip21;
-        private ToolStripMenuItem toolStripMenuItem18;
+        private ToolStripMenuItem ToptanExtrelertoolStripMenuItem;
         private MenuStrip menuStrip22;
-        private ToolStripMenuItem toolStripMenuItem19;
+        private ToolStripMenuItem ToptanTahsilattoolStripMenuItem;
         private ToolStripMenuItem ödemesiYapılanlarToolStripMenuItem;
         private ToolStripMenuItem ödemeBekleyenlerToolStripMenuItem;
-        private MenuStrip menuStrip23;
-        private ToolStripMenuItem toolStripMenuItem20;
+        private MenuStrip ToptanciSiparismenuStrip23;
+        private ToolStripMenuItem ToptanSiparistoolStripMenuItem20;
         private ToolStripMenuItem toolStripMenuItem21;
         private ToolStripMenuItem toolStripMenuItem22;
         private ToolStripMenuItem toolStripMenuItem23;
@@ -2774,5 +2807,7 @@
         private ComboBox ToptanFirmacomboBox;
         private TextBox ToptanUrunaditextBox;
         private Panel panel11;
+        private DataGridView dataGridView8;
+        private PictureBox pictureBox1;
     }
 }

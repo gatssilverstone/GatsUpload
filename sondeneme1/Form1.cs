@@ -130,5 +130,10 @@ namespace sondeneme1
         {
 
         }
+
+        private void ToptanStokcomboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
