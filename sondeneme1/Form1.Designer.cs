@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.AnaekranmenuStrip = new System.Windows.Forms.MenuStrip();
             this.ayarlarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -111,7 +111,36 @@
             this.SatisBarkodtextBox = new System.Windows.Forms.TextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.UrunlersplitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.menuStrip5 = new System.Windows.Forms.MenuStrip();
+            this.UrunlerDosyatoolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exeldenOkutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dosyaSeçToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip4 = new System.Windows.Forms.MenuStrip();
+            this.UrunlerFiyatdegistoolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.topluFiyatDEğiştirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.kategoriyeGöreFiyatDeğiştirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.firmayaGöreFiyatDeğiştirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.barkodluFiyatDeğişTekSatırToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip3 = new System.Windows.Forms.MenuStrip();
+            this.UrunlerStokkartitoolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip2 = new System.Windows.Forms.MenuStrip();
+            this.UrunlerSayimtoolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.UrunlerGiriscikistoolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.stokÇıkışFişiOluşturToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.hızlıGirişToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.hızlıÇıkışToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sevkFişiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gelenÜrünListesiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gönderlenÜrünListesiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.UrunlerUrunkatimenuStrip = new System.Windows.Forms.MenuStrip();
+            this.UrunlerUrunkartitoolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.UrunlerUruneklemenuStrip = new System.Windows.Forms.MenuStrip();
+            this.UrunelerUrunekleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dataGridView6 = new System.Windows.Forms.DataGridView();
             this.UrunlerUstpanel = new System.Windows.Forms.Panel();
+            this.UrunlerDetayliaramacheckBox = new System.Windows.Forms.CheckBox();
             this.UrunlerListeleButon = new System.Windows.Forms.Button();
             this.UrunlerKategorilabel = new System.Windows.Forms.Label();
             this.UrunlerStokgurubulabel = new System.Windows.Forms.Label();
@@ -123,42 +152,51 @@
             this.UrunlerUrunaditextBox = new System.Windows.Forms.TextBox();
             this.UrunlerpictureBox1 = new System.Windows.Forms.PictureBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.button23 = new System.Windows.Forms.Button();
-            this.button33 = new System.Windows.Forms.Button();
-            this.button32 = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button31 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.MusterilersplitContainer = new System.Windows.Forms.SplitContainer();
+            this.menuStrip15 = new System.Windows.Forms.MenuStrip();
+            this.MusterilerKaralistetoolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip14 = new System.Windows.Forms.MenuStrip();
+            this.MusterilerIskontotoolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip13 = new System.Windows.Forms.MenuStrip();
+            this.MusterilerMusterihareketleritoolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip6 = new System.Windows.Forms.MenuStrip();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip7 = new System.Windows.Forms.MenuStrip();
+            this.MusterilerFaturatoolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem6 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem7 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip8 = new System.Windows.Forms.MenuStrip();
+            this.MusterilerExtretoolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip9 = new System.Windows.Forms.MenuStrip();
+            this.MusterilerTahsilahtoolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip10 = new System.Windows.Forms.MenuStrip();
+            this.MusterilerSiparistoolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem12 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem13 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem14 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem15 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem16 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip11 = new System.Windows.Forms.MenuStrip();
+            this.MusterilerMusterikartitoolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip12 = new System.Windows.Forms.MenuStrip();
+            this.MusterilerMusteriekletoolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dataGridView7 = new System.Windows.Forms.DataGridView();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.Musterilerlabel4 = new System.Windows.Forms.Label();
+            this.Musterilerlabel3 = new System.Windows.Forms.Label();
+            this.Musterilerlabel2 = new System.Windows.Forms.Label();
+            this.Musterilerlabel1 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.MusterilerpictureBox1 = new System.Windows.Forms.PictureBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.UrunlerUruneklemenuStrip = new System.Windows.Forms.MenuStrip();
-            this.UrunelerUrunekleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.UrunlerUrunkatimenuStrip = new System.Windows.Forms.MenuStrip();
-            this.UrunlerUrunkartitoolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.UrunlerGiriscikistoolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.stokÇıkışFişiOluşturToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.hızlıGirişToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.hızlıÇıkışToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sevkFişiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.gelenÜrünListesiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.gönderlenÜrünListesiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip2 = new System.Windows.Forms.MenuStrip();
-            this.UrunlerSayimtoolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip3 = new System.Windows.Forms.MenuStrip();
-            this.UrunlerStokkartitoolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip4 = new System.Windows.Forms.MenuStrip();
-            this.UrunlerFiyatdegistoolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip5 = new System.Windows.Forms.MenuStrip();
-            this.UrunlerDosyatoolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.topluFiyatDEğiştirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.kategoriyeGöreFiyatDeğiştirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.firmayaGöreFiyatDeğiştirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.barkodluFiyatDeğişTekSatırToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.exeldenOkutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.dosyaSeçToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.AnaekranmenuStrip.SuspendLayout();
             this.panel1.SuspendLayout();
             this.AnaekrantabControl.SuspendLayout();
@@ -187,17 +225,37 @@
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.UrunlersplitContainer1)).BeginInit();
             this.UrunlersplitContainer1.Panel1.SuspendLayout();
+            this.UrunlersplitContainer1.Panel2.SuspendLayout();
             this.UrunlersplitContainer1.SuspendLayout();
+            this.menuStrip5.SuspendLayout();
+            this.menuStrip4.SuspendLayout();
+            this.menuStrip3.SuspendLayout();
+            this.menuStrip2.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
+            this.UrunlerUrunkatimenuStrip.SuspendLayout();
+            this.UrunlerUruneklemenuStrip.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).BeginInit();
             this.UrunlerUstpanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.UrunlerpictureBox1)).BeginInit();
             this.tabPage3.SuspendLayout();
-            this.UrunlerUruneklemenuStrip.SuspendLayout();
-            this.UrunlerUrunkatimenuStrip.SuspendLayout();
-            this.menuStrip1.SuspendLayout();
-            this.menuStrip2.SuspendLayout();
-            this.menuStrip3.SuspendLayout();
-            this.menuStrip4.SuspendLayout();
-            this.menuStrip5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.MusterilersplitContainer)).BeginInit();
+            this.MusterilersplitContainer.Panel1.SuspendLayout();
+            this.MusterilersplitContainer.Panel2.SuspendLayout();
+            this.MusterilersplitContainer.SuspendLayout();
+            this.menuStrip15.SuspendLayout();
+            this.menuStrip14.SuspendLayout();
+            this.menuStrip13.SuspendLayout();
+            this.menuStrip6.SuspendLayout();
+            this.menuStrip7.SuspendLayout();
+            this.menuStrip8.SuspendLayout();
+            this.menuStrip9.SuspendLayout();
+            this.menuStrip10.SuspendLayout();
+            this.menuStrip11.SuspendLayout();
+            this.menuStrip12.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView7)).BeginInit();
+            this.panel5.SuspendLayout();
+            this.panel9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.MusterilerpictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // AnaekranmenuStrip
@@ -336,14 +394,14 @@
             // 
             // dataGridView1
             // 
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Barkod,
@@ -1070,251 +1128,127 @@
             // UrunlersplitContainer1.Panel2
             // 
             this.UrunlersplitContainer1.Panel2.BackColor = System.Drawing.Color.White;
+            this.UrunlersplitContainer1.Panel2.Controls.Add(this.dataGridView6);
             this.UrunlersplitContainer1.Size = new System.Drawing.Size(1126, 477);
-            this.UrunlersplitContainer1.SplitterDistance = 240;
+            this.UrunlersplitContainer1.SplitterDistance = 171;
             this.UrunlersplitContainer1.TabIndex = 1;
             // 
-            // UrunlerUstpanel
+            // menuStrip5
             // 
-            this.UrunlerUstpanel.Controls.Add(this.UrunlerListeleButon);
-            this.UrunlerUstpanel.Controls.Add(this.UrunlerKategorilabel);
-            this.UrunlerUstpanel.Controls.Add(this.UrunlerStokgurubulabel);
-            this.UrunlerUstpanel.Controls.Add(this.UrunlerBarkodlabel);
-            this.UrunlerUstpanel.Controls.Add(this.UrunlerUrunadilabel);
-            this.UrunlerUstpanel.Controls.Add(this.UrunlerKatagoricomboBox);
-            this.UrunlerUstpanel.Controls.Add(this.UrunlerStokGrubucomboBox);
-            this.UrunlerUstpanel.Controls.Add(this.UrunlerBarkodtextBox);
-            this.UrunlerUstpanel.Controls.Add(this.UrunlerUrunaditextBox);
-            this.UrunlerUstpanel.Controls.Add(this.UrunlerpictureBox1);
-            this.UrunlerUstpanel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.UrunlerUstpanel.Location = new System.Drawing.Point(3, 3);
-            this.UrunlerUstpanel.Name = "UrunlerUstpanel";
-            this.UrunlerUstpanel.Size = new System.Drawing.Size(1126, 100);
-            this.UrunlerUstpanel.TabIndex = 0;
+            this.menuStrip5.BackColor = System.Drawing.Color.White;
+            this.menuStrip5.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.UrunlerDosyatoolStripMenuItem});
+            this.menuStrip5.Location = new System.Drawing.Point(0, 147);
+            this.menuStrip5.Name = "menuStrip5";
+            this.menuStrip5.Size = new System.Drawing.Size(167, 24);
+            this.menuStrip5.TabIndex = 6;
+            this.menuStrip5.Text = "menuStrip1";
             // 
-            // UrunlerListeleButon
+            // UrunlerDosyatoolStripMenuItem
             // 
-            this.UrunlerListeleButon.BackColor = System.Drawing.Color.Tomato;
-            this.UrunlerListeleButon.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.UrunlerListeleButon.Image = ((System.Drawing.Image)(resources.GetObject("UrunlerListeleButon.Image")));
-            this.UrunlerListeleButon.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.UrunlerListeleButon.Location = new System.Drawing.Point(928, 67);
-            this.UrunlerListeleButon.Name = "UrunlerListeleButon";
-            this.UrunlerListeleButon.Size = new System.Drawing.Size(115, 30);
-            this.UrunlerListeleButon.TabIndex = 9;
-            this.UrunlerListeleButon.Text = "Listele";
-            this.UrunlerListeleButon.UseVisualStyleBackColor = false;
+            this.UrunlerDosyatoolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.exeldenOkutToolStripMenuItem,
+            this.dosyaSeçToolStripMenuItem});
+            this.UrunlerDosyatoolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("UrunlerDosyatoolStripMenuItem.Image")));
+            this.UrunlerDosyatoolStripMenuItem.Name = "UrunlerDosyatoolStripMenuItem";
+            this.UrunlerDosyatoolStripMenuItem.Size = new System.Drawing.Size(140, 20);
+            this.UrunlerDosyatoolStripMenuItem.Text = "Dosyadan Ürün ekle";
+            this.UrunlerDosyatoolStripMenuItem.Click += new System.EventHandler(this.toolStripMenuItem6_Click);
             // 
-            // UrunlerKategorilabel
+            // exeldenOkutToolStripMenuItem
             // 
-            this.UrunlerKategorilabel.AutoSize = true;
-            this.UrunlerKategorilabel.Location = new System.Drawing.Point(766, 44);
-            this.UrunlerKategorilabel.Name = "UrunlerKategorilabel";
-            this.UrunlerKategorilabel.Size = new System.Drawing.Size(74, 21);
-            this.UrunlerKategorilabel.TabIndex = 8;
-            this.UrunlerKategorilabel.Text = "Kategori";
+            this.exeldenOkutToolStripMenuItem.Name = "exeldenOkutToolStripMenuItem";
+            this.exeldenOkutToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.exeldenOkutToolStripMenuItem.Text = "Exelden Okut";
             // 
-            // UrunlerStokgurubulabel
+            // dosyaSeçToolStripMenuItem
             // 
-            this.UrunlerStokgurubulabel.AutoSize = true;
-            this.UrunlerStokgurubulabel.Location = new System.Drawing.Point(600, 44);
-            this.UrunlerStokgurubulabel.Name = "UrunlerStokgurubulabel";
-            this.UrunlerStokgurubulabel.Size = new System.Drawing.Size(104, 21);
-            this.UrunlerStokgurubulabel.TabIndex = 7;
-            this.UrunlerStokgurubulabel.Text = "Stok Gurubu";
+            this.dosyaSeçToolStripMenuItem.Name = "dosyaSeçToolStripMenuItem";
+            this.dosyaSeçToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.dosyaSeçToolStripMenuItem.Text = "Dosya Seç";
             // 
-            // UrunlerBarkodlabel
+            // menuStrip4
             // 
-            this.UrunlerBarkodlabel.AutoSize = true;
-            this.UrunlerBarkodlabel.Location = new System.Drawing.Point(405, 47);
-            this.UrunlerBarkodlabel.Name = "UrunlerBarkodlabel";
-            this.UrunlerBarkodlabel.Size = new System.Drawing.Size(63, 21);
-            this.UrunlerBarkodlabel.TabIndex = 6;
-            this.UrunlerBarkodlabel.Text = "Barkod";
+            this.menuStrip4.BackColor = System.Drawing.Color.White;
+            this.menuStrip4.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.UrunlerFiyatdegistoolStripMenuItem});
+            this.menuStrip4.Location = new System.Drawing.Point(0, 123);
+            this.menuStrip4.Name = "menuStrip4";
+            this.menuStrip4.Size = new System.Drawing.Size(167, 24);
+            this.menuStrip4.TabIndex = 5;
+            this.menuStrip4.Text = "menuStrip1";
             // 
-            // UrunlerUrunadilabel
+            // UrunlerFiyatdegistoolStripMenuItem
             // 
-            this.UrunlerUrunadilabel.AutoSize = true;
-            this.UrunlerUrunadilabel.Location = new System.Drawing.Point(143, 47);
-            this.UrunlerUrunadilabel.Name = "UrunlerUrunadilabel";
-            this.UrunlerUrunadilabel.Size = new System.Drawing.Size(76, 21);
-            this.UrunlerUrunadilabel.TabIndex = 5;
-            this.UrunlerUrunadilabel.Text = "Ürün Adı";
-            this.UrunlerUrunadilabel.Click += new System.EventHandler(this.label7_Click);
+            this.UrunlerFiyatdegistoolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.topluFiyatDEğiştirToolStripMenuItem,
+            this.kategoriyeGöreFiyatDeğiştirToolStripMenuItem,
+            this.firmayaGöreFiyatDeğiştirToolStripMenuItem,
+            this.barkodluFiyatDeğişTekSatırToolStripMenuItem});
+            this.UrunlerFiyatdegistoolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("UrunlerFiyatdegistoolStripMenuItem.Image")));
+            this.UrunlerFiyatdegistoolStripMenuItem.Name = "UrunlerFiyatdegistoolStripMenuItem";
+            this.UrunlerFiyatdegistoolStripMenuItem.Size = new System.Drawing.Size(103, 20);
+            this.UrunlerFiyatdegistoolStripMenuItem.Text = "Fiyat Değiştir";
             // 
-            // UrunlerKatagoricomboBox
+            // topluFiyatDEğiştirToolStripMenuItem
             // 
-            this.UrunlerKatagoricomboBox.FormattingEnabled = true;
-            this.UrunlerKatagoricomboBox.Location = new System.Drawing.Point(765, 68);
-            this.UrunlerKatagoricomboBox.Name = "UrunlerKatagoricomboBox";
-            this.UrunlerKatagoricomboBox.Size = new System.Drawing.Size(151, 29);
-            this.UrunlerKatagoricomboBox.TabIndex = 4;
+            this.topluFiyatDEğiştirToolStripMenuItem.Name = "topluFiyatDEğiştirToolStripMenuItem";
+            this.topluFiyatDEğiştirToolStripMenuItem.Size = new System.Drawing.Size(275, 22);
+            this.topluFiyatDEğiştirToolStripMenuItem.Text = "Toplu Fiyat Değiştir";
             // 
-            // UrunlerStokGrubucomboBox
+            // kategoriyeGöreFiyatDeğiştirToolStripMenuItem
             // 
-            this.UrunlerStokGrubucomboBox.FormattingEnabled = true;
-            this.UrunlerStokGrubucomboBox.Location = new System.Drawing.Point(600, 68);
-            this.UrunlerStokGrubucomboBox.Name = "UrunlerStokGrubucomboBox";
-            this.UrunlerStokGrubucomboBox.Size = new System.Drawing.Size(159, 29);
-            this.UrunlerStokGrubucomboBox.TabIndex = 3;
+            this.kategoriyeGöreFiyatDeğiştirToolStripMenuItem.Name = "kategoriyeGöreFiyatDeğiştirToolStripMenuItem";
+            this.kategoriyeGöreFiyatDeğiştirToolStripMenuItem.Size = new System.Drawing.Size(275, 22);
+            this.kategoriyeGöreFiyatDeğiştirToolStripMenuItem.Text = "Kategoriye göre fiyat değiştir";
             // 
-            // UrunlerBarkodtextBox
+            // firmayaGöreFiyatDeğiştirToolStripMenuItem
             // 
-            this.UrunlerBarkodtextBox.Location = new System.Drawing.Point(405, 71);
-            this.UrunlerBarkodtextBox.Name = "UrunlerBarkodtextBox";
-            this.UrunlerBarkodtextBox.Size = new System.Drawing.Size(182, 26);
-            this.UrunlerBarkodtextBox.TabIndex = 2;
+            this.firmayaGöreFiyatDeğiştirToolStripMenuItem.Name = "firmayaGöreFiyatDeğiştirToolStripMenuItem";
+            this.firmayaGöreFiyatDeğiştirToolStripMenuItem.Size = new System.Drawing.Size(275, 22);
+            this.firmayaGöreFiyatDeğiştirToolStripMenuItem.Text = "Firmanın tüm ürünlerinin fiyat değiştir";
             // 
-            // UrunlerUrunaditextBox
+            // barkodluFiyatDeğişTekSatırToolStripMenuItem
             // 
-            this.UrunlerUrunaditextBox.Location = new System.Drawing.Point(143, 71);
-            this.UrunlerUrunaditextBox.Name = "UrunlerUrunaditextBox";
-            this.UrunlerUrunaditextBox.Size = new System.Drawing.Size(256, 26);
-            this.UrunlerUrunaditextBox.TabIndex = 1;
+            this.barkodluFiyatDeğişTekSatırToolStripMenuItem.Name = "barkodluFiyatDeğişTekSatırToolStripMenuItem";
+            this.barkodluFiyatDeğişTekSatırToolStripMenuItem.Size = new System.Drawing.Size(275, 22);
+            this.barkodluFiyatDeğişTekSatırToolStripMenuItem.Text = "Barkodlu fiyat değiş Tek satır";
             // 
-            // UrunlerpictureBox1
+            // menuStrip3
             // 
-            this.UrunlerpictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.UrunlerpictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("UrunlerpictureBox1.Image")));
-            this.UrunlerpictureBox1.InitialImage = null;
-            this.UrunlerpictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.UrunlerpictureBox1.Name = "UrunlerpictureBox1";
-            this.UrunlerpictureBox1.Size = new System.Drawing.Size(137, 100);
-            this.UrunlerpictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.UrunlerpictureBox1.TabIndex = 0;
-            this.UrunlerpictureBox1.TabStop = false;
+            this.menuStrip3.BackColor = System.Drawing.Color.White;
+            this.menuStrip3.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.UrunlerStokkartitoolStripMenuItem});
+            this.menuStrip3.Location = new System.Drawing.Point(0, 99);
+            this.menuStrip3.Name = "menuStrip3";
+            this.menuStrip3.Size = new System.Drawing.Size(167, 24);
+            this.menuStrip3.TabIndex = 4;
+            this.menuStrip3.Text = "menuStrip1";
             // 
-            // tabPage3
+            // UrunlerStokkartitoolStripMenuItem
             // 
-            this.tabPage3.Controls.Add(this.button23);
-            this.tabPage3.Controls.Add(this.button33);
-            this.tabPage3.Controls.Add(this.button32);
-            this.tabPage3.Controls.Add(this.button22);
-            this.tabPage3.Controls.Add(this.button21);
-            this.tabPage3.Controls.Add(this.button31);
-            this.tabPage3.Controls.Add(this.button6);
-            this.tabPage3.Location = new System.Drawing.Point(4, 30);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(1132, 583);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Müşteriler              ";
-            this.tabPage3.UseVisualStyleBackColor = true;
+            this.UrunlerStokkartitoolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("UrunlerStokkartitoolStripMenuItem.Image")));
+            this.UrunlerStokkartitoolStripMenuItem.Name = "UrunlerStokkartitoolStripMenuItem";
+            this.UrunlerStokkartitoolStripMenuItem.Size = new System.Drawing.Size(118, 20);
+            this.UrunlerStokkartitoolStripMenuItem.Text = "Stok Kartı Yönet";
             // 
-            // button23
+            // menuStrip2
             // 
-            this.button23.Location = new System.Drawing.Point(89, 188);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(109, 115);
-            this.button23.TabIndex = 6;
-            this.button23.Text = "button23";
-            this.button23.UseVisualStyleBackColor = true;
+            this.menuStrip2.BackColor = System.Drawing.Color.White;
+            this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.UrunlerSayimtoolStripMenuItem});
+            this.menuStrip2.Location = new System.Drawing.Point(0, 75);
+            this.menuStrip2.Name = "menuStrip2";
+            this.menuStrip2.Size = new System.Drawing.Size(167, 24);
+            this.menuStrip2.TabIndex = 3;
+            this.menuStrip2.Text = "menuStrip1";
             // 
-            // button33
+            // UrunlerSayimtoolStripMenuItem
             // 
-            this.button33.Location = new System.Drawing.Point(470, 169);
-            this.button33.Name = "button33";
-            this.button33.Size = new System.Drawing.Size(172, 112);
-            this.button33.TabIndex = 5;
-            this.button33.Text = "button33";
-            this.button33.UseVisualStyleBackColor = true;
-            // 
-            // button32
-            // 
-            this.button32.Location = new System.Drawing.Point(627, 57);
-            this.button32.Name = "button32";
-            this.button32.Size = new System.Drawing.Size(158, 106);
-            this.button32.TabIndex = 4;
-            this.button32.Text = "button32";
-            this.button32.UseVisualStyleBackColor = true;
-            this.button32.Click += new System.EventHandler(this.button32_Click);
-            // 
-            // button22
-            // 
-            this.button22.Location = new System.Drawing.Point(352, 154);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(75, 108);
-            this.button22.TabIndex = 3;
-            this.button22.Text = "button22";
-            this.button22.UseVisualStyleBackColor = true;
-            // 
-            // button21
-            // 
-            this.button21.Location = new System.Drawing.Point(234, 146);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(75, 65);
-            this.button21.TabIndex = 2;
-            this.button21.Text = "button21";
-            this.button21.UseVisualStyleBackColor = true;
-            // 
-            // button31
-            // 
-            this.button31.Location = new System.Drawing.Point(89, 69);
-            this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(109, 94);
-            this.button31.TabIndex = 1;
-            this.button31.Text = "button31";
-            this.button31.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.Black;
-            this.button6.Location = new System.Drawing.Point(256, 57);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(201, 71);
-            this.button6.TabIndex = 0;
-            this.button6.Text = "button6";
-            this.button6.UseVisualStyleBackColor = false;
-            // 
-            // tabPage4
-            // 
-            this.tabPage4.Location = new System.Drawing.Point(4, 30);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(1132, 583);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "İstoç Toptan";
-            this.tabPage4.UseVisualStyleBackColor = true;
-            this.tabPage4.Click += new System.EventHandler(this.tabPage4_Click);
-            // 
-            // UrunlerUruneklemenuStrip
-            // 
-            this.UrunlerUruneklemenuStrip.BackColor = System.Drawing.Color.White;
-            this.UrunlerUruneklemenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.UrunelerUrunekleToolStripMenuItem});
-            this.UrunlerUruneklemenuStrip.Location = new System.Drawing.Point(0, 0);
-            this.UrunlerUruneklemenuStrip.Name = "UrunlerUruneklemenuStrip";
-            this.UrunlerUruneklemenuStrip.Size = new System.Drawing.Size(236, 27);
-            this.UrunlerUruneklemenuStrip.TabIndex = 0;
-            this.UrunlerUruneklemenuStrip.Text = "menuStrip1";
-            // 
-            // UrunelerUrunekleToolStripMenuItem
-            // 
-            this.UrunelerUrunekleToolStripMenuItem.BackColor = System.Drawing.Color.White;
-            this.UrunelerUrunekleToolStripMenuItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.UrunelerUrunekleToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.UrunelerUrunekleToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("UrunelerUrunekleToolStripMenuItem.Image")));
-            this.UrunelerUrunekleToolStripMenuItem.Name = "UrunelerUrunekleToolStripMenuItem";
-            this.UrunelerUrunekleToolStripMenuItem.Size = new System.Drawing.Size(96, 23);
-            this.UrunelerUrunekleToolStripMenuItem.Text = "Ürün Ekle";
-            // 
-            // UrunlerUrunkatimenuStrip
-            // 
-            this.UrunlerUrunkatimenuStrip.BackColor = System.Drawing.Color.White;
-            this.UrunlerUrunkatimenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.UrunlerUrunkartitoolStripMenuItem});
-            this.UrunlerUrunkatimenuStrip.Location = new System.Drawing.Point(0, 27);
-            this.UrunlerUrunkatimenuStrip.Name = "UrunlerUrunkatimenuStrip";
-            this.UrunlerUrunkatimenuStrip.Size = new System.Drawing.Size(236, 24);
-            this.UrunlerUrunkatimenuStrip.TabIndex = 1;
-            this.UrunlerUrunkatimenuStrip.Text = "Urun Kartı";
-            // 
-            // UrunlerUrunkartitoolStripMenuItem
-            // 
-            this.UrunlerUrunkartitoolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("UrunlerUrunkartitoolStripMenuItem.Image")));
-            this.UrunlerUrunkartitoolStripMenuItem.Name = "UrunlerUrunkartitoolStripMenuItem";
-            this.UrunlerUrunkartitoolStripMenuItem.Size = new System.Drawing.Size(88, 20);
-            this.UrunlerUrunkartitoolStripMenuItem.Text = "Ürün Kartı";
+            this.UrunlerSayimtoolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("UrunlerSayimtoolStripMenuItem.Image")));
+            this.UrunlerSayimtoolStripMenuItem.Name = "UrunlerSayimtoolStripMenuItem";
+            this.UrunlerSayimtoolStripMenuItem.Size = new System.Drawing.Size(105, 20);
+            this.UrunlerSayimtoolStripMenuItem.Text = "Sayım Formu";
             // 
             // menuStrip1
             // 
@@ -1323,7 +1257,7 @@
             this.UrunlerGiriscikistoolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 51);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(236, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(167, 24);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -1347,7 +1281,7 @@
             this.sToolStripMenuItem.Name = "sToolStripMenuItem";
             this.sToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
             this.sToolStripMenuItem.Text = "Stok Giriş Fişi Oluştur";
-            this.sToolStripMenuItem.Click += new System.EventHandler(this.sToolStripMenuItem_Click);
+            this.sToolStripMenuItem.Click += new System.EventHandler(this.sToolStripMenuItem_Click_1);
             // 
             // stokÇıkışFişiOluşturToolStripMenuItem
             // 
@@ -1385,122 +1319,610 @@
             this.gönderlenÜrünListesiToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
             this.gönderlenÜrünListesiToolStripMenuItem.Text = "Gönderlen Ürün Listesi";
             // 
-            // menuStrip2
+            // UrunlerUrunkatimenuStrip
             // 
-            this.menuStrip2.BackColor = System.Drawing.Color.White;
-            this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.UrunlerSayimtoolStripMenuItem});
-            this.menuStrip2.Location = new System.Drawing.Point(0, 75);
-            this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(236, 24);
-            this.menuStrip2.TabIndex = 3;
-            this.menuStrip2.Text = "menuStrip1";
+            this.UrunlerUrunkatimenuStrip.BackColor = System.Drawing.Color.White;
+            this.UrunlerUrunkatimenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.UrunlerUrunkartitoolStripMenuItem});
+            this.UrunlerUrunkatimenuStrip.Location = new System.Drawing.Point(0, 27);
+            this.UrunlerUrunkatimenuStrip.Name = "UrunlerUrunkatimenuStrip";
+            this.UrunlerUrunkatimenuStrip.Size = new System.Drawing.Size(167, 24);
+            this.UrunlerUrunkatimenuStrip.TabIndex = 1;
+            this.UrunlerUrunkatimenuStrip.Text = "Urun Kartı";
             // 
-            // UrunlerSayimtoolStripMenuItem
+            // UrunlerUrunkartitoolStripMenuItem
             // 
-            this.UrunlerSayimtoolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("UrunlerSayimtoolStripMenuItem.Image")));
-            this.UrunlerSayimtoolStripMenuItem.Name = "UrunlerSayimtoolStripMenuItem";
-            this.UrunlerSayimtoolStripMenuItem.Size = new System.Drawing.Size(105, 20);
-            this.UrunlerSayimtoolStripMenuItem.Text = "Sayım Formu";
+            this.UrunlerUrunkartitoolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("UrunlerUrunkartitoolStripMenuItem.Image")));
+            this.UrunlerUrunkartitoolStripMenuItem.Name = "UrunlerUrunkartitoolStripMenuItem";
+            this.UrunlerUrunkartitoolStripMenuItem.Size = new System.Drawing.Size(88, 20);
+            this.UrunlerUrunkartitoolStripMenuItem.Text = "Ürün Kartı";
             // 
-            // menuStrip3
+            // UrunlerUruneklemenuStrip
             // 
-            this.menuStrip3.BackColor = System.Drawing.Color.White;
-            this.menuStrip3.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.UrunlerStokkartitoolStripMenuItem});
-            this.menuStrip3.Location = new System.Drawing.Point(0, 99);
-            this.menuStrip3.Name = "menuStrip3";
-            this.menuStrip3.Size = new System.Drawing.Size(236, 24);
-            this.menuStrip3.TabIndex = 4;
-            this.menuStrip3.Text = "menuStrip1";
+            this.UrunlerUruneklemenuStrip.BackColor = System.Drawing.Color.White;
+            this.UrunlerUruneklemenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.UrunelerUrunekleToolStripMenuItem});
+            this.UrunlerUruneklemenuStrip.Location = new System.Drawing.Point(0, 0);
+            this.UrunlerUruneklemenuStrip.Name = "UrunlerUruneklemenuStrip";
+            this.UrunlerUruneklemenuStrip.Size = new System.Drawing.Size(167, 27);
+            this.UrunlerUruneklemenuStrip.TabIndex = 0;
+            this.UrunlerUruneklemenuStrip.Text = "menuStrip1";
             // 
-            // UrunlerStokkartitoolStripMenuItem
+            // UrunelerUrunekleToolStripMenuItem
             // 
-            this.UrunlerStokkartitoolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("UrunlerStokkartitoolStripMenuItem.Image")));
-            this.UrunlerStokkartitoolStripMenuItem.Name = "UrunlerStokkartitoolStripMenuItem";
-            this.UrunlerStokkartitoolStripMenuItem.Size = new System.Drawing.Size(118, 20);
-            this.UrunlerStokkartitoolStripMenuItem.Text = "Stok Kartı Yönet";
+            this.UrunelerUrunekleToolStripMenuItem.BackColor = System.Drawing.Color.White;
+            this.UrunelerUrunekleToolStripMenuItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.UrunelerUrunekleToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.UrunelerUrunekleToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("UrunelerUrunekleToolStripMenuItem.Image")));
+            this.UrunelerUrunekleToolStripMenuItem.Name = "UrunelerUrunekleToolStripMenuItem";
+            this.UrunelerUrunekleToolStripMenuItem.Size = new System.Drawing.Size(96, 23);
+            this.UrunelerUrunekleToolStripMenuItem.Text = "Ürün Ekle";
             // 
-            // menuStrip4
+            // dataGridView6
             // 
-            this.menuStrip4.BackColor = System.Drawing.Color.White;
-            this.menuStrip4.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.UrunlerFiyatdegistoolStripMenuItem});
-            this.menuStrip4.Location = new System.Drawing.Point(0, 123);
-            this.menuStrip4.Name = "menuStrip4";
-            this.menuStrip4.Size = new System.Drawing.Size(236, 24);
-            this.menuStrip4.TabIndex = 5;
-            this.menuStrip4.Text = "menuStrip1";
+            this.dataGridView6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView6.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView6.Name = "dataGridView6";
+            this.dataGridView6.RowTemplate.Height = 25;
+            this.dataGridView6.Size = new System.Drawing.Size(947, 473);
+            this.dataGridView6.TabIndex = 0;
             // 
-            // UrunlerFiyatdegistoolStripMenuItem
+            // UrunlerUstpanel
             // 
-            this.UrunlerFiyatdegistoolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.topluFiyatDEğiştirToolStripMenuItem,
-            this.kategoriyeGöreFiyatDeğiştirToolStripMenuItem,
-            this.firmayaGöreFiyatDeğiştirToolStripMenuItem,
-            this.barkodluFiyatDeğişTekSatırToolStripMenuItem});
-            this.UrunlerFiyatdegistoolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("UrunlerFiyatdegistoolStripMenuItem.Image")));
-            this.UrunlerFiyatdegistoolStripMenuItem.Name = "UrunlerFiyatdegistoolStripMenuItem";
-            this.UrunlerFiyatdegistoolStripMenuItem.Size = new System.Drawing.Size(103, 20);
-            this.UrunlerFiyatdegistoolStripMenuItem.Text = "Fiyat Değiştir";
+            this.UrunlerUstpanel.Controls.Add(this.UrunlerDetayliaramacheckBox);
+            this.UrunlerUstpanel.Controls.Add(this.UrunlerListeleButon);
+            this.UrunlerUstpanel.Controls.Add(this.UrunlerKategorilabel);
+            this.UrunlerUstpanel.Controls.Add(this.UrunlerStokgurubulabel);
+            this.UrunlerUstpanel.Controls.Add(this.UrunlerBarkodlabel);
+            this.UrunlerUstpanel.Controls.Add(this.UrunlerUrunadilabel);
+            this.UrunlerUstpanel.Controls.Add(this.UrunlerKatagoricomboBox);
+            this.UrunlerUstpanel.Controls.Add(this.UrunlerStokGrubucomboBox);
+            this.UrunlerUstpanel.Controls.Add(this.UrunlerBarkodtextBox);
+            this.UrunlerUstpanel.Controls.Add(this.UrunlerUrunaditextBox);
+            this.UrunlerUstpanel.Controls.Add(this.UrunlerpictureBox1);
+            this.UrunlerUstpanel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.UrunlerUstpanel.Location = new System.Drawing.Point(3, 3);
+            this.UrunlerUstpanel.Name = "UrunlerUstpanel";
+            this.UrunlerUstpanel.Size = new System.Drawing.Size(1126, 100);
+            this.UrunlerUstpanel.TabIndex = 0;
             // 
-            // menuStrip5
+            // UrunlerDetayliaramacheckBox
             // 
-            this.menuStrip5.BackColor = System.Drawing.Color.White;
-            this.menuStrip5.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.UrunlerDosyatoolStripMenuItem});
-            this.menuStrip5.Location = new System.Drawing.Point(0, 147);
-            this.menuStrip5.Name = "menuStrip5";
-            this.menuStrip5.Size = new System.Drawing.Size(236, 24);
-            this.menuStrip5.TabIndex = 6;
-            this.menuStrip5.Text = "menuStrip1";
+            this.UrunlerDetayliaramacheckBox.AutoSize = true;
+            this.UrunlerDetayliaramacheckBox.Font = new System.Drawing.Font("Sitka Text", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.UrunlerDetayliaramacheckBox.Location = new System.Drawing.Point(177, 69);
+            this.UrunlerDetayliaramacheckBox.Name = "UrunlerDetayliaramacheckBox";
+            this.UrunlerDetayliaramacheckBox.Size = new System.Drawing.Size(156, 24);
+            this.UrunlerDetayliaramacheckBox.TabIndex = 10;
+            this.UrunlerDetayliaramacheckBox.Text = "Detaylı Arama Yap";
+            this.UrunlerDetayliaramacheckBox.UseVisualStyleBackColor = true;
             // 
-            // UrunlerDosyatoolStripMenuItem
+            // UrunlerListeleButon
             // 
-            this.UrunlerDosyatoolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.exeldenOkutToolStripMenuItem,
-            this.dosyaSeçToolStripMenuItem});
-            this.UrunlerDosyatoolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("UrunlerDosyatoolStripMenuItem.Image")));
-            this.UrunlerDosyatoolStripMenuItem.Name = "UrunlerDosyatoolStripMenuItem";
-            this.UrunlerDosyatoolStripMenuItem.Size = new System.Drawing.Size(140, 20);
-            this.UrunlerDosyatoolStripMenuItem.Text = "Dosyadan Ürün ekle";
-            this.UrunlerDosyatoolStripMenuItem.Click += new System.EventHandler(this.toolStripMenuItem6_Click);
+            this.UrunlerListeleButon.BackColor = System.Drawing.Color.Tomato;
+            this.UrunlerListeleButon.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.UrunlerListeleButon.Image = ((System.Drawing.Image)(resources.GetObject("UrunlerListeleButon.Image")));
+            this.UrunlerListeleButon.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.UrunlerListeleButon.Location = new System.Drawing.Point(962, 34);
+            this.UrunlerListeleButon.Name = "UrunlerListeleButon";
+            this.UrunlerListeleButon.Size = new System.Drawing.Size(115, 30);
+            this.UrunlerListeleButon.TabIndex = 9;
+            this.UrunlerListeleButon.Text = "Listele";
+            this.UrunlerListeleButon.UseVisualStyleBackColor = false;
             // 
-            // topluFiyatDEğiştirToolStripMenuItem
+            // UrunlerKategorilabel
             // 
-            this.topluFiyatDEğiştirToolStripMenuItem.Name = "topluFiyatDEğiştirToolStripMenuItem";
-            this.topluFiyatDEğiştirToolStripMenuItem.Size = new System.Drawing.Size(275, 22);
-            this.topluFiyatDEğiştirToolStripMenuItem.Text = "Toplu Fiyat Değiştir";
+            this.UrunlerKategorilabel.AutoSize = true;
+            this.UrunlerKategorilabel.Location = new System.Drawing.Point(800, 11);
+            this.UrunlerKategorilabel.Name = "UrunlerKategorilabel";
+            this.UrunlerKategorilabel.Size = new System.Drawing.Size(74, 21);
+            this.UrunlerKategorilabel.TabIndex = 8;
+            this.UrunlerKategorilabel.Text = "Kategori";
             // 
-            // kategoriyeGöreFiyatDeğiştirToolStripMenuItem
+            // UrunlerStokgurubulabel
             // 
-            this.kategoriyeGöreFiyatDeğiştirToolStripMenuItem.Name = "kategoriyeGöreFiyatDeğiştirToolStripMenuItem";
-            this.kategoriyeGöreFiyatDeğiştirToolStripMenuItem.Size = new System.Drawing.Size(275, 22);
-            this.kategoriyeGöreFiyatDeğiştirToolStripMenuItem.Text = "Kategoriye göre fiyat değiştir";
+            this.UrunlerStokgurubulabel.AutoSize = true;
+            this.UrunlerStokgurubulabel.Location = new System.Drawing.Point(634, 11);
+            this.UrunlerStokgurubulabel.Name = "UrunlerStokgurubulabel";
+            this.UrunlerStokgurubulabel.Size = new System.Drawing.Size(104, 21);
+            this.UrunlerStokgurubulabel.TabIndex = 7;
+            this.UrunlerStokgurubulabel.Text = "Stok Gurubu";
             // 
-            // firmayaGöreFiyatDeğiştirToolStripMenuItem
+            // UrunlerBarkodlabel
             // 
-            this.firmayaGöreFiyatDeğiştirToolStripMenuItem.Name = "firmayaGöreFiyatDeğiştirToolStripMenuItem";
-            this.firmayaGöreFiyatDeğiştirToolStripMenuItem.Size = new System.Drawing.Size(275, 22);
-            this.firmayaGöreFiyatDeğiştirToolStripMenuItem.Text = "Firmanın tüm ürünlerinin fiyat değiştir";
+            this.UrunlerBarkodlabel.AutoSize = true;
+            this.UrunlerBarkodlabel.Location = new System.Drawing.Point(439, 14);
+            this.UrunlerBarkodlabel.Name = "UrunlerBarkodlabel";
+            this.UrunlerBarkodlabel.Size = new System.Drawing.Size(63, 21);
+            this.UrunlerBarkodlabel.TabIndex = 6;
+            this.UrunlerBarkodlabel.Text = "Barkod";
             // 
-            // barkodluFiyatDeğişTekSatırToolStripMenuItem
+            // UrunlerUrunadilabel
             // 
-            this.barkodluFiyatDeğişTekSatırToolStripMenuItem.Name = "barkodluFiyatDeğişTekSatırToolStripMenuItem";
-            this.barkodluFiyatDeğişTekSatırToolStripMenuItem.Size = new System.Drawing.Size(275, 22);
-            this.barkodluFiyatDeğişTekSatırToolStripMenuItem.Text = "Barkodlu fiyat değiş Tek satır";
+            this.UrunlerUrunadilabel.AutoSize = true;
+            this.UrunlerUrunadilabel.Location = new System.Drawing.Point(177, 14);
+            this.UrunlerUrunadilabel.Name = "UrunlerUrunadilabel";
+            this.UrunlerUrunadilabel.Size = new System.Drawing.Size(76, 21);
+            this.UrunlerUrunadilabel.TabIndex = 5;
+            this.UrunlerUrunadilabel.Text = "Ürün Adı";
+            this.UrunlerUrunadilabel.Click += new System.EventHandler(this.label7_Click);
             // 
-            // exeldenOkutToolStripMenuItem
+            // UrunlerKatagoricomboBox
             // 
-            this.exeldenOkutToolStripMenuItem.Name = "exeldenOkutToolStripMenuItem";
-            this.exeldenOkutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.exeldenOkutToolStripMenuItem.Text = "Exelden Okut";
+            this.UrunlerKatagoricomboBox.FormattingEnabled = true;
+            this.UrunlerKatagoricomboBox.Location = new System.Drawing.Point(799, 35);
+            this.UrunlerKatagoricomboBox.Name = "UrunlerKatagoricomboBox";
+            this.UrunlerKatagoricomboBox.Size = new System.Drawing.Size(151, 29);
+            this.UrunlerKatagoricomboBox.TabIndex = 4;
             // 
-            // dosyaSeçToolStripMenuItem
+            // UrunlerStokGrubucomboBox
             // 
-            this.dosyaSeçToolStripMenuItem.Name = "dosyaSeçToolStripMenuItem";
-            this.dosyaSeçToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.dosyaSeçToolStripMenuItem.Text = "Dosya Seç";
+            this.UrunlerStokGrubucomboBox.FormattingEnabled = true;
+            this.UrunlerStokGrubucomboBox.Location = new System.Drawing.Point(634, 35);
+            this.UrunlerStokGrubucomboBox.Name = "UrunlerStokGrubucomboBox";
+            this.UrunlerStokGrubucomboBox.Size = new System.Drawing.Size(159, 29);
+            this.UrunlerStokGrubucomboBox.TabIndex = 3;
+            // 
+            // UrunlerBarkodtextBox
+            // 
+            this.UrunlerBarkodtextBox.Location = new System.Drawing.Point(439, 38);
+            this.UrunlerBarkodtextBox.Name = "UrunlerBarkodtextBox";
+            this.UrunlerBarkodtextBox.Size = new System.Drawing.Size(182, 26);
+            this.UrunlerBarkodtextBox.TabIndex = 2;
+            // 
+            // UrunlerUrunaditextBox
+            // 
+            this.UrunlerUrunaditextBox.Location = new System.Drawing.Point(177, 38);
+            this.UrunlerUrunaditextBox.Name = "UrunlerUrunaditextBox";
+            this.UrunlerUrunaditextBox.Size = new System.Drawing.Size(256, 26);
+            this.UrunlerUrunaditextBox.TabIndex = 1;
+            // 
+            // UrunlerpictureBox1
+            // 
+            this.UrunlerpictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.UrunlerpictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("UrunlerpictureBox1.Image")));
+            this.UrunlerpictureBox1.InitialImage = null;
+            this.UrunlerpictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.UrunlerpictureBox1.Name = "UrunlerpictureBox1";
+            this.UrunlerpictureBox1.Size = new System.Drawing.Size(137, 100);
+            this.UrunlerpictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.UrunlerpictureBox1.TabIndex = 0;
+            this.UrunlerpictureBox1.TabStop = false;
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.MusterilersplitContainer);
+            this.tabPage3.Controls.Add(this.panel5);
+            this.tabPage3.Location = new System.Drawing.Point(4, 30);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(1132, 583);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Müşteriler              ";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // MusterilersplitContainer
+            // 
+            this.MusterilersplitContainer.BackColor = System.Drawing.Color.Tomato;
+            this.MusterilersplitContainer.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.MusterilersplitContainer.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.MusterilersplitContainer.Location = new System.Drawing.Point(3, 103);
+            this.MusterilersplitContainer.Name = "MusterilersplitContainer";
+            // 
+            // MusterilersplitContainer.Panel1
+            // 
+            this.MusterilersplitContainer.Panel1.BackColor = System.Drawing.Color.White;
+            this.MusterilersplitContainer.Panel1.Controls.Add(this.menuStrip15);
+            this.MusterilersplitContainer.Panel1.Controls.Add(this.menuStrip14);
+            this.MusterilersplitContainer.Panel1.Controls.Add(this.menuStrip13);
+            this.MusterilersplitContainer.Panel1.Controls.Add(this.menuStrip6);
+            this.MusterilersplitContainer.Panel1.Controls.Add(this.menuStrip7);
+            this.MusterilersplitContainer.Panel1.Controls.Add(this.menuStrip8);
+            this.MusterilersplitContainer.Panel1.Controls.Add(this.menuStrip9);
+            this.MusterilersplitContainer.Panel1.Controls.Add(this.menuStrip10);
+            this.MusterilersplitContainer.Panel1.Controls.Add(this.menuStrip11);
+            this.MusterilersplitContainer.Panel1.Controls.Add(this.menuStrip12);
+            // 
+            // MusterilersplitContainer.Panel2
+            // 
+            this.MusterilersplitContainer.Panel2.BackColor = System.Drawing.Color.White;
+            this.MusterilersplitContainer.Panel2.Controls.Add(this.dataGridView7);
+            this.MusterilersplitContainer.Size = new System.Drawing.Size(1126, 477);
+            this.MusterilersplitContainer.SplitterDistance = 217;
+            this.MusterilersplitContainer.TabIndex = 1;
+            // 
+            // menuStrip15
+            // 
+            this.menuStrip15.BackColor = System.Drawing.Color.White;
+            this.menuStrip15.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.MusterilerKaralistetoolStripMenuItem});
+            this.menuStrip15.Location = new System.Drawing.Point(0, 219);
+            this.menuStrip15.Name = "menuStrip15";
+            this.menuStrip15.Size = new System.Drawing.Size(213, 24);
+            this.menuStrip15.TabIndex = 16;
+            this.menuStrip15.Text = "Urun Kartı";
+            // 
+            // MusterilerKaralistetoolStripMenuItem
+            // 
+            this.MusterilerKaralistetoolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("MusterilerKaralistetoolStripMenuItem.Image")));
+            this.MusterilerKaralistetoolStripMenuItem.Name = "MusterilerKaralistetoolStripMenuItem";
+            this.MusterilerKaralistetoolStripMenuItem.Size = new System.Drawing.Size(163, 20);
+            this.MusterilerKaralistetoolStripMenuItem.Text = "Müşteriyi Kara Listeye Al";
+            // 
+            // menuStrip14
+            // 
+            this.menuStrip14.BackColor = System.Drawing.Color.White;
+            this.menuStrip14.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.MusterilerIskontotoolStripMenuItem});
+            this.menuStrip14.Location = new System.Drawing.Point(0, 195);
+            this.menuStrip14.Name = "menuStrip14";
+            this.menuStrip14.Size = new System.Drawing.Size(213, 24);
+            this.menuStrip14.TabIndex = 15;
+            this.menuStrip14.Text = "Urun Kartı";
+            // 
+            // MusterilerIskontotoolStripMenuItem
+            // 
+            this.MusterilerIskontotoolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("MusterilerIskontotoolStripMenuItem.Image")));
+            this.MusterilerIskontotoolStripMenuItem.Name = "MusterilerIskontotoolStripMenuItem";
+            this.MusterilerIskontotoolStripMenuItem.Size = new System.Drawing.Size(157, 20);
+            this.MusterilerIskontotoolStripMenuItem.Text = "Müştei İskonto Tanımla";
+            // 
+            // menuStrip13
+            // 
+            this.menuStrip13.BackColor = System.Drawing.Color.White;
+            this.menuStrip13.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.MusterilerMusterihareketleritoolStripMenuItem});
+            this.menuStrip13.Location = new System.Drawing.Point(0, 171);
+            this.menuStrip13.Name = "menuStrip13";
+            this.menuStrip13.Size = new System.Drawing.Size(213, 24);
+            this.menuStrip13.TabIndex = 14;
+            this.menuStrip13.Text = "Urun Kartı";
+            // 
+            // MusterilerMusterihareketleritoolStripMenuItem
+            // 
+            this.MusterilerMusterihareketleritoolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("MusterilerMusterihareketleritoolStripMenuItem.Image")));
+            this.MusterilerMusterihareketleritoolStripMenuItem.Name = "MusterilerMusterihareketleritoolStripMenuItem";
+            this.MusterilerMusterihareketleritoolStripMenuItem.Size = new System.Drawing.Size(135, 20);
+            this.MusterilerMusterihareketleritoolStripMenuItem.Text = "Müşteri Hareketleri";
+            // 
+            // menuStrip6
+            // 
+            this.menuStrip6.BackColor = System.Drawing.Color.White;
+            this.menuStrip6.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem1});
+            this.menuStrip6.Location = new System.Drawing.Point(0, 147);
+            this.menuStrip6.Name = "menuStrip6";
+            this.menuStrip6.Size = new System.Drawing.Size(213, 24);
+            this.menuStrip6.TabIndex = 13;
+            this.menuStrip6.Text = "menuStrip1";
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuItem1.Image")));
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(86, 20);
+            this.toolStripMenuItem1.Text = "Dekontlar";
+            // 
+            // menuStrip7
+            // 
+            this.menuStrip7.BackColor = System.Drawing.Color.White;
+            this.menuStrip7.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.MusterilerFaturatoolStripMenuItem});
+            this.menuStrip7.Location = new System.Drawing.Point(0, 123);
+            this.menuStrip7.Name = "menuStrip7";
+            this.menuStrip7.Size = new System.Drawing.Size(213, 24);
+            this.menuStrip7.TabIndex = 12;
+            this.menuStrip7.Text = "menuStrip1";
+            // 
+            // MusterilerFaturatoolStripMenuItem
+            // 
+            this.MusterilerFaturatoolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem5,
+            this.toolStripMenuItem6,
+            this.toolStripMenuItem7});
+            this.MusterilerFaturatoolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("MusterilerFaturatoolStripMenuItem.Image")));
+            this.MusterilerFaturatoolStripMenuItem.Name = "MusterilerFaturatoolStripMenuItem";
+            this.MusterilerFaturatoolStripMenuItem.Size = new System.Drawing.Size(115, 20);
+            this.MusterilerFaturatoolStripMenuItem.Text = "Fatura İşlemleri";
+            // 
+            // toolStripMenuItem5
+            // 
+            this.toolStripMenuItem5.Name = "toolStripMenuItem5";
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(143, 22);
+            this.toolStripMenuItem5.Text = "Satış Faturası";
+            // 
+            // toolStripMenuItem6
+            // 
+            this.toolStripMenuItem6.Name = "toolStripMenuItem6";
+            this.toolStripMenuItem6.Size = new System.Drawing.Size(143, 22);
+            this.toolStripMenuItem6.Text = "İade Faturası";
+            // 
+            // toolStripMenuItem7
+            // 
+            this.toolStripMenuItem7.Name = "toolStripMenuItem7";
+            this.toolStripMenuItem7.Size = new System.Drawing.Size(143, 22);
+            this.toolStripMenuItem7.Text = "Fatura Listele";
+            // 
+            // menuStrip8
+            // 
+            this.menuStrip8.BackColor = System.Drawing.Color.White;
+            this.menuStrip8.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.MusterilerExtretoolStripMenuItem});
+            this.menuStrip8.Location = new System.Drawing.Point(0, 99);
+            this.menuStrip8.Name = "menuStrip8";
+            this.menuStrip8.Size = new System.Drawing.Size(213, 24);
+            this.menuStrip8.TabIndex = 11;
+            this.menuStrip8.Text = "menuStrip1";
+            // 
+            // MusterilerExtretoolStripMenuItem
+            // 
+            this.MusterilerExtretoolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("MusterilerExtretoolStripMenuItem.Image")));
+            this.MusterilerExtretoolStripMenuItem.Name = "MusterilerExtretoolStripMenuItem";
+            this.MusterilerExtretoolStripMenuItem.Size = new System.Drawing.Size(74, 20);
+            this.MusterilerExtretoolStripMenuItem.Text = "Extreler";
+            // 
+            // menuStrip9
+            // 
+            this.menuStrip9.BackColor = System.Drawing.Color.White;
+            this.menuStrip9.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.MusterilerTahsilahtoolStripMenuItem});
+            this.menuStrip9.Location = new System.Drawing.Point(0, 75);
+            this.menuStrip9.Name = "menuStrip9";
+            this.menuStrip9.Size = new System.Drawing.Size(213, 24);
+            this.menuStrip9.TabIndex = 10;
+            this.menuStrip9.Text = "menuStrip1";
+            // 
+            // MusterilerTahsilahtoolStripMenuItem
+            // 
+            this.MusterilerTahsilahtoolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("MusterilerTahsilahtoolStripMenuItem.Image")));
+            this.MusterilerTahsilahtoolStripMenuItem.Name = "MusterilerTahsilahtoolStripMenuItem";
+            this.MusterilerTahsilahtoolStripMenuItem.Size = new System.Drawing.Size(121, 20);
+            this.MusterilerTahsilahtoolStripMenuItem.Text = "Tahsilat İşlemleri";
+            // 
+            // menuStrip10
+            // 
+            this.menuStrip10.BackColor = System.Drawing.Color.White;
+            this.menuStrip10.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.MusterilerSiparistoolStripMenuItem});
+            this.menuStrip10.Location = new System.Drawing.Point(0, 51);
+            this.menuStrip10.Name = "menuStrip10";
+            this.menuStrip10.Size = new System.Drawing.Size(213, 24);
+            this.menuStrip10.TabIndex = 9;
+            this.menuStrip10.Text = "menuStrip10";
+            // 
+            // MusterilerSiparistoolStripMenuItem
+            // 
+            this.MusterilerSiparistoolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem12,
+            this.toolStripMenuItem13,
+            this.toolStripMenuItem14,
+            this.toolStripMenuItem15,
+            this.toolStripMenuItem16});
+            this.MusterilerSiparistoolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("MusterilerSiparistoolStripMenuItem.Image")));
+            this.MusterilerSiparistoolStripMenuItem.Name = "MusterilerSiparistoolStripMenuItem";
+            this.MusterilerSiparistoolStripMenuItem.Size = new System.Drawing.Size(116, 20);
+            this.MusterilerSiparistoolStripMenuItem.Text = "Sipariş İşlemleri";
+            // 
+            // toolStripMenuItem12
+            // 
+            this.toolStripMenuItem12.Name = "toolStripMenuItem12";
+            this.toolStripMenuItem12.Size = new System.Drawing.Size(185, 22);
+            this.toolStripMenuItem12.Text = "Alınan Sipariş Liste";
+            // 
+            // toolStripMenuItem13
+            // 
+            this.toolStripMenuItem13.Name = "toolStripMenuItem13";
+            this.toolStripMenuItem13.Size = new System.Drawing.Size(185, 22);
+            this.toolStripMenuItem13.Text = "Bekleyen Sipariş Liste";
+            // 
+            // toolStripMenuItem14
+            // 
+            this.toolStripMenuItem14.Name = "toolStripMenuItem14";
+            this.toolStripMenuItem14.Size = new System.Drawing.Size(185, 22);
+            this.toolStripMenuItem14.Text = "Sipariş Durumu";
+            // 
+            // toolStripMenuItem15
+            // 
+            this.toolStripMenuItem15.Name = "toolStripMenuItem15";
+            this.toolStripMenuItem15.Size = new System.Drawing.Size(185, 22);
+            this.toolStripMenuItem15.Text = "İptal Edilen Siparişler";
+            // 
+            // toolStripMenuItem16
+            // 
+            this.toolStripMenuItem16.Name = "toolStripMenuItem16";
+            this.toolStripMenuItem16.Size = new System.Drawing.Size(185, 22);
+            this.toolStripMenuItem16.Text = "Sevk Fişi";
+            // 
+            // menuStrip11
+            // 
+            this.menuStrip11.BackColor = System.Drawing.Color.White;
+            this.menuStrip11.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.MusterilerMusterikartitoolStripMenuItem});
+            this.menuStrip11.Location = new System.Drawing.Point(0, 27);
+            this.menuStrip11.Name = "menuStrip11";
+            this.menuStrip11.Size = new System.Drawing.Size(213, 24);
+            this.menuStrip11.TabIndex = 8;
+            this.menuStrip11.Text = "Urun Kartı";
+            // 
+            // MusterilerMusterikartitoolStripMenuItem
+            // 
+            this.MusterilerMusterikartitoolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("MusterilerMusterikartitoolStripMenuItem.Image")));
+            this.MusterilerMusterikartitoolStripMenuItem.Name = "MusterilerMusterikartitoolStripMenuItem";
+            this.MusterilerMusterikartitoolStripMenuItem.Size = new System.Drawing.Size(102, 20);
+            this.MusterilerMusterikartitoolStripMenuItem.Text = "Müşteri Kartı";
+            // 
+            // menuStrip12
+            // 
+            this.menuStrip12.BackColor = System.Drawing.Color.White;
+            this.menuStrip12.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.MusterilerMusteriekletoolStripMenuItem});
+            this.menuStrip12.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip12.Name = "menuStrip12";
+            this.menuStrip12.Size = new System.Drawing.Size(213, 27);
+            this.menuStrip12.TabIndex = 7;
+            this.menuStrip12.Text = "menuStrip1";
+            // 
+            // MusterilerMusteriekletoolStripMenuItem
+            // 
+            this.MusterilerMusteriekletoolStripMenuItem.BackColor = System.Drawing.Color.White;
+            this.MusterilerMusteriekletoolStripMenuItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.MusterilerMusteriekletoolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.MusterilerMusteriekletoolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("MusterilerMusteriekletoolStripMenuItem.Image")));
+            this.MusterilerMusteriekletoolStripMenuItem.Name = "MusterilerMusteriekletoolStripMenuItem";
+            this.MusterilerMusteriekletoolStripMenuItem.Size = new System.Drawing.Size(112, 23);
+            this.MusterilerMusteriekletoolStripMenuItem.Text = "Müşteri Ekle";
+            // 
+            // dataGridView7
+            // 
+            this.dataGridView7.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView7.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView7.Name = "dataGridView7";
+            this.dataGridView7.RowTemplate.Height = 25;
+            this.dataGridView7.Size = new System.Drawing.Size(901, 473);
+            this.dataGridView7.TabIndex = 0;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.Transparent;
+            this.panel5.Controls.Add(this.comboBox3);
+            this.panel5.Controls.Add(this.checkBox1);
+            this.panel5.Controls.Add(this.button1);
+            this.panel5.Controls.Add(this.Musterilerlabel4);
+            this.panel5.Controls.Add(this.Musterilerlabel3);
+            this.panel5.Controls.Add(this.Musterilerlabel2);
+            this.panel5.Controls.Add(this.Musterilerlabel1);
+            this.panel5.Controls.Add(this.comboBox1);
+            this.panel5.Controls.Add(this.comboBox2);
+            this.panel5.Controls.Add(this.textBox2);
+            this.panel5.Controls.Add(this.panel9);
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel5.Location = new System.Drawing.Point(3, 3);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(1126, 100);
+            this.panel5.TabIndex = 0;
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Location = new System.Drawing.Point(490, 32);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(166, 29);
+            this.comboBox3.TabIndex = 21;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Font = new System.Drawing.Font("Sitka Text", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.checkBox1.Location = new System.Drawing.Point(226, 65);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(156, 24);
+            this.checkBox1.TabIndex = 20;
+            this.checkBox1.Text = "Detaylı Arama Yap";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Tomato;
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(967, 32);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(115, 30);
+            this.button1.TabIndex = 19;
+            this.button1.Text = "Listele";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // Musterilerlabel4
+            // 
+            this.Musterilerlabel4.AutoSize = true;
+            this.Musterilerlabel4.Location = new System.Drawing.Point(831, 9);
+            this.Musterilerlabel4.Name = "Musterilerlabel4";
+            this.Musterilerlabel4.Size = new System.Drawing.Size(126, 21);
+            this.Musterilerlabel4.TabIndex = 18;
+            this.Musterilerlabel4.Text = "Bakiye Durumu";
+            // 
+            // Musterilerlabel3
+            // 
+            this.Musterilerlabel3.AutoSize = true;
+            this.Musterilerlabel3.Location = new System.Drawing.Point(666, 9);
+            this.Musterilerlabel3.Name = "Musterilerlabel3";
+            this.Musterilerlabel3.Size = new System.Drawing.Size(52, 21);
+            this.Musterilerlabel3.TabIndex = 17;
+            this.Musterilerlabel3.Text = "Adres";
+            // 
+            // Musterilerlabel2
+            // 
+            this.Musterilerlabel2.AutoSize = true;
+            this.Musterilerlabel2.Location = new System.Drawing.Point(492, 9);
+            this.Musterilerlabel2.Name = "Musterilerlabel2";
+            this.Musterilerlabel2.Size = new System.Drawing.Size(75, 21);
+            this.Musterilerlabel2.TabIndex = 16;
+            this.Musterilerlabel2.Text = "Katagori";
+            // 
+            // Musterilerlabel1
+            // 
+            this.Musterilerlabel1.AutoSize = true;
+            this.Musterilerlabel1.Location = new System.Drawing.Point(226, 10);
+            this.Musterilerlabel1.Name = "Musterilerlabel1";
+            this.Musterilerlabel1.Size = new System.Drawing.Size(96, 21);
+            this.Musterilerlabel1.TabIndex = 15;
+            this.Musterilerlabel1.Text = "Müşteri Adı";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(829, 33);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(126, 29);
+            this.comboBox1.TabIndex = 14;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(664, 32);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(159, 29);
+            this.comboBox2.TabIndex = 13;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(226, 33);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(256, 26);
+            this.textBox2.TabIndex = 11;
+            // 
+            // panel9
+            // 
+            this.panel9.Controls.Add(this.MusterilerpictureBox1);
+            this.panel9.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel9.Location = new System.Drawing.Point(0, 0);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(171, 100);
+            this.panel9.TabIndex = 0;
+            // 
+            // MusterilerpictureBox1
+            // 
+            this.MusterilerpictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("MusterilerpictureBox1.Image")));
+            this.MusterilerpictureBox1.Location = new System.Drawing.Point(29, -1);
+            this.MusterilerpictureBox1.Name = "MusterilerpictureBox1";
+            this.MusterilerpictureBox1.Size = new System.Drawing.Size(100, 100);
+            this.MusterilerpictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.MusterilerpictureBox1.TabIndex = 0;
+            this.MusterilerpictureBox1.TabStop = false;
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.Location = new System.Drawing.Point(4, 30);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4.Size = new System.Drawing.Size(1132, 583);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "İstoç Toptan";
+            this.tabPage4.UseVisualStyleBackColor = true;
+            this.tabPage4.Click += new System.EventHandler(this.tabPage4_Click);
             // 
             // Form1
             // 
@@ -1545,26 +1967,58 @@
             this.tabPage2.ResumeLayout(false);
             this.UrunlersplitContainer1.Panel1.ResumeLayout(false);
             this.UrunlersplitContainer1.Panel1.PerformLayout();
+            this.UrunlersplitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.UrunlersplitContainer1)).EndInit();
             this.UrunlersplitContainer1.ResumeLayout(false);
+            this.menuStrip5.ResumeLayout(false);
+            this.menuStrip5.PerformLayout();
+            this.menuStrip4.ResumeLayout(false);
+            this.menuStrip4.PerformLayout();
+            this.menuStrip3.ResumeLayout(false);
+            this.menuStrip3.PerformLayout();
+            this.menuStrip2.ResumeLayout(false);
+            this.menuStrip2.PerformLayout();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
+            this.UrunlerUrunkatimenuStrip.ResumeLayout(false);
+            this.UrunlerUrunkatimenuStrip.PerformLayout();
+            this.UrunlerUruneklemenuStrip.ResumeLayout(false);
+            this.UrunlerUruneklemenuStrip.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).EndInit();
             this.UrunlerUstpanel.ResumeLayout(false);
             this.UrunlerUstpanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.UrunlerpictureBox1)).EndInit();
             this.tabPage3.ResumeLayout(false);
-            this.UrunlerUruneklemenuStrip.ResumeLayout(false);
-            this.UrunlerUruneklemenuStrip.PerformLayout();
-            this.UrunlerUrunkatimenuStrip.ResumeLayout(false);
-            this.UrunlerUrunkatimenuStrip.PerformLayout();
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
-            this.menuStrip2.ResumeLayout(false);
-            this.menuStrip2.PerformLayout();
-            this.menuStrip3.ResumeLayout(false);
-            this.menuStrip3.PerformLayout();
-            this.menuStrip4.ResumeLayout(false);
-            this.menuStrip4.PerformLayout();
-            this.menuStrip5.ResumeLayout(false);
-            this.menuStrip5.PerformLayout();
+            this.MusterilersplitContainer.Panel1.ResumeLayout(false);
+            this.MusterilersplitContainer.Panel1.PerformLayout();
+            this.MusterilersplitContainer.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.MusterilersplitContainer)).EndInit();
+            this.MusterilersplitContainer.ResumeLayout(false);
+            this.menuStrip15.ResumeLayout(false);
+            this.menuStrip15.PerformLayout();
+            this.menuStrip14.ResumeLayout(false);
+            this.menuStrip14.PerformLayout();
+            this.menuStrip13.ResumeLayout(false);
+            this.menuStrip13.PerformLayout();
+            this.menuStrip6.ResumeLayout(false);
+            this.menuStrip6.PerformLayout();
+            this.menuStrip7.ResumeLayout(false);
+            this.menuStrip7.PerformLayout();
+            this.menuStrip8.ResumeLayout(false);
+            this.menuStrip8.PerformLayout();
+            this.menuStrip9.ResumeLayout(false);
+            this.menuStrip9.PerformLayout();
+            this.menuStrip10.ResumeLayout(false);
+            this.menuStrip10.PerformLayout();
+            this.menuStrip11.ResumeLayout(false);
+            this.menuStrip11.PerformLayout();
+            this.menuStrip12.ResumeLayout(false);
+            this.menuStrip12.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView7)).EndInit();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            this.panel9.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.MusterilerpictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1628,9 +2082,6 @@
         private Button SatisKisayolbuton13;
         private Button SatisKisayolbuton14;
         private Button SatisKisayolbuton15;
-        private Button button21;
-        private Button button22;
-        private Button button23;
         private Button button2466666;
         private Button button25;
         private Button SatisYazdirbuton;
@@ -1658,10 +2109,6 @@
         private DataGridViewTextBoxColumn birim;
         private DataGridViewTextBoxColumn Fiyatt;
         private DataGridViewTextBoxColumn Tutar;
-        private Button button6;
-        private Button button31;
-        private Button button32;
-        private Button button33;
         private Button button35;
         private Panel UrunlerUstpanel;
         private Label UrunlerUrunadilabel;
@@ -1677,8 +2124,6 @@
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private SplitContainer UrunlersplitContainer1;
         private MenuStrip menuStrip1;
-        private ToolStripMenuItem UrunlerGiriscikistoolStripMenuItem;
-        private ToolStripMenuItem sToolStripMenuItem;
         private MenuStrip UrunlerUrunkatimenuStrip;
         private ToolStripMenuItem UrunlerUrunkartitoolStripMenuItem;
         private MenuStrip UrunlerUruneklemenuStrip;
@@ -1695,13 +2140,60 @@
         private ToolStripMenuItem UrunlerStokkartitoolStripMenuItem;
         private MenuStrip menuStrip2;
         private ToolStripMenuItem UrunlerSayimtoolStripMenuItem;
+        private ToolStripMenuItem exeldenOkutToolStripMenuItem;
+        private ToolStripMenuItem dosyaSeçToolStripMenuItem;
+        private DataGridView dataGridView6;
+        private CheckBox UrunlerDetayliaramacheckBox;
+        private SplitContainer MusterilersplitContainer;
+        private MenuStrip menuStrip15;
+        private ToolStripMenuItem MusterilerKaralistetoolStripMenuItem;
+        private MenuStrip menuStrip14;
+        private ToolStripMenuItem MusterilerIskontotoolStripMenuItem;
+        private MenuStrip menuStrip13;
+        private ToolStripMenuItem MusterilerMusterihareketleritoolStripMenuItem;
+        private MenuStrip menuStrip6;
+        private ToolStripMenuItem toolStripMenuItem1;
+        private MenuStrip menuStrip7;
+        private ToolStripMenuItem MusterilerFaturatoolStripMenuItem;
+        private ToolStripMenuItem toolStripMenuItem5;
+        private ToolStripMenuItem toolStripMenuItem6;
+        private ToolStripMenuItem toolStripMenuItem7;
+        private MenuStrip menuStrip8;
+        private ToolStripMenuItem MusterilerExtretoolStripMenuItem;
+        private MenuStrip menuStrip9;
+        private ToolStripMenuItem MusterilerTahsilahtoolStripMenuItem;
+        private MenuStrip menuStrip10;
+        private ToolStripMenuItem MusterilerSiparistoolStripMenuItem;
+        private ToolStripMenuItem toolStripMenuItem12;
+        private ToolStripMenuItem toolStripMenuItem13;
+        private ToolStripMenuItem toolStripMenuItem14;
+        private ToolStripMenuItem toolStripMenuItem15;
+        private ToolStripMenuItem toolStripMenuItem16;
+        private MenuStrip menuStrip11;
+        private ToolStripMenuItem MusterilerMusterikartitoolStripMenuItem;
+        private MenuStrip menuStrip12;
+        private ToolStripMenuItem MusterilerMusteriekletoolStripMenuItem;
+        private DataGridView dataGridView7;
+        private Panel panel5;
+        private ComboBox comboBox3;
+        private CheckBox checkBox1;
+        private Button button1;
+        private Label Musterilerlabel4;
+        private Label Musterilerlabel3;
+        private Label Musterilerlabel2;
+        private Label Musterilerlabel1;
+        private ComboBox comboBox1;
+        private ComboBox comboBox2;
+        private TextBox textBox2;
+        private Panel panel9;
+        private PictureBox MusterilerpictureBox1;
+        private ToolStripMenuItem UrunlerGiriscikistoolStripMenuItem;
+        private ToolStripMenuItem sToolStripMenuItem;
         private ToolStripMenuItem stokÇıkışFişiOluşturToolStripMenuItem;
         private ToolStripMenuItem hızlıGirişToolStripMenuItem;
         private ToolStripMenuItem hızlıÇıkışToolStripMenuItem;
         private ToolStripMenuItem sevkFişiToolStripMenuItem;
         private ToolStripMenuItem gelenÜrünListesiToolStripMenuItem;
         private ToolStripMenuItem gönderlenÜrünListesiToolStripMenuItem;
-        private ToolStripMenuItem exeldenOkutToolStripMenuItem;
-        private ToolStripMenuItem dosyaSeçToolStripMenuItem;
     }
 }
