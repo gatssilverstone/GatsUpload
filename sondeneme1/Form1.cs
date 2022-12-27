@@ -125,5 +125,10 @@ namespace sondeneme1
         {
 
         }
+
+        private void UrunlerUrunaditextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
