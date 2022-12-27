@@ -31,7 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.AnaekranmenuStrip = new System.Windows.Forms.MenuStrip();
             this.ayarlarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.raporlarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.işlemlerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -39,10 +39,10 @@
             this.hakkımızdaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.illetişimToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.AnaekrantabControl = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.tabControl2 = new System.Windows.Forms.TabControl();
+            this.SatistabControl = new System.Windows.Forms.TabControl();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Barkod = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -60,55 +60,55 @@
             this.tabPage9 = new System.Windows.Forms.TabPage();
             this.dataGridView5 = new System.Windows.Forms.DataGridView();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.button28 = new System.Windows.Forms.Button();
-            this.button27 = new System.Windows.Forms.Button();
-            this.button26 = new System.Windows.Forms.Button();
+            this.SatisYazdirbuton = new System.Windows.Forms.Button();
+            this.SatisFiyat2buton = new System.Windows.Forms.Button();
+            this.SatisFiyat1Buton = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.button20 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button = new System.Windows.Forms.Button();
+            this.SatisKisayolbuton15 = new System.Windows.Forms.Button();
+            this.SatisKisayolbuton14 = new System.Windows.Forms.Button();
+            this.SatisKisayolbuton13 = new System.Windows.Forms.Button();
+            this.SatisKisayolbuton12 = new System.Windows.Forms.Button();
+            this.SatisKisayolbuton11 = new System.Windows.Forms.Button();
+            this.SatisKisayolbuton10 = new System.Windows.Forms.Button();
+            this.SatisKisayolbuton9 = new System.Windows.Forms.Button();
+            this.SatisKisayolbuton8 = new System.Windows.Forms.Button();
+            this.SatisKisayolbuton7 = new System.Windows.Forms.Button();
+            this.SatisKisayolbuton6 = new System.Windows.Forms.Button();
+            this.SatisKisayolbuton5 = new System.Windows.Forms.Button();
+            this.SatisKisayolbuton4 = new System.Windows.Forms.Button();
+            this.SatisKisayolbuton3 = new System.Windows.Forms.Button();
+            this.SatisKisayolbuton2 = new System.Windows.Forms.Button();
+            this.SatisKisayolbuton1 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.button30 = new System.Windows.Forms.Button();
-            this.button29 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.SatisIndirimbuton = new System.Windows.Forms.Button();
+            this.SatisSatirsilbuton = new System.Windows.Forms.Button();
+            this.SatisEvraksilbuton = new System.Windows.Forms.Button();
+            this.SatisAskiyaalbuton = new System.Windows.Forms.Button();
+            this.SatisMusterisatisbuton = new System.Windows.Forms.Button();
+            this.SatisNakitsatisbuton = new System.Windows.Forms.Button();
             this.ımageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.button2 = new System.Windows.Forms.Button();
+            this.SatisKredisatisbuton = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.SatisToplamtutarcomboBox = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.SatisToplamtutartextBox = new System.Windows.Forms.TextBox();
+            this.SatisMiktarcomboBox = new System.Windows.Forms.ComboBox();
+            this.SatisTutarcomboBox = new System.Windows.Forms.ComboBox();
+            this.SatisTutartextBox = new System.Windows.Forms.TextBox();
+            this.SatisFiyattextBox = new System.Windows.Forms.TextBox();
+            this.SatisMiktartextBox = new System.Windows.Forms.TextBox();
+            this.SatisUrunaditextBox = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.AnaekranLogopanel = new System.Windows.Forms.Panel();
+            this.AnaekranpictureBox = new System.Windows.Forms.PictureBox();
+            this.SatisBarkodtextBox = new System.Windows.Forms.TextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.button23 = new System.Windows.Forms.Button();
@@ -119,12 +119,24 @@
             this.button31 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.menuStrip1.SuspendLayout();
+            this.UrunlerUstpanel = new System.Windows.Forms.Panel();
+            this.UrunlerpictureBox1 = new System.Windows.Forms.PictureBox();
+            this.UrunlerUrunaditextBox = new System.Windows.Forms.TextBox();
+            this.UrunlerBarkodtextBox = new System.Windows.Forms.TextBox();
+            this.UrunlerStokGrubucomboBox = new System.Windows.Forms.ComboBox();
+            this.UrunlerKatagoricomboBox = new System.Windows.Forms.ComboBox();
+            this.UrunlerUrunadilabel = new System.Windows.Forms.Label();
+            this.UrunlerBarkodlabel = new System.Windows.Forms.Label();
+            this.UrunlerStokgurubulabel = new System.Windows.Forms.Label();
+            this.UrunlerKategorilabel = new System.Windows.Forms.Label();
+            this.UrunlerListeleButon = new System.Windows.Forms.Button();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.AnaekranmenuStrip.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.tabControl1.SuspendLayout();
+            this.AnaekrantabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel8.SuspendLayout();
-            this.tabControl2.SuspendLayout();
+            this.SatistabControl.SuspendLayout();
             this.tabPage5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tabPage6.SuspendLayout();
@@ -142,25 +154,28 @@
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel6.SuspendLayout();
-            this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.AnaekranLogopanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.AnaekranpictureBox)).BeginInit();
+            this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
+            this.UrunlerUstpanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.UrunlerpictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // menuStrip1
+            // AnaekranmenuStrip
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.AnaekranmenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ayarlarToolStripMenuItem,
             this.raporlarToolStripMenuItem,
             this.işlemlerToolStripMenuItem,
             this.whatsAppPanelToolStripMenuItem,
             this.hakkımızdaToolStripMenuItem,
             this.illetişimToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1140, 24);
-            this.menuStrip1.TabIndex = 0;
-            this.menuStrip1.Text = "menuStrip1";
+            this.AnaekranmenuStrip.Location = new System.Drawing.Point(0, 0);
+            this.AnaekranmenuStrip.Name = "AnaekranmenuStrip";
+            this.AnaekranmenuStrip.Size = new System.Drawing.Size(1140, 24);
+            this.AnaekranmenuStrip.TabIndex = 0;
+            this.AnaekranmenuStrip.Text = "menuStrip1";
             // 
             // ayarlarToolStripMenuItem
             // 
@@ -200,34 +215,34 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.tabControl1);
+            this.panel1.Controls.Add(this.AnaekrantabControl);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 24);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1140, 617);
             this.panel1.TabIndex = 1;
             // 
-            // tabControl1
+            // AnaekrantabControl
             // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Controls.Add(this.tabPage4);
-            this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControl1.Font = new System.Drawing.Font("Sitka Text", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.tabControl1.HotTrack = true;
-            this.tabControl1.Location = new System.Drawing.Point(0, 0);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1140, 617);
-            this.tabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
-            this.tabControl1.TabIndex = 0;
-            this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.label1_Click);
-            this.tabControl1.DockChanged += new System.EventHandler(this.Form1_Load);
-            this.tabControl1.SizeChanged += new System.EventHandler(this.Form1_Load);
-            this.tabControl1.Click += new System.EventHandler(this.Form1_Load);
-            this.tabControl1.MouseCaptureChanged += new System.EventHandler(this.Form1_Load);
-            this.tabControl1.StyleChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
+            this.AnaekrantabControl.Controls.Add(this.tabPage1);
+            this.AnaekrantabControl.Controls.Add(this.tabPage2);
+            this.AnaekrantabControl.Controls.Add(this.tabPage3);
+            this.AnaekrantabControl.Controls.Add(this.tabPage4);
+            this.AnaekrantabControl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.AnaekrantabControl.Font = new System.Drawing.Font("Sitka Text", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.AnaekrantabControl.HotTrack = true;
+            this.AnaekrantabControl.Location = new System.Drawing.Point(0, 0);
+            this.AnaekrantabControl.Name = "AnaekrantabControl";
+            this.AnaekrantabControl.SelectedIndex = 0;
+            this.AnaekrantabControl.Size = new System.Drawing.Size(1140, 617);
+            this.AnaekrantabControl.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
+            this.AnaekrantabControl.TabIndex = 0;
+            this.AnaekrantabControl.SelectedIndexChanged += new System.EventHandler(this.label1_Click);
+            this.AnaekrantabControl.DockChanged += new System.EventHandler(this.Form1_Load);
+            this.AnaekrantabControl.SizeChanged += new System.EventHandler(this.Form1_Load);
+            this.AnaekrantabControl.Click += new System.EventHandler(this.Form1_Load);
+            this.AnaekrantabControl.MouseCaptureChanged += new System.EventHandler(this.Form1_Load);
+            this.AnaekrantabControl.StyleChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
             // tabPage1
             // 
@@ -248,27 +263,27 @@
             // panel8
             // 
             this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel8.Controls.Add(this.tabControl2);
+            this.panel8.Controls.Add(this.SatistabControl);
             this.panel8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel8.Location = new System.Drawing.Point(184, 174);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(533, 351);
             this.panel8.TabIndex = 4;
             // 
-            // tabControl2
+            // SatistabControl
             // 
-            this.tabControl2.Controls.Add(this.tabPage5);
-            this.tabControl2.Controls.Add(this.tabPage6);
-            this.tabControl2.Controls.Add(this.tabPage7);
-            this.tabControl2.Controls.Add(this.tabPage8);
-            this.tabControl2.Controls.Add(this.tabPage9);
-            this.tabControl2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControl2.Location = new System.Drawing.Point(0, 0);
-            this.tabControl2.Name = "tabControl2";
-            this.tabControl2.SelectedIndex = 0;
-            this.tabControl2.Size = new System.Drawing.Size(529, 347);
-            this.tabControl2.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
-            this.tabControl2.TabIndex = 0;
+            this.SatistabControl.Controls.Add(this.tabPage5);
+            this.SatistabControl.Controls.Add(this.tabPage6);
+            this.SatistabControl.Controls.Add(this.tabPage7);
+            this.SatistabControl.Controls.Add(this.tabPage8);
+            this.SatistabControl.Controls.Add(this.tabPage9);
+            this.SatistabControl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SatistabControl.Location = new System.Drawing.Point(0, 0);
+            this.SatistabControl.Name = "SatistabControl";
+            this.SatistabControl.SelectedIndex = 0;
+            this.SatistabControl.Size = new System.Drawing.Size(529, 347);
+            this.SatistabControl.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
+            this.SatistabControl.TabIndex = 0;
             // 
             // tabPage5
             // 
@@ -302,6 +317,7 @@
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(3, 3);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.RowTemplate.Height = 25;
             this.dataGridView1.Size = new System.Drawing.Size(515, 307);
             this.dataGridView1.TabIndex = 6;
@@ -340,10 +356,10 @@
             // tabPage6
             // 
             this.tabPage6.Controls.Add(this.dataGridView2);
-            this.tabPage6.Location = new System.Drawing.Point(4, 24);
+            this.tabPage6.Location = new System.Drawing.Point(4, 30);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(521, 319);
+            this.tabPage6.Size = new System.Drawing.Size(521, 313);
             this.tabPage6.TabIndex = 1;
             this.tabPage6.Text = "Kasa 2";
             this.tabPage6.UseVisualStyleBackColor = true;
@@ -355,7 +371,7 @@
             this.dataGridView2.Location = new System.Drawing.Point(3, 3);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowTemplate.Height = 25;
-            this.dataGridView2.Size = new System.Drawing.Size(515, 313);
+            this.dataGridView2.Size = new System.Drawing.Size(515, 307);
             this.dataGridView2.TabIndex = 6;
             // 
             // tabPage7
@@ -424,44 +440,44 @@
             // panel7
             // 
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel7.Controls.Add(this.button28);
-            this.panel7.Controls.Add(this.button27);
-            this.panel7.Controls.Add(this.button26);
+            this.panel7.Controls.Add(this.SatisYazdirbuton);
+            this.panel7.Controls.Add(this.SatisFiyat2buton);
+            this.panel7.Controls.Add(this.SatisFiyat1Buton);
             this.panel7.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel7.Location = new System.Drawing.Point(184, 525);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(533, 55);
             this.panel7.TabIndex = 3;
             // 
-            // button28
+            // SatisYazdirbuton
             // 
-            this.button28.Location = new System.Drawing.Point(466, 0);
-            this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(65, 53);
-            this.button28.TabIndex = 2;
-            this.button28.Text = "Yazdır";
-            this.button28.UseVisualStyleBackColor = true;
+            this.SatisYazdirbuton.Location = new System.Drawing.Point(466, 0);
+            this.SatisYazdirbuton.Name = "SatisYazdirbuton";
+            this.SatisYazdirbuton.Size = new System.Drawing.Size(65, 53);
+            this.SatisYazdirbuton.TabIndex = 2;
+            this.SatisYazdirbuton.Text = "Yazdır";
+            this.SatisYazdirbuton.UseVisualStyleBackColor = true;
             // 
-            // button27
+            // SatisFiyat2buton
             // 
-            this.button27.Location = new System.Drawing.Point(99, 0);
-            this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(105, 51);
-            this.button27.TabIndex = 1;
-            this.button27.Text = "Taksitli Fiyat";
-            this.button27.UseVisualStyleBackColor = true;
+            this.SatisFiyat2buton.Location = new System.Drawing.Point(99, 0);
+            this.SatisFiyat2buton.Name = "SatisFiyat2buton";
+            this.SatisFiyat2buton.Size = new System.Drawing.Size(105, 51);
+            this.SatisFiyat2buton.TabIndex = 1;
+            this.SatisFiyat2buton.Text = "Taksitli Fiyat";
+            this.SatisFiyat2buton.UseVisualStyleBackColor = true;
             // 
-            // button26
+            // SatisFiyat1Buton
             // 
-            this.button26.Dock = System.Windows.Forms.DockStyle.Left;
-            this.button26.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button26.Location = new System.Drawing.Point(0, 0);
-            this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(101, 51);
-            this.button26.TabIndex = 0;
-            this.button26.Text = "Nakit Fiyat";
-            this.button26.UseVisualStyleBackColor = true;
-            this.button26.Click += new System.EventHandler(this.button26_Click);
+            this.SatisFiyat1Buton.Dock = System.Windows.Forms.DockStyle.Left;
+            this.SatisFiyat1Buton.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.SatisFiyat1Buton.Location = new System.Drawing.Point(0, 0);
+            this.SatisFiyat1Buton.Name = "SatisFiyat1Buton";
+            this.SatisFiyat1Buton.Size = new System.Drawing.Size(101, 51);
+            this.SatisFiyat1Buton.TabIndex = 0;
+            this.SatisFiyat1Buton.Text = "Nakit Fiyat";
+            this.SatisFiyat1Buton.UseVisualStyleBackColor = true;
+            this.SatisFiyat1Buton.Click += new System.EventHandler(this.button26_Click);
             // 
             // panel4
             // 
@@ -490,21 +506,21 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel1.Controls.Add(this.button20, 4, 2);
-            this.tableLayoutPanel1.Controls.Add(this.button19, 3, 2);
-            this.tableLayoutPanel1.Controls.Add(this.button18, 2, 2);
-            this.tableLayoutPanel1.Controls.Add(this.button17, 1, 2);
-            this.tableLayoutPanel1.Controls.Add(this.button16, 0, 2);
-            this.tableLayoutPanel1.Controls.Add(this.button15, 4, 1);
-            this.tableLayoutPanel1.Controls.Add(this.button14, 3, 1);
-            this.tableLayoutPanel1.Controls.Add(this.button13, 2, 1);
-            this.tableLayoutPanel1.Controls.Add(this.button12, 1, 1);
-            this.tableLayoutPanel1.Controls.Add(this.button11, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.button10, 4, 0);
-            this.tableLayoutPanel1.Controls.Add(this.button9, 3, 0);
-            this.tableLayoutPanel1.Controls.Add(this.button8, 2, 0);
-            this.tableLayoutPanel1.Controls.Add(this.button7, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.button, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.SatisKisayolbuton15, 4, 2);
+            this.tableLayoutPanel1.Controls.Add(this.SatisKisayolbuton14, 3, 2);
+            this.tableLayoutPanel1.Controls.Add(this.SatisKisayolbuton13, 2, 2);
+            this.tableLayoutPanel1.Controls.Add(this.SatisKisayolbuton12, 1, 2);
+            this.tableLayoutPanel1.Controls.Add(this.SatisKisayolbuton11, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.SatisKisayolbuton10, 4, 1);
+            this.tableLayoutPanel1.Controls.Add(this.SatisKisayolbuton9, 3, 1);
+            this.tableLayoutPanel1.Controls.Add(this.SatisKisayolbuton8, 2, 1);
+            this.tableLayoutPanel1.Controls.Add(this.SatisKisayolbuton7, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.SatisKisayolbuton6, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.SatisKisayolbuton5, 4, 0);
+            this.tableLayoutPanel1.Controls.Add(this.SatisKisayolbuton4, 3, 0);
+            this.tableLayoutPanel1.Controls.Add(this.SatisKisayolbuton3, 2, 0);
+            this.tableLayoutPanel1.Controls.Add(this.SatisKisayolbuton2, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.SatisKisayolbuton1, 0, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -518,267 +534,267 @@
             this.tableLayoutPanel1.TabIndex = 0;
             this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
-            // button20
+            // SatisKisayolbuton15
             // 
-            this.button20.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button20.Location = new System.Drawing.Point(327, 194);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(77, 90);
-            this.button20.TabIndex = 14;
-            this.button20.Text = "Kısa Yol";
-            this.button20.UseVisualStyleBackColor = true;
+            this.SatisKisayolbuton15.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SatisKisayolbuton15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SatisKisayolbuton15.Location = new System.Drawing.Point(327, 194);
+            this.SatisKisayolbuton15.Name = "SatisKisayolbuton15";
+            this.SatisKisayolbuton15.Size = new System.Drawing.Size(77, 90);
+            this.SatisKisayolbuton15.TabIndex = 14;
+            this.SatisKisayolbuton15.Text = "Kısa Yol";
+            this.SatisKisayolbuton15.UseVisualStyleBackColor = true;
             // 
-            // button19
+            // SatisKisayolbuton14
             // 
-            this.button19.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button19.Location = new System.Drawing.Point(246, 194);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(75, 90);
-            this.button19.TabIndex = 13;
-            this.button19.Text = "Kısa Yol";
-            this.button19.UseVisualStyleBackColor = true;
+            this.SatisKisayolbuton14.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SatisKisayolbuton14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SatisKisayolbuton14.Location = new System.Drawing.Point(246, 194);
+            this.SatisKisayolbuton14.Name = "SatisKisayolbuton14";
+            this.SatisKisayolbuton14.Size = new System.Drawing.Size(75, 90);
+            this.SatisKisayolbuton14.TabIndex = 13;
+            this.SatisKisayolbuton14.Text = "Kısa Yol";
+            this.SatisKisayolbuton14.UseVisualStyleBackColor = true;
             // 
-            // button18
+            // SatisKisayolbuton13
             // 
-            this.button18.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18.Location = new System.Drawing.Point(165, 194);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(75, 90);
-            this.button18.TabIndex = 12;
-            this.button18.Text = "Kısa Yol";
-            this.button18.UseVisualStyleBackColor = true;
+            this.SatisKisayolbuton13.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SatisKisayolbuton13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SatisKisayolbuton13.Location = new System.Drawing.Point(165, 194);
+            this.SatisKisayolbuton13.Name = "SatisKisayolbuton13";
+            this.SatisKisayolbuton13.Size = new System.Drawing.Size(75, 90);
+            this.SatisKisayolbuton13.TabIndex = 12;
+            this.SatisKisayolbuton13.Text = "Kısa Yol";
+            this.SatisKisayolbuton13.UseVisualStyleBackColor = true;
             // 
-            // button17
+            // SatisKisayolbuton12
             // 
-            this.button17.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button17.Location = new System.Drawing.Point(84, 194);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(75, 90);
-            this.button17.TabIndex = 11;
-            this.button17.Text = "Kısa Yol";
-            this.button17.UseVisualStyleBackColor = true;
+            this.SatisKisayolbuton12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SatisKisayolbuton12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SatisKisayolbuton12.Location = new System.Drawing.Point(84, 194);
+            this.SatisKisayolbuton12.Name = "SatisKisayolbuton12";
+            this.SatisKisayolbuton12.Size = new System.Drawing.Size(75, 90);
+            this.SatisKisayolbuton12.TabIndex = 11;
+            this.SatisKisayolbuton12.Text = "Kısa Yol";
+            this.SatisKisayolbuton12.UseVisualStyleBackColor = true;
             // 
-            // button16
+            // SatisKisayolbuton11
             // 
-            this.button16.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button16.Location = new System.Drawing.Point(3, 194);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(75, 90);
-            this.button16.TabIndex = 10;
-            this.button16.Text = "Kısa Yol";
-            this.button16.UseVisualStyleBackColor = true;
+            this.SatisKisayolbuton11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SatisKisayolbuton11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SatisKisayolbuton11.Location = new System.Drawing.Point(3, 194);
+            this.SatisKisayolbuton11.Name = "SatisKisayolbuton11";
+            this.SatisKisayolbuton11.Size = new System.Drawing.Size(75, 90);
+            this.SatisKisayolbuton11.TabIndex = 10;
+            this.SatisKisayolbuton11.Text = "Kısa Yol";
+            this.SatisKisayolbuton11.UseVisualStyleBackColor = true;
             // 
-            // button15
+            // SatisKisayolbuton10
             // 
-            this.button15.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.Location = new System.Drawing.Point(327, 100);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(77, 88);
-            this.button15.TabIndex = 9;
-            this.button15.Text = "Kısa Yol";
-            this.button15.UseVisualStyleBackColor = true;
+            this.SatisKisayolbuton10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SatisKisayolbuton10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SatisKisayolbuton10.Location = new System.Drawing.Point(327, 100);
+            this.SatisKisayolbuton10.Name = "SatisKisayolbuton10";
+            this.SatisKisayolbuton10.Size = new System.Drawing.Size(77, 88);
+            this.SatisKisayolbuton10.TabIndex = 9;
+            this.SatisKisayolbuton10.Text = "Kısa Yol";
+            this.SatisKisayolbuton10.UseVisualStyleBackColor = true;
             // 
-            // button14
+            // SatisKisayolbuton9
             // 
-            this.button14.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button14.Location = new System.Drawing.Point(246, 100);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(75, 88);
-            this.button14.TabIndex = 8;
-            this.button14.Text = "Kısa yol";
-            this.button14.UseVisualStyleBackColor = true;
+            this.SatisKisayolbuton9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SatisKisayolbuton9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SatisKisayolbuton9.Location = new System.Drawing.Point(246, 100);
+            this.SatisKisayolbuton9.Name = "SatisKisayolbuton9";
+            this.SatisKisayolbuton9.Size = new System.Drawing.Size(75, 88);
+            this.SatisKisayolbuton9.TabIndex = 8;
+            this.SatisKisayolbuton9.Text = "Kısa yol";
+            this.SatisKisayolbuton9.UseVisualStyleBackColor = true;
             // 
-            // button13
+            // SatisKisayolbuton8
             // 
-            this.button13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.Location = new System.Drawing.Point(165, 100);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(75, 88);
-            this.button13.TabIndex = 7;
-            this.button13.Text = "Kısa Yol";
-            this.button13.UseVisualStyleBackColor = true;
+            this.SatisKisayolbuton8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SatisKisayolbuton8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SatisKisayolbuton8.Location = new System.Drawing.Point(165, 100);
+            this.SatisKisayolbuton8.Name = "SatisKisayolbuton8";
+            this.SatisKisayolbuton8.Size = new System.Drawing.Size(75, 88);
+            this.SatisKisayolbuton8.TabIndex = 7;
+            this.SatisKisayolbuton8.Text = "Kısa Yol";
+            this.SatisKisayolbuton8.UseVisualStyleBackColor = true;
             // 
-            // button12
+            // SatisKisayolbuton7
             // 
-            this.button12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.Location = new System.Drawing.Point(84, 100);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(75, 88);
-            this.button12.TabIndex = 6;
-            this.button12.Text = "Kısa Yol";
-            this.button12.UseVisualStyleBackColor = true;
+            this.SatisKisayolbuton7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SatisKisayolbuton7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SatisKisayolbuton7.Location = new System.Drawing.Point(84, 100);
+            this.SatisKisayolbuton7.Name = "SatisKisayolbuton7";
+            this.SatisKisayolbuton7.Size = new System.Drawing.Size(75, 88);
+            this.SatisKisayolbuton7.TabIndex = 6;
+            this.SatisKisayolbuton7.Text = "Kısa Yol";
+            this.SatisKisayolbuton7.UseVisualStyleBackColor = true;
             // 
-            // button11
+            // SatisKisayolbuton6
             // 
-            this.button11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Location = new System.Drawing.Point(3, 100);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(75, 88);
-            this.button11.TabIndex = 5;
-            this.button11.Text = "Kısa Yol";
-            this.button11.UseVisualStyleBackColor = true;
+            this.SatisKisayolbuton6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SatisKisayolbuton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SatisKisayolbuton6.Location = new System.Drawing.Point(3, 100);
+            this.SatisKisayolbuton6.Name = "SatisKisayolbuton6";
+            this.SatisKisayolbuton6.Size = new System.Drawing.Size(75, 88);
+            this.SatisKisayolbuton6.TabIndex = 5;
+            this.SatisKisayolbuton6.Text = "Kısa Yol";
+            this.SatisKisayolbuton6.UseVisualStyleBackColor = true;
             // 
-            // button10
+            // SatisKisayolbuton5
             // 
-            this.button10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Location = new System.Drawing.Point(327, 3);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(77, 91);
-            this.button10.TabIndex = 4;
-            this.button10.Text = "Kısa Yol";
-            this.button10.UseVisualStyleBackColor = true;
+            this.SatisKisayolbuton5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SatisKisayolbuton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SatisKisayolbuton5.Location = new System.Drawing.Point(327, 3);
+            this.SatisKisayolbuton5.Name = "SatisKisayolbuton5";
+            this.SatisKisayolbuton5.Size = new System.Drawing.Size(77, 91);
+            this.SatisKisayolbuton5.TabIndex = 4;
+            this.SatisKisayolbuton5.Text = "Kısa Yol";
+            this.SatisKisayolbuton5.UseVisualStyleBackColor = true;
             // 
-            // button9
+            // SatisKisayolbuton4
             // 
-            this.button9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Location = new System.Drawing.Point(246, 3);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(75, 91);
-            this.button9.TabIndex = 3;
-            this.button9.Text = "Kısa Yol";
-            this.button9.UseVisualStyleBackColor = true;
+            this.SatisKisayolbuton4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SatisKisayolbuton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SatisKisayolbuton4.Location = new System.Drawing.Point(246, 3);
+            this.SatisKisayolbuton4.Name = "SatisKisayolbuton4";
+            this.SatisKisayolbuton4.Size = new System.Drawing.Size(75, 91);
+            this.SatisKisayolbuton4.TabIndex = 3;
+            this.SatisKisayolbuton4.Text = "Kısa Yol";
+            this.SatisKisayolbuton4.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // SatisKisayolbuton3
             // 
-            this.button8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Location = new System.Drawing.Point(165, 3);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 91);
-            this.button8.TabIndex = 2;
-            this.button8.Text = "Kısa Yol";
-            this.button8.UseVisualStyleBackColor = true;
+            this.SatisKisayolbuton3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SatisKisayolbuton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SatisKisayolbuton3.Location = new System.Drawing.Point(165, 3);
+            this.SatisKisayolbuton3.Name = "SatisKisayolbuton3";
+            this.SatisKisayolbuton3.Size = new System.Drawing.Size(75, 91);
+            this.SatisKisayolbuton3.TabIndex = 2;
+            this.SatisKisayolbuton3.Text = "Kısa Yol";
+            this.SatisKisayolbuton3.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // SatisKisayolbuton2
             // 
-            this.button7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Location = new System.Drawing.Point(84, 3);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 91);
-            this.button7.TabIndex = 1;
-            this.button7.Text = "Kısa Yol";
-            this.button7.UseVisualStyleBackColor = true;
+            this.SatisKisayolbuton2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SatisKisayolbuton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SatisKisayolbuton2.Location = new System.Drawing.Point(84, 3);
+            this.SatisKisayolbuton2.Name = "SatisKisayolbuton2";
+            this.SatisKisayolbuton2.Size = new System.Drawing.Size(75, 91);
+            this.SatisKisayolbuton2.TabIndex = 1;
+            this.SatisKisayolbuton2.Text = "Kısa Yol";
+            this.SatisKisayolbuton2.UseVisualStyleBackColor = true;
             // 
-            // button
+            // SatisKisayolbuton1
             // 
-            this.button.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button.Location = new System.Drawing.Point(3, 3);
-            this.button.Name = "button";
-            this.button.Size = new System.Drawing.Size(75, 91);
-            this.button.TabIndex = 0;
-            this.button.Text = "Kısa Yol";
-            this.button.UseVisualStyleBackColor = true;
+            this.SatisKisayolbuton1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SatisKisayolbuton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SatisKisayolbuton1.Location = new System.Drawing.Point(3, 3);
+            this.SatisKisayolbuton1.Name = "SatisKisayolbuton1";
+            this.SatisKisayolbuton1.Size = new System.Drawing.Size(75, 91);
+            this.SatisKisayolbuton1.TabIndex = 0;
+            this.SatisKisayolbuton1.Text = "Kısa Yol";
+            this.SatisKisayolbuton1.UseVisualStyleBackColor = true;
             // 
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel3.Controls.Add(this.button30);
-            this.panel3.Controls.Add(this.button29);
-            this.panel3.Controls.Add(this.button5);
-            this.panel3.Controls.Add(this.button4);
-            this.panel3.Controls.Add(this.button3);
-            this.panel3.Controls.Add(this.button1);
-            this.panel3.Controls.Add(this.button2);
+            this.panel3.Controls.Add(this.SatisIndirimbuton);
+            this.panel3.Controls.Add(this.SatisSatirsilbuton);
+            this.panel3.Controls.Add(this.SatisEvraksilbuton);
+            this.panel3.Controls.Add(this.SatisAskiyaalbuton);
+            this.panel3.Controls.Add(this.SatisMusterisatisbuton);
+            this.panel3.Controls.Add(this.SatisNakitsatisbuton);
+            this.panel3.Controls.Add(this.SatisKredisatisbuton);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel3.Location = new System.Drawing.Point(3, 174);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(181, 406);
             this.panel3.TabIndex = 1;
             // 
-            // button30
+            // SatisIndirimbuton
             // 
-            this.button30.BackColor = System.Drawing.Color.LightBlue;
-            this.button30.Font = new System.Drawing.Font("Sitka Text", 8.7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button30.Location = new System.Drawing.Point(107, 354);
-            this.button30.Name = "button30";
-            this.button30.Size = new System.Drawing.Size(75, 45);
-            this.button30.TabIndex = 7;
-            this.button30.Text = "İndirim";
-            this.button30.UseVisualStyleBackColor = false;
+            this.SatisIndirimbuton.BackColor = System.Drawing.Color.LightBlue;
+            this.SatisIndirimbuton.Font = new System.Drawing.Font("Sitka Text", 8.7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.SatisIndirimbuton.Location = new System.Drawing.Point(107, 354);
+            this.SatisIndirimbuton.Name = "SatisIndirimbuton";
+            this.SatisIndirimbuton.Size = new System.Drawing.Size(75, 45);
+            this.SatisIndirimbuton.TabIndex = 7;
+            this.SatisIndirimbuton.Text = "İndirim";
+            this.SatisIndirimbuton.UseVisualStyleBackColor = false;
             // 
-            // button29
+            // SatisSatirsilbuton
             // 
-            this.button29.BackColor = System.Drawing.Color.LightBlue;
-            this.button29.Font = new System.Drawing.Font("Sitka Text", 8.7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button29.Location = new System.Drawing.Point(107, 252);
-            this.button29.Name = "button29";
-            this.button29.Size = new System.Drawing.Size(75, 45);
-            this.button29.TabIndex = 6;
-            this.button29.Text = "Satır Sil";
-            this.button29.UseVisualStyleBackColor = false;
+            this.SatisSatirsilbuton.BackColor = System.Drawing.Color.LightBlue;
+            this.SatisSatirsilbuton.Font = new System.Drawing.Font("Sitka Text", 8.7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.SatisSatirsilbuton.Location = new System.Drawing.Point(107, 252);
+            this.SatisSatirsilbuton.Name = "SatisSatirsilbuton";
+            this.SatisSatirsilbuton.Size = new System.Drawing.Size(75, 45);
+            this.SatisSatirsilbuton.TabIndex = 6;
+            this.SatisSatirsilbuton.Text = "Satır Sil";
+            this.SatisSatirsilbuton.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // SatisEvraksilbuton
             // 
-            this.button5.BackColor = System.Drawing.Color.LightBlue;
-            this.button5.Font = new System.Drawing.Font("Sitka Text", 8.7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button5.Location = new System.Drawing.Point(107, 303);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 45);
-            this.button5.TabIndex = 5;
-            this.button5.Text = "Evrak Sil";
-            this.button5.UseVisualStyleBackColor = false;
+            this.SatisEvraksilbuton.BackColor = System.Drawing.Color.LightBlue;
+            this.SatisEvraksilbuton.Font = new System.Drawing.Font("Sitka Text", 8.7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.SatisEvraksilbuton.Location = new System.Drawing.Point(107, 303);
+            this.SatisEvraksilbuton.Name = "SatisEvraksilbuton";
+            this.SatisEvraksilbuton.Size = new System.Drawing.Size(75, 45);
+            this.SatisEvraksilbuton.TabIndex = 5;
+            this.SatisEvraksilbuton.Text = "Evrak Sil";
+            this.SatisEvraksilbuton.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // SatisAskiyaalbuton
             // 
-            this.button4.BackColor = System.Drawing.Color.LightBlue;
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Sitka Subheading", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button4.Location = new System.Drawing.Point(-2, 177);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(182, 54);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "             Askıya Al [F8]";
-            this.button4.UseVisualStyleBackColor = false;
+            this.SatisAskiyaalbuton.BackColor = System.Drawing.Color.LightBlue;
+            this.SatisAskiyaalbuton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.SatisAskiyaalbuton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.SatisAskiyaalbuton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SatisAskiyaalbuton.Font = new System.Drawing.Font("Sitka Subheading", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.SatisAskiyaalbuton.Location = new System.Drawing.Point(-2, 177);
+            this.SatisAskiyaalbuton.Name = "SatisAskiyaalbuton";
+            this.SatisAskiyaalbuton.Size = new System.Drawing.Size(182, 54);
+            this.SatisAskiyaalbuton.TabIndex = 4;
+            this.SatisAskiyaalbuton.Text = "             Askıya Al [F8]";
+            this.SatisAskiyaalbuton.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // SatisMusterisatisbuton
             // 
-            this.button3.BackColor = System.Drawing.Color.LightBlue;
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Sitka Subheading", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button3.Location = new System.Drawing.Point(0, 117);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(182, 54);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "     Müşteri Satış [F7]";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.SatisMusterisatisbuton.BackColor = System.Drawing.Color.LightBlue;
+            this.SatisMusterisatisbuton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.SatisMusterisatisbuton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.SatisMusterisatisbuton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SatisMusterisatisbuton.Font = new System.Drawing.Font("Sitka Subheading", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.SatisMusterisatisbuton.Location = new System.Drawing.Point(0, 117);
+            this.SatisMusterisatisbuton.Name = "SatisMusterisatisbuton";
+            this.SatisMusterisatisbuton.Size = new System.Drawing.Size(182, 54);
+            this.SatisMusterisatisbuton.TabIndex = 3;
+            this.SatisMusterisatisbuton.Text = "     Müşteri Satış [F7]";
+            this.SatisMusterisatisbuton.UseVisualStyleBackColor = false;
+            this.SatisMusterisatisbuton.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button1
+            // SatisNakitsatisbuton
             // 
-            this.button1.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.button1.BackColor = System.Drawing.Color.Gold;
-            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Goldenrod;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.ImageList = this.ımageList1;
-            this.button1.Location = new System.Drawing.Point(0, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(179, 54);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "         Nakit Satış [F5]";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.UseVisualStyleBackColor = true;
+            this.SatisNakitsatisbuton.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.SatisNakitsatisbuton.BackColor = System.Drawing.Color.Gold;
+            this.SatisNakitsatisbuton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("SatisNakitsatisbuton.BackgroundImage")));
+            this.SatisNakitsatisbuton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.SatisNakitsatisbuton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.SatisNakitsatisbuton.FlatAppearance.BorderColor = System.Drawing.Color.Goldenrod;
+            this.SatisNakitsatisbuton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SatisNakitsatisbuton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.SatisNakitsatisbuton.ImageList = this.ımageList1;
+            this.SatisNakitsatisbuton.Location = new System.Drawing.Point(0, 3);
+            this.SatisNakitsatisbuton.Name = "SatisNakitsatisbuton";
+            this.SatisNakitsatisbuton.Size = new System.Drawing.Size(179, 54);
+            this.SatisNakitsatisbuton.TabIndex = 2;
+            this.SatisNakitsatisbuton.Text = "         Nakit Satış [F5]";
+            this.SatisNakitsatisbuton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.SatisNakitsatisbuton.UseVisualStyleBackColor = true;
             // 
             // ımageList1
             // 
@@ -786,39 +802,39 @@
             this.ımageList1.ImageSize = new System.Drawing.Size(16, 16);
             this.ımageList1.TransparentColor = System.Drawing.Color.IndianRed;
             // 
-            // button2
+            // SatisKredisatisbuton
             // 
-            this.button2.BackColor = System.Drawing.Color.Tomato;
-            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.ImageList = this.ımageList1;
-            this.button2.Location = new System.Drawing.Point(0, 60);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(179, 54);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "         Kredi Kartı [F6]";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.SatisKredisatisbuton.BackColor = System.Drawing.Color.Tomato;
+            this.SatisKredisatisbuton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("SatisKredisatisbuton.BackgroundImage")));
+            this.SatisKredisatisbuton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.SatisKredisatisbuton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.SatisKredisatisbuton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SatisKredisatisbuton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.SatisKredisatisbuton.ImageList = this.ımageList1;
+            this.SatisKredisatisbuton.Location = new System.Drawing.Point(0, 60);
+            this.SatisKredisatisbuton.Name = "SatisKredisatisbuton";
+            this.SatisKredisatisbuton.Size = new System.Drawing.Size(179, 54);
+            this.SatisKredisatisbuton.TabIndex = 1;
+            this.SatisKredisatisbuton.Text = "         Kredi Kartı [F6]";
+            this.SatisKredisatisbuton.UseVisualStyleBackColor = false;
+            this.SatisKredisatisbuton.Click += new System.EventHandler(this.button2_Click);
             // 
             // panel2
             // 
             this.panel2.Controls.Add(this.panel6);
-            this.panel2.Controls.Add(this.comboBox2);
-            this.panel2.Controls.Add(this.comboBox1);
-            this.panel2.Controls.Add(this.textBox6);
-            this.panel2.Controls.Add(this.textBox5);
-            this.panel2.Controls.Add(this.textBox3);
-            this.panel2.Controls.Add(this.textBox2);
+            this.panel2.Controls.Add(this.SatisMiktarcomboBox);
+            this.panel2.Controls.Add(this.SatisTutarcomboBox);
+            this.panel2.Controls.Add(this.SatisTutartextBox);
+            this.panel2.Controls.Add(this.SatisFiyattextBox);
+            this.panel2.Controls.Add(this.SatisMiktartextBox);
+            this.panel2.Controls.Add(this.SatisUrunaditextBox);
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.panel5);
-            this.panel2.Controls.Add(this.textBox1);
+            this.panel2.Controls.Add(this.AnaekranLogopanel);
+            this.panel2.Controls.Add(this.SatisBarkodtextBox);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(3, 3);
             this.panel2.Name = "panel2";
@@ -827,22 +843,22 @@
             // 
             // panel6
             // 
-            this.panel6.Controls.Add(this.comboBox3);
+            this.panel6.Controls.Add(this.SatisToplamtutarcomboBox);
             this.panel6.Controls.Add(this.label6);
-            this.panel6.Controls.Add(this.textBox4);
+            this.panel6.Controls.Add(this.SatisToplamtutartextBox);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel6.Location = new System.Drawing.Point(680, 0);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(446, 171);
             this.panel6.TabIndex = 16;
             // 
-            // comboBox3
+            // SatisToplamtutarcomboBox
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(366, 6);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(65, 29);
-            this.comboBox3.TabIndex = 17;
+            this.SatisToplamtutarcomboBox.FormattingEnabled = true;
+            this.SatisToplamtutarcomboBox.Location = new System.Drawing.Point(366, 6);
+            this.SatisToplamtutarcomboBox.Name = "SatisToplamtutarcomboBox";
+            this.SatisToplamtutarcomboBox.Size = new System.Drawing.Size(65, 29);
+            this.SatisToplamtutarcomboBox.TabIndex = 17;
             // 
             // label6
             // 
@@ -854,58 +870,58 @@
             this.label6.TabIndex = 16;
             this.label6.Text = "Toplam Tutar";
             // 
-            // textBox4
+            // SatisToplamtutartextBox
             // 
-            this.textBox4.Font = new System.Drawing.Font("Sitka Text", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.textBox4.Location = new System.Drawing.Point(81, 41);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(350, 108);
-            this.textBox4.TabIndex = 15;
+            this.SatisToplamtutartextBox.Font = new System.Drawing.Font("Sitka Text", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.SatisToplamtutartextBox.Location = new System.Drawing.Point(81, 41);
+            this.SatisToplamtutartextBox.Name = "SatisToplamtutartextBox";
+            this.SatisToplamtutartextBox.Size = new System.Drawing.Size(350, 108);
+            this.SatisToplamtutartextBox.TabIndex = 15;
             // 
-            // comboBox2
+            // SatisMiktarcomboBox
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(383, 64);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(65, 29);
-            this.comboBox2.TabIndex = 14;
-            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
+            this.SatisMiktarcomboBox.FormattingEnabled = true;
+            this.SatisMiktarcomboBox.Location = new System.Drawing.Point(383, 64);
+            this.SatisMiktarcomboBox.Name = "SatisMiktarcomboBox";
+            this.SatisMiktarcomboBox.Size = new System.Drawing.Size(65, 29);
+            this.SatisMiktarcomboBox.TabIndex = 14;
+            this.SatisMiktarcomboBox.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
-            // comboBox1
+            // SatisTutarcomboBox
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(383, 124);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(65, 29);
-            this.comboBox1.TabIndex = 13;
+            this.SatisTutarcomboBox.FormattingEnabled = true;
+            this.SatisTutarcomboBox.Location = new System.Drawing.Point(383, 124);
+            this.SatisTutarcomboBox.Name = "SatisTutarcomboBox";
+            this.SatisTutarcomboBox.Size = new System.Drawing.Size(65, 29);
+            this.SatisTutarcomboBox.TabIndex = 13;
             // 
-            // textBox6
+            // SatisTutartextBox
             // 
-            this.textBox6.Location = new System.Drawing.Point(278, 125);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 26);
-            this.textBox6.TabIndex = 11;
+            this.SatisTutartextBox.Location = new System.Drawing.Point(278, 125);
+            this.SatisTutartextBox.Name = "SatisTutartextBox";
+            this.SatisTutartextBox.Size = new System.Drawing.Size(100, 26);
+            this.SatisTutartextBox.TabIndex = 11;
             // 
-            // textBox5
+            // SatisFiyattextBox
             // 
-            this.textBox5.Location = new System.Drawing.Point(278, 95);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(170, 26);
-            this.textBox5.TabIndex = 10;
+            this.SatisFiyattextBox.Location = new System.Drawing.Point(278, 95);
+            this.SatisFiyattextBox.Name = "SatisFiyattextBox";
+            this.SatisFiyattextBox.Size = new System.Drawing.Size(170, 26);
+            this.SatisFiyattextBox.TabIndex = 10;
             // 
-            // textBox3
+            // SatisMiktartextBox
             // 
-            this.textBox3.Location = new System.Drawing.Point(278, 65);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 26);
-            this.textBox3.TabIndex = 8;
+            this.SatisMiktartextBox.Location = new System.Drawing.Point(278, 65);
+            this.SatisMiktartextBox.Name = "SatisMiktartextBox";
+            this.SatisMiktartextBox.Size = new System.Drawing.Size(100, 26);
+            this.SatisMiktartextBox.TabIndex = 8;
             // 
-            // textBox2
+            // SatisUrunaditextBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(278, 35);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(372, 26);
-            this.textBox2.TabIndex = 7;
+            this.SatisUrunaditextBox.Location = new System.Drawing.Point(278, 35);
+            this.SatisUrunaditextBox.Name = "SatisUrunaditextBox";
+            this.SatisUrunaditextBox.Size = new System.Drawing.Size(372, 26);
+            this.SatisUrunaditextBox.TabIndex = 7;
             // 
             // label5
             // 
@@ -953,34 +969,36 @@
             this.label1.Text = "Barkod";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // panel5
+            // AnaekranLogopanel
             // 
-            this.panel5.Controls.Add(this.pictureBox1);
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel5.Location = new System.Drawing.Point(0, 0);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(180, 171);
-            this.panel5.TabIndex = 1;
+            this.AnaekranLogopanel.Controls.Add(this.AnaekranpictureBox);
+            this.AnaekranLogopanel.Dock = System.Windows.Forms.DockStyle.Left;
+            this.AnaekranLogopanel.Location = new System.Drawing.Point(0, 0);
+            this.AnaekranLogopanel.Name = "AnaekranLogopanel";
+            this.AnaekranLogopanel.Size = new System.Drawing.Size(180, 171);
+            this.AnaekranLogopanel.TabIndex = 1;
             // 
-            // pictureBox1
+            // AnaekranpictureBox
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(3, 2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(174, 90);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.AnaekranpictureBox.Image = ((System.Drawing.Image)(resources.GetObject("AnaekranpictureBox.Image")));
+            this.AnaekranpictureBox.Location = new System.Drawing.Point(3, 2);
+            this.AnaekranpictureBox.Name = "AnaekranpictureBox";
+            this.AnaekranpictureBox.Size = new System.Drawing.Size(174, 90);
+            this.AnaekranpictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.AnaekranpictureBox.TabIndex = 0;
+            this.AnaekranpictureBox.TabStop = false;
             // 
-            // textBox1
+            // SatisBarkodtextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(278, 6);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(249, 26);
-            this.textBox1.TabIndex = 0;
+            this.SatisBarkodtextBox.Location = new System.Drawing.Point(278, 6);
+            this.SatisBarkodtextBox.Name = "SatisBarkodtextBox";
+            this.SatisBarkodtextBox.Size = new System.Drawing.Size(249, 26);
+            this.SatisBarkodtextBox.TabIndex = 0;
+            this.SatisBarkodtextBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.UrunlerUstpanel);
             this.tabPage2.Location = new System.Drawing.Point(4, 30);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -1082,25 +1100,134 @@
             this.tabPage4.UseVisualStyleBackColor = true;
             this.tabPage4.Click += new System.EventHandler(this.tabPage4_Click);
             // 
+            // UrunlerUstpanel
+            // 
+            this.UrunlerUstpanel.Controls.Add(this.UrunlerListeleButon);
+            this.UrunlerUstpanel.Controls.Add(this.UrunlerKategorilabel);
+            this.UrunlerUstpanel.Controls.Add(this.UrunlerStokgurubulabel);
+            this.UrunlerUstpanel.Controls.Add(this.UrunlerBarkodlabel);
+            this.UrunlerUstpanel.Controls.Add(this.UrunlerUrunadilabel);
+            this.UrunlerUstpanel.Controls.Add(this.UrunlerKatagoricomboBox);
+            this.UrunlerUstpanel.Controls.Add(this.UrunlerStokGrubucomboBox);
+            this.UrunlerUstpanel.Controls.Add(this.UrunlerBarkodtextBox);
+            this.UrunlerUstpanel.Controls.Add(this.UrunlerUrunaditextBox);
+            this.UrunlerUstpanel.Controls.Add(this.UrunlerpictureBox1);
+            this.UrunlerUstpanel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.UrunlerUstpanel.Location = new System.Drawing.Point(3, 3);
+            this.UrunlerUstpanel.Name = "UrunlerUstpanel";
+            this.UrunlerUstpanel.Size = new System.Drawing.Size(1126, 100);
+            this.UrunlerUstpanel.TabIndex = 0;
+            // 
+            // UrunlerpictureBox1
+            // 
+            this.UrunlerpictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.UrunlerpictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("UrunlerpictureBox1.Image")));
+            this.UrunlerpictureBox1.InitialImage = null;
+            this.UrunlerpictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.UrunlerpictureBox1.Name = "UrunlerpictureBox1";
+            this.UrunlerpictureBox1.Size = new System.Drawing.Size(137, 100);
+            this.UrunlerpictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.UrunlerpictureBox1.TabIndex = 0;
+            this.UrunlerpictureBox1.TabStop = false;
+            // 
+            // UrunlerUrunaditextBox
+            // 
+            this.UrunlerUrunaditextBox.Location = new System.Drawing.Point(143, 71);
+            this.UrunlerUrunaditextBox.Name = "UrunlerUrunaditextBox";
+            this.UrunlerUrunaditextBox.Size = new System.Drawing.Size(256, 26);
+            this.UrunlerUrunaditextBox.TabIndex = 1;
+            // 
+            // UrunlerBarkodtextBox
+            // 
+            this.UrunlerBarkodtextBox.Location = new System.Drawing.Point(405, 71);
+            this.UrunlerBarkodtextBox.Name = "UrunlerBarkodtextBox";
+            this.UrunlerBarkodtextBox.Size = new System.Drawing.Size(182, 26);
+            this.UrunlerBarkodtextBox.TabIndex = 2;
+            // 
+            // UrunlerStokGrubucomboBox
+            // 
+            this.UrunlerStokGrubucomboBox.FormattingEnabled = true;
+            this.UrunlerStokGrubucomboBox.Location = new System.Drawing.Point(600, 68);
+            this.UrunlerStokGrubucomboBox.Name = "UrunlerStokGrubucomboBox";
+            this.UrunlerStokGrubucomboBox.Size = new System.Drawing.Size(159, 29);
+            this.UrunlerStokGrubucomboBox.TabIndex = 3;
+            // 
+            // UrunlerKatagoricomboBox
+            // 
+            this.UrunlerKatagoricomboBox.FormattingEnabled = true;
+            this.UrunlerKatagoricomboBox.Location = new System.Drawing.Point(765, 68);
+            this.UrunlerKatagoricomboBox.Name = "UrunlerKatagoricomboBox";
+            this.UrunlerKatagoricomboBox.Size = new System.Drawing.Size(151, 29);
+            this.UrunlerKatagoricomboBox.TabIndex = 4;
+            // 
+            // UrunlerUrunadilabel
+            // 
+            this.UrunlerUrunadilabel.AutoSize = true;
+            this.UrunlerUrunadilabel.Location = new System.Drawing.Point(143, 47);
+            this.UrunlerUrunadilabel.Name = "UrunlerUrunadilabel";
+            this.UrunlerUrunadilabel.Size = new System.Drawing.Size(76, 21);
+            this.UrunlerUrunadilabel.TabIndex = 5;
+            this.UrunlerUrunadilabel.Text = "Ürün Adı";
+            this.UrunlerUrunadilabel.Click += new System.EventHandler(this.label7_Click);
+            // 
+            // UrunlerBarkodlabel
+            // 
+            this.UrunlerBarkodlabel.AutoSize = true;
+            this.UrunlerBarkodlabel.Location = new System.Drawing.Point(405, 47);
+            this.UrunlerBarkodlabel.Name = "UrunlerBarkodlabel";
+            this.UrunlerBarkodlabel.Size = new System.Drawing.Size(63, 21);
+            this.UrunlerBarkodlabel.TabIndex = 6;
+            this.UrunlerBarkodlabel.Text = "Barkod";
+            // 
+            // UrunlerStokgurubulabel
+            // 
+            this.UrunlerStokgurubulabel.AutoSize = true;
+            this.UrunlerStokgurubulabel.Location = new System.Drawing.Point(600, 44);
+            this.UrunlerStokgurubulabel.Name = "UrunlerStokgurubulabel";
+            this.UrunlerStokgurubulabel.Size = new System.Drawing.Size(104, 21);
+            this.UrunlerStokgurubulabel.TabIndex = 7;
+            this.UrunlerStokgurubulabel.Text = "Stok Gurubu";
+            // 
+            // UrunlerKategorilabel
+            // 
+            this.UrunlerKategorilabel.AutoSize = true;
+            this.UrunlerKategorilabel.Location = new System.Drawing.Point(766, 44);
+            this.UrunlerKategorilabel.Name = "UrunlerKategorilabel";
+            this.UrunlerKategorilabel.Size = new System.Drawing.Size(74, 21);
+            this.UrunlerKategorilabel.TabIndex = 8;
+            this.UrunlerKategorilabel.Text = "Kategori";
+            // 
+            // UrunlerListeleButon
+            // 
+            this.UrunlerListeleButon.BackColor = System.Drawing.Color.DarkOrange;
+            this.UrunlerListeleButon.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.UrunlerListeleButon.Image = ((System.Drawing.Image)(resources.GetObject("UrunlerListeleButon.Image")));
+            this.UrunlerListeleButon.Location = new System.Drawing.Point(928, 67);
+            this.UrunlerListeleButon.Name = "UrunlerListeleButon";
+            this.UrunlerListeleButon.Size = new System.Drawing.Size(115, 30);
+            this.UrunlerListeleButon.TabIndex = 9;
+            this.UrunlerListeleButon.Text = "Listele";
+            this.UrunlerListeleButon.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1140, 641);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
+            this.Controls.Add(this.AnaekranmenuStrip);
+            this.MainMenuStrip = this.AnaekranmenuStrip;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
-            this.Text = "Zenoyap";
+            this.Text = "ZenoKod";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            this.AnaekranmenuStrip.ResumeLayout(false);
+            this.AnaekranmenuStrip.PerformLayout();
             this.panel1.ResumeLayout(false);
-            this.tabControl1.ResumeLayout(false);
+            this.AnaekrantabControl.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
-            this.tabControl2.ResumeLayout(false);
+            this.SatistabControl.ResumeLayout(false);
             this.tabPage5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.tabPage6.ResumeLayout(false);
@@ -1120,9 +1247,13 @@
             this.panel2.PerformLayout();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
-            this.panel5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.AnaekranLogopanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.AnaekranpictureBox)).EndInit();
+            this.tabPage2.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
+            this.UrunlerUstpanel.ResumeLayout(false);
+            this.UrunlerUstpanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.UrunlerpictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1130,7 +1261,7 @@
 
         #endregion
 
-        private MenuStrip menuStrip1;
+        private MenuStrip AnaekranmenuStrip;
         private ToolStripMenuItem ayarlarToolStripMenuItem;
         private ToolStripMenuItem raporlarToolStripMenuItem;
         private ToolStripMenuItem işlemlerToolStripMenuItem;
@@ -1138,7 +1269,7 @@
         private ToolStripMenuItem hakkımızdaToolStripMenuItem;
         private ToolStripMenuItem illetişimToolStripMenuItem;
         private Panel panel1;
-        private TabControl tabControl1;
+        private TabControl AnaekrantabControl;
         private TabPage tabPage1;
         private TabPage tabPage2;
         private TabPage tabPage3;
@@ -1147,54 +1278,54 @@
         private Panel panel3;
         private Panel panel2;
         private Panel panel6;
-        private TextBox textBox4;
-        private ComboBox comboBox2;
-        private ComboBox comboBox1;
-        private TextBox textBox6;
-        private TextBox textBox5;
-        private TextBox textBox3;
-        private TextBox textBox2;
+        private TextBox SatisToplamtutartextBox;
+        private ComboBox SatisMiktarcomboBox;
+        private ComboBox SatisTutarcomboBox;
+        private TextBox SatisTutartextBox;
+        private TextBox SatisFiyattextBox;
+        private TextBox SatisMiktartextBox;
+        private TextBox SatisUrunaditextBox;
         private Label label5;
         private Label label4;
         private Label label3;
         private Label label2;
         private Label label1;
-        private Panel panel5;
-        private PictureBox pictureBox1;
-        private TextBox textBox1;
-        private ComboBox comboBox3;
+        private Panel AnaekranLogopanel;
+        private PictureBox AnaekranpictureBox;
+        private TextBox SatisBarkodtextBox;
+        private ComboBox SatisToplamtutarcomboBox;
         private Label label6;
         private ImageList ımageList1;
-        private Button button2;
-        private Button button1;
-        private Button button3;
+        private Button SatisKredisatisbuton;
+        private Button SatisNakitsatisbuton;
+        private Button SatisMusterisatisbuton;
         private Panel panel7;
-        private Button button26;
+        private Button SatisFiyat1Buton;
         private FlowLayoutPanel flowLayoutPanel1;
-        private Button button;
-        private Button button7;
-        private Button button8;
-        private Button button9;
-        private Button button10;
-        private Button button11;
-        private Button button12;
-        private Button button13;
-        private Button button14;
-        private Button button15;
-        private Button button16;
-        private Button button17;
-        private Button button18;
-        private Button button19;
-        private Button button20;
+        private Button SatisKisayolbuton1;
+        private Button SatisKisayolbuton2;
+        private Button SatisKisayolbuton3;
+        private Button SatisKisayolbuton4;
+        private Button SatisKisayolbuton5;
+        private Button SatisKisayolbuton6;
+        private Button SatisKisayolbuton7;
+        private Button SatisKisayolbuton8;
+        private Button SatisKisayolbuton9;
+        private Button SatisKisayolbuton10;
+        private Button SatisKisayolbuton11;
+        private Button SatisKisayolbuton12;
+        private Button SatisKisayolbuton13;
+        private Button SatisKisayolbuton14;
+        private Button SatisKisayolbuton15;
         private Button button21;
         private Button button22;
         private Button button23;
         private Button button2466666;
         private Button button25;
-        private Button button28;
-        private Button button27;
+        private Button SatisYazdirbuton;
+        private Button SatisFiyat2buton;
         private Panel panel8;
-        private TabControl tabControl2;
+        private TabControl SatistabControl;
         private TabPage tabPage5;
         private TabPage tabPage6;
         private DataGridView dataGridView2;
@@ -1204,10 +1335,10 @@
         private DataGridView dataGridView4;
         private TabPage tabPage9;
         private DataGridView dataGridView5;
-        private Button button30;
-        private Button button29;
-        private Button button5;
-        private Button button4;
+        private Button SatisIndirimbuton;
+        private Button SatisSatirsilbuton;
+        private Button SatisEvraksilbuton;
+        private Button SatisAskiyaalbuton;
         private TableLayoutPanel tableLayoutPanel1;
         private DataGridView dataGridView1;
         private DataGridViewTextBoxColumn Barkod;
@@ -1221,5 +1352,17 @@
         private Button button32;
         private Button button33;
         private Button button35;
+        private Panel UrunlerUstpanel;
+        private Label UrunlerUrunadilabel;
+        private ComboBox UrunlerKatagoricomboBox;
+        private ComboBox UrunlerStokGrubucomboBox;
+        private TextBox UrunlerBarkodtextBox;
+        private TextBox UrunlerUrunaditextBox;
+        private PictureBox UrunlerpictureBox1;
+        private Label UrunlerKategorilabel;
+        private Label UrunlerStokgurubulabel;
+        private Label UrunlerBarkodlabel;
+        private Button UrunlerListeleButon;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }
