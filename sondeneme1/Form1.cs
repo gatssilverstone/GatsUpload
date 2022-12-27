@@ -1,9 +1,15 @@
+using System.Data;
+using System.Data.SqlClient;
 namespace sondeneme1
 {
+    
     public partial class Form1 : Form
     {
+
+        
         public Form1()
         {
+            
             InitializeComponent();
         }
 
@@ -14,7 +20,13 @@ namespace sondeneme1
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            SqlCommand cmd= new SqlCommand("select * from zenokodc_IstocPosPrototype.Urun_Bilgisi", SqlBaglanti.connect);
 
+            SqlBaglanti.CheckConnection(SqlBaglanti.connect);
+            SqlDataAdapter dataAdapter= new SqlDataAdapter(cmd);
+            DataTable dt= new DataTable();  
+            dataAdapter.Fill(dt);
+            dataGridView1.DataSource= dt;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -63,6 +75,23 @@ namespace sondeneme1
         
         
         private void button2466666_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+      
+        
+        
+        
+        
+        
+        
+        private void button2478888_Click(object sender, EventArgs e)
         {
 
         }

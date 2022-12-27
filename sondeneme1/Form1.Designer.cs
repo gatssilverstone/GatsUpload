@@ -110,7 +110,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.button34 = new System.Windows.Forms.Button();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.button23 = new System.Windows.Forms.Button();
             this.button33 = new System.Windows.Forms.Button();
@@ -120,7 +119,6 @@
             this.button31 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.button34 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -146,9 +144,7 @@
             this.panel6.SuspendLayout();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
-            this.tabPage4.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -985,8 +981,6 @@
             // 
             // tabPage2
             // 
-            this.tabPage2.Controls.Add(this.button2466666);
-            this.tabPage2.Controls.Add(this.button34);
             this.tabPage2.Location = new System.Drawing.Point(4, 30);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -1079,7 +1073,6 @@
             // 
             // tabPage4
             // 
-            this.tabPage4.Controls.Add(this.button35);
             this.tabPage4.Location = new System.Drawing.Point(4, 30);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
@@ -1087,15 +1080,7 @@
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "İstoç Toptan";
             this.tabPage4.UseVisualStyleBackColor = true;
-            // 
-            // button34
-            // 
-            this.button34.Location = new System.Drawing.Point(125, 62);
-            this.button34.Name = "button34";
-            this.button34.Size = new System.Drawing.Size(75, 60);
-            this.button34.TabIndex = 0;
-            this.button34.Text = "button34";
-            this.button34.UseVisualStyleBackColor = true;
+            this.tabPage4.Click += new System.EventHandler(this.tabPage4_Click);
             // 
             // Form1
             // 
@@ -1137,9 +1122,7 @@
             this.panel6.PerformLayout();
             this.panel5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.tabPage2.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
-            this.tabPage4.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1237,7 +1220,6 @@
         private Button button31;
         private Button button32;
         private Button button33;
-        private Button button34;
         private Button button35;
     }
 }
