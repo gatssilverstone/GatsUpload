@@ -45,12 +45,6 @@
             this.SatistabControl = new System.Windows.Forms.TabControl();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Barkod = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.urunadi = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.miktar = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.birim = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Fiyatt = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Tutar = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.tabPage7 = new System.Windows.Forms.TabPage();
@@ -469,13 +463,6 @@
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Barkod,
-            this.urunadi,
-            this.miktar,
-            this.birim,
-            this.Fiyatt,
-            this.Tutar});
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(3, 3);
             this.dataGridView1.Name = "dataGridView1";
@@ -484,36 +471,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(515, 307);
             this.dataGridView1.TabIndex = 6;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            // 
-            // Barkod
-            // 
-            this.Barkod.HeaderText = "Barkod";
-            this.Barkod.Name = "Barkod";
-            // 
-            // urunadi
-            // 
-            this.urunadi.HeaderText = "Ürün Adı";
-            this.urunadi.Name = "urunadi";
-            // 
-            // miktar
-            // 
-            this.miktar.HeaderText = "miktar";
-            this.miktar.Name = "miktar";
-            // 
-            // birim
-            // 
-            this.birim.HeaderText = "Birim";
-            this.birim.Name = "birim";
-            // 
-            // Fiyatt
-            // 
-            this.Fiyatt.HeaderText = "Fiyat";
-            this.Fiyatt.Name = "Fiyatt";
-            // 
-            // Tutar
-            // 
-            this.Tutar.HeaderText = "Tutar";
-            this.Tutar.Name = "Tutar";
             // 
             // tabPage6
             // 
@@ -2655,12 +2612,6 @@
         private Button SatisAskiyaalbuton;
         private TableLayoutPanel tableLayoutPanel1;
         private DataGridView dataGridView1;
-        private DataGridViewTextBoxColumn Barkod;
-        private DataGridViewTextBoxColumn urunadi;
-        private DataGridViewTextBoxColumn miktar;
-        private DataGridViewTextBoxColumn birim;
-        private DataGridViewTextBoxColumn Fiyatt;
-        private DataGridViewTextBoxColumn Tutar;
         private Button button35;
         private Panel UrunlerUstpanel;
         private Label UrunlerUrunadilabel;
@@ -2796,5 +2747,6 @@
         private TextBox ToptanUrunaditextBox;
         private Panel panel11;
         private PictureBox pictureBox1;
+        private DataGridViewTextBoxColumn Tutar;
     }
 }
