@@ -59,5 +59,15 @@ namespace sondeneme1.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap H50941a1860bb4a67b36a16e60f9d18982 {
+            get {
+                object obj = ResourceManager.GetObject("H50941a1860bb4a67b36a16e60f9d18982", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

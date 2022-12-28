@@ -1382,6 +1382,7 @@
             this.UrunelerUrunekleToolStripMenuItem.Name = "UrunelerUrunekleToolStripMenuItem";
             this.UrunelerUrunekleToolStripMenuItem.Size = new System.Drawing.Size(96, 23);
             this.UrunelerUrunekleToolStripMenuItem.Text = "Ürün Ekle";
+            this.UrunelerUrunekleToolStripMenuItem.Click += new System.EventHandler(this.UrunelerUrunekleToolStripMenuItem_Click);
             // 
             // dataGridView6
             // 
@@ -1450,9 +1451,9 @@
             this.UrunlerStokgurubulabel.AutoSize = true;
             this.UrunlerStokgurubulabel.Location = new System.Drawing.Point(634, 11);
             this.UrunlerStokgurubulabel.Name = "UrunlerStokgurubulabel";
-            this.UrunlerStokgurubulabel.Size = new System.Drawing.Size(104, 21);
+            this.UrunlerStokgurubulabel.Size = new System.Drawing.Size(94, 21);
             this.UrunlerStokgurubulabel.TabIndex = 7;
-            this.UrunlerStokgurubulabel.Text = "Stok Gurubu";
+            this.UrunlerStokgurubulabel.Text = "Stok Grubu";
             // 
             // UrunlerBarkodlabel
             // 

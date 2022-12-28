@@ -18,15 +18,25 @@ namespace sondeneme1
 
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            SqlCommand cmd= new SqlCommand("select * from zenokodc_IstocPosPrototype.Urun_Bilgisi", SqlBaglanti.connect);
+        public void VeriCek() {
+
+            SqlCommand cmd = new SqlCommand("select * from zenokodc_IstocPosPrototype.Urun_Bilgisi", SqlBaglanti.connect);
 
             SqlBaglanti.CheckConnection(SqlBaglanti.connect);
-            SqlDataAdapter dataAdapter= new SqlDataAdapter(cmd);
-            DataTable dt= new DataTable();  
+            SqlDataAdapter dataAdapter = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
             dataAdapter.Fill(dt);
-            dataGridView1.DataSource= dt;
+            dataGridView6.DataSource = dt;
+
+            
+
+
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            VeriCek();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -134,6 +144,12 @@ namespace sondeneme1
         private void ToptanStokcomboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void UrunelerUrunekleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UrunEkle urunEkle=new UrunEkle();
+            urunEkle.ShowDialog();
         }
     }
 }
