@@ -1489,6 +1489,7 @@
             this.UrunlerStokGrubucomboBox.Name = "UrunlerStokGrubucomboBox";
             this.UrunlerStokGrubucomboBox.Size = new System.Drawing.Size(159, 29);
             this.UrunlerStokGrubucomboBox.TabIndex = 3;
+            this.UrunlerStokGrubucomboBox.SelectedIndexChanged += new System.EventHandler(this.UrunlerStokGrubucomboBox_SelectedIndexChanged);
             // 
             // UrunlerBarkodtextBox
             // 
@@ -1496,6 +1497,8 @@
             this.UrunlerBarkodtextBox.Name = "UrunlerBarkodtextBox";
             this.UrunlerBarkodtextBox.Size = new System.Drawing.Size(182, 26);
             this.UrunlerBarkodtextBox.TabIndex = 2;
+            this.UrunlerBarkodtextBox.TextChanged += new System.EventHandler(this.UrunlerBarkodtextBox_TextChanged);
+            this.UrunlerBarkodtextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.UrunlerBarkodtextBox_KeyDown);
             // 
             // UrunlerUrunaditextBox
             // 

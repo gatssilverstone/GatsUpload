@@ -1,3 +1,4 @@
+using System;
 using System.Data;
 using System.Data.SqlClient;
 namespace sondeneme1
@@ -19,8 +20,9 @@ namespace sondeneme1
         }
 
         public void VeriCek() {
-
+            
             SqlCommand cmd = new SqlCommand("select * from zenokodc_IstocPosPrototype.Urun_Bilgisi", SqlBaglanti.connect);
+          
 
             SqlBaglanti.CheckConnection(SqlBaglanti.connect);
             SqlDataAdapter dataAdapter = new SqlDataAdapter(cmd);
@@ -138,6 +140,12 @@ namespace sondeneme1
 
         private void UrunlerUrunaditextBox_TextChanged(object sender, EventArgs e)
         {
+            SqlBaglanti.CheckConnection(SqlBaglanti.connect);
+            DataTable dataTable = new DataTable();
+            SqlDataAdapter find = new SqlDataAdapter("select * from zenokodc_IstocPosPrototype.Urun_Bilgisi where [Ürün Adý] like '%" + UrunlerUrunaditextBox.Text + "%'", SqlBaglanti.connect);
+            
+            find.Fill(dataTable);
+            dataGridView6.DataSource = dataTable;
 
         }
 
@@ -150,6 +158,35 @@ namespace sondeneme1
         {
             UrunEkle urunEkle=new UrunEkle();
             urunEkle.ShowDialog();
+        }
+
+        private void UrunlerBarkodtextBox_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void UrunlerBarkodtextBox_KeyDown(object sender, KeyEventArgs e)
+        {
+
+            if (e.KeyCode == Keys.Enter)
+            {
+                SqlBaglanti.CheckConnection(SqlBaglanti.connect);
+                DataTable dataTable = new DataTable();
+                SqlDataAdapter find = new SqlDataAdapter("select * from zenokodc_IstocPosPrototype.Urun_Bilgisi where barkod like '%" + UrunlerBarkodtextBox.Text + "%'", SqlBaglanti.connect);
+
+                find.Fill(dataTable);
+                dataGridView6.DataSource = dataTable;
+            }
+        }
+
+        private void UrunlerStokGrubucomboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            SqlBaglanti.CheckConnection(SqlBaglanti.connect);
+            DataTable dataTable = new DataTable();
+            SqlDataAdapter find = new SqlDataAdapter("select * from zenokodc_IstocPosPrototype.Urun_Bilgisi where [Stok Grubu] like '%" + UrunlerStokGrubucomboBox.Text + "%'", SqlBaglanti.connect);
+
+            find.Fill(dataTable);
+            dataGridView6.DataSource = dataTable;
         }
     }
 }
