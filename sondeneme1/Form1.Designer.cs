@@ -134,6 +134,24 @@
             this.UrunelerUrunekleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dataGridView6 = new System.Windows.Forms.DataGridView();
             this.UrunlerUstpanel = new System.Windows.Forms.Panel();
+            this.sonIslemCheck = new System.Windows.Forms.CheckBox();
+            this.cikisTarihiCheck = new System.Windows.Forms.CheckBox();
+            this.ilkGirisCheck = new System.Windows.Forms.CheckBox();
+            this.kdvCheck = new System.Windows.Forms.CheckBox();
+            this.birimCheck = new System.Windows.Forms.CheckBox();
+            this.devirCheck = new System.Windows.Forms.CheckBox();
+            this.kategoriCheck = new System.Windows.Forms.CheckBox();
+            this.stokGrupCheck = new System.Windows.Forms.CheckBox();
+            this.aciklamaCheck = new System.Windows.Forms.CheckBox();
+            this.adetCheck = new System.Windows.Forms.CheckBox();
+            this.urunKodCheck = new System.Windows.Forms.CheckBox();
+            this.satis4Check = new System.Windows.Forms.CheckBox();
+            this.satis3Check = new System.Windows.Forms.CheckBox();
+            this.satis2Check = new System.Windows.Forms.CheckBox();
+            this.satis1Check = new System.Windows.Forms.CheckBox();
+            this.AlisFiyatCheck = new System.Windows.Forms.CheckBox();
+            this.BarkodCheck = new System.Windows.Forms.CheckBox();
+            this.UrunadiCheck = new System.Windows.Forms.CheckBox();
             this.UrunlerDetayliaramacheckBox = new System.Windows.Forms.CheckBox();
             this.UrunlerListeleButon = new System.Windows.Forms.Button();
             this.UrunlerKategorilabel = new System.Windows.Forms.Label();
@@ -1135,7 +1153,7 @@
             this.UrunlersplitContainer1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.UrunlersplitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.UrunlersplitContainer1.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
-            this.UrunlersplitContainer1.Location = new System.Drawing.Point(3, 103);
+            this.UrunlersplitContainer1.Location = new System.Drawing.Point(3, 143);
             this.UrunlersplitContainer1.Name = "UrunlersplitContainer1";
             // 
             // UrunlersplitContainer1.Panel1
@@ -1154,7 +1172,7 @@
             // 
             this.UrunlersplitContainer1.Panel2.BackColor = System.Drawing.Color.White;
             this.UrunlersplitContainer1.Panel2.Controls.Add(this.dataGridView6);
-            this.UrunlersplitContainer1.Size = new System.Drawing.Size(1126, 477);
+            this.UrunlersplitContainer1.Size = new System.Drawing.Size(1126, 437);
             this.UrunlersplitContainer1.SplitterDistance = 216;
             this.UrunlersplitContainer1.TabIndex = 1;
             // 
@@ -1386,16 +1404,35 @@
             // 
             // dataGridView6
             // 
+            this.dataGridView6.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView6.Location = new System.Drawing.Point(0, 0);
             this.dataGridView6.Name = "dataGridView6";
             this.dataGridView6.RowTemplate.Height = 25;
-            this.dataGridView6.Size = new System.Drawing.Size(902, 473);
+            this.dataGridView6.Size = new System.Drawing.Size(902, 433);
             this.dataGridView6.TabIndex = 0;
             // 
             // UrunlerUstpanel
             // 
+            this.UrunlerUstpanel.Controls.Add(this.sonIslemCheck);
+            this.UrunlerUstpanel.Controls.Add(this.cikisTarihiCheck);
+            this.UrunlerUstpanel.Controls.Add(this.ilkGirisCheck);
+            this.UrunlerUstpanel.Controls.Add(this.kdvCheck);
+            this.UrunlerUstpanel.Controls.Add(this.birimCheck);
+            this.UrunlerUstpanel.Controls.Add(this.devirCheck);
+            this.UrunlerUstpanel.Controls.Add(this.kategoriCheck);
+            this.UrunlerUstpanel.Controls.Add(this.stokGrupCheck);
+            this.UrunlerUstpanel.Controls.Add(this.aciklamaCheck);
+            this.UrunlerUstpanel.Controls.Add(this.adetCheck);
+            this.UrunlerUstpanel.Controls.Add(this.urunKodCheck);
+            this.UrunlerUstpanel.Controls.Add(this.satis4Check);
+            this.UrunlerUstpanel.Controls.Add(this.satis3Check);
+            this.UrunlerUstpanel.Controls.Add(this.satis2Check);
+            this.UrunlerUstpanel.Controls.Add(this.satis1Check);
+            this.UrunlerUstpanel.Controls.Add(this.AlisFiyatCheck);
+            this.UrunlerUstpanel.Controls.Add(this.BarkodCheck);
+            this.UrunlerUstpanel.Controls.Add(this.UrunadiCheck);
             this.UrunlerUstpanel.Controls.Add(this.UrunlerDetayliaramacheckBox);
             this.UrunlerUstpanel.Controls.Add(this.UrunlerListeleButon);
             this.UrunlerUstpanel.Controls.Add(this.UrunlerKategorilabel);
@@ -1410,8 +1447,242 @@
             this.UrunlerUstpanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.UrunlerUstpanel.Location = new System.Drawing.Point(3, 3);
             this.UrunlerUstpanel.Name = "UrunlerUstpanel";
-            this.UrunlerUstpanel.Size = new System.Drawing.Size(1126, 100);
+            this.UrunlerUstpanel.Size = new System.Drawing.Size(1126, 140);
             this.UrunlerUstpanel.TabIndex = 0;
+            // 
+            // sonIslemCheck
+            // 
+            this.sonIslemCheck.AutoSize = true;
+            this.sonIslemCheck.Font = new System.Drawing.Font("Nirmala UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.sonIslemCheck.Location = new System.Drawing.Point(962, 119);
+            this.sonIslemCheck.Name = "sonIslemCheck";
+            this.sonIslemCheck.Size = new System.Drawing.Size(105, 17);
+            this.sonIslemCheck.TabIndex = 28;
+            this.sonIslemCheck.Text = "Son İşlem Tarihi";
+            this.sonIslemCheck.UseVisualStyleBackColor = true;
+            this.sonIslemCheck.Visible = false;
+            this.sonIslemCheck.CheckedChanged += new System.EventHandler(this.sonIslemCheck_CheckedChanged);
+            // 
+            // cikisTarihiCheck
+            // 
+            this.cikisTarihiCheck.AutoSize = true;
+            this.cikisTarihiCheck.Font = new System.Drawing.Font("Nirmala UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.cikisTarihiCheck.Location = new System.Drawing.Point(855, 119);
+            this.cikisTarihiCheck.Name = "cikisTarihiCheck";
+            this.cikisTarihiCheck.Size = new System.Drawing.Size(80, 17);
+            this.cikisTarihiCheck.TabIndex = 27;
+            this.cikisTarihiCheck.Text = "Çıkış Tarihi";
+            this.cikisTarihiCheck.UseVisualStyleBackColor = true;
+            this.cikisTarihiCheck.Visible = false;
+            this.cikisTarihiCheck.CheckedChanged += new System.EventHandler(this.cikisTarihiCheck_CheckedChanged);
+            // 
+            // ilkGirisCheck
+            // 
+            this.ilkGirisCheck.AutoSize = true;
+            this.ilkGirisCheck.Font = new System.Drawing.Font("Nirmala UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ilkGirisCheck.Location = new System.Drawing.Point(754, 119);
+            this.ilkGirisCheck.Name = "ilkGirisCheck";
+            this.ilkGirisCheck.Size = new System.Drawing.Size(79, 17);
+            this.ilkGirisCheck.TabIndex = 26;
+            this.ilkGirisCheck.Text = "Giriş Tarihi";
+            this.ilkGirisCheck.UseVisualStyleBackColor = true;
+            this.ilkGirisCheck.Visible = false;
+            this.ilkGirisCheck.CheckedChanged += new System.EventHandler(this.ilkGirisCheck_CheckedChanged);
+            // 
+            // kdvCheck
+            // 
+            this.kdvCheck.AutoSize = true;
+            this.kdvCheck.Font = new System.Drawing.Font("Nirmala UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.kdvCheck.Location = new System.Drawing.Point(654, 119);
+            this.kdvCheck.Name = "kdvCheck";
+            this.kdvCheck.Size = new System.Drawing.Size(79, 17);
+            this.kdvCheck.TabIndex = 25;
+            this.kdvCheck.Text = "KDV Oranı";
+            this.kdvCheck.UseVisualStyleBackColor = true;
+            this.kdvCheck.Visible = false;
+            this.kdvCheck.CheckedChanged += new System.EventHandler(this.kdvCheck_CheckedChanged);
+            // 
+            // birimCheck
+            // 
+            this.birimCheck.AutoSize = true;
+            this.birimCheck.Font = new System.Drawing.Font("Nirmala UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.birimCheck.Location = new System.Drawing.Point(555, 119);
+            this.birimCheck.Name = "birimCheck";
+            this.birimCheck.Size = new System.Drawing.Size(52, 17);
+            this.birimCheck.TabIndex = 24;
+            this.birimCheck.Text = "Birim";
+            this.birimCheck.UseVisualStyleBackColor = true;
+            this.birimCheck.Visible = false;
+            this.birimCheck.CheckedChanged += new System.EventHandler(this.birimCheck_CheckedChanged);
+            // 
+            // devirCheck
+            // 
+            this.devirCheck.AutoSize = true;
+            this.devirCheck.Font = new System.Drawing.Font("Nirmala UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.devirCheck.Location = new System.Drawing.Point(454, 119);
+            this.devirCheck.Name = "devirCheck";
+            this.devirCheck.Size = new System.Drawing.Size(91, 17);
+            this.devirCheck.TabIndex = 23;
+            this.devirCheck.Text = "Devir Miktarı";
+            this.devirCheck.UseVisualStyleBackColor = true;
+            this.devirCheck.Visible = false;
+            this.devirCheck.CheckedChanged += new System.EventHandler(this.devirCheck_CheckedChanged);
+            // 
+            // kategoriCheck
+            // 
+            this.kategoriCheck.AutoSize = true;
+            this.kategoriCheck.Font = new System.Drawing.Font("Nirmala UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.kategoriCheck.Location = new System.Drawing.Point(353, 119);
+            this.kategoriCheck.Name = "kategoriCheck";
+            this.kategoriCheck.Size = new System.Drawing.Size(69, 17);
+            this.kategoriCheck.TabIndex = 22;
+            this.kategoriCheck.Text = "Kategori";
+            this.kategoriCheck.UseVisualStyleBackColor = true;
+            this.kategoriCheck.Visible = false;
+            this.kategoriCheck.CheckedChanged += new System.EventHandler(this.kategoriCheck_CheckedChanged);
+            // 
+            // stokGrupCheck
+            // 
+            this.stokGrupCheck.AutoSize = true;
+            this.stokGrupCheck.Font = new System.Drawing.Font("Nirmala UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.stokGrupCheck.Location = new System.Drawing.Point(253, 119);
+            this.stokGrupCheck.Name = "stokGrupCheck";
+            this.stokGrupCheck.Size = new System.Drawing.Size(85, 17);
+            this.stokGrupCheck.TabIndex = 21;
+            this.stokGrupCheck.Text = "Stok Grubu";
+            this.stokGrupCheck.UseVisualStyleBackColor = true;
+            this.stokGrupCheck.Visible = false;
+            this.stokGrupCheck.CheckedChanged += new System.EventHandler(this.stokGrupCheck_CheckedChanged);
+            // 
+            // aciklamaCheck
+            // 
+            this.aciklamaCheck.AutoSize = true;
+            this.aciklamaCheck.Font = new System.Drawing.Font("Nirmala UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.aciklamaCheck.Location = new System.Drawing.Point(154, 119);
+            this.aciklamaCheck.Name = "aciklamaCheck";
+            this.aciklamaCheck.Size = new System.Drawing.Size(71, 17);
+            this.aciklamaCheck.TabIndex = 20;
+            this.aciklamaCheck.Text = "Açıklama";
+            this.aciklamaCheck.UseVisualStyleBackColor = true;
+            this.aciklamaCheck.Visible = false;
+            this.aciklamaCheck.CheckedChanged += new System.EventHandler(this.aciklamaCheck_CheckedChanged);
+            // 
+            // adetCheck
+            // 
+            this.adetCheck.AutoSize = true;
+            this.adetCheck.Font = new System.Drawing.Font("Nirmala UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.adetCheck.Location = new System.Drawing.Point(962, 99);
+            this.adetCheck.Name = "adetCheck";
+            this.adetCheck.Size = new System.Drawing.Size(50, 17);
+            this.adetCheck.TabIndex = 19;
+            this.adetCheck.Text = "Adet";
+            this.adetCheck.UseVisualStyleBackColor = true;
+            this.adetCheck.Visible = false;
+            this.adetCheck.CheckedChanged += new System.EventHandler(this.adetCheck_CheckedChanged);
+            // 
+            // urunKodCheck
+            // 
+            this.urunKodCheck.AutoSize = true;
+            this.urunKodCheck.Font = new System.Drawing.Font("Nirmala UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.urunKodCheck.Location = new System.Drawing.Point(855, 99);
+            this.urunKodCheck.Name = "urunKodCheck";
+            this.urunKodCheck.Size = new System.Drawing.Size(82, 17);
+            this.urunKodCheck.TabIndex = 18;
+            this.urunKodCheck.Text = "Ürün Kodu";
+            this.urunKodCheck.UseVisualStyleBackColor = true;
+            this.urunKodCheck.Visible = false;
+            this.urunKodCheck.CheckedChanged += new System.EventHandler(this.urunKodCheck_CheckedChanged);
+            // 
+            // satis4Check
+            // 
+            this.satis4Check.AutoSize = true;
+            this.satis4Check.Font = new System.Drawing.Font("Nirmala UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.satis4Check.Location = new System.Drawing.Point(754, 99);
+            this.satis4Check.Name = "satis4Check";
+            this.satis4Check.Size = new System.Drawing.Size(89, 17);
+            this.satis4Check.TabIndex = 17;
+            this.satis4Check.Text = "Satış Fiyatı 4";
+            this.satis4Check.UseVisualStyleBackColor = true;
+            this.satis4Check.Visible = false;
+            this.satis4Check.CheckedChanged += new System.EventHandler(this.satis4Check_CheckedChanged);
+            // 
+            // satis3Check
+            // 
+            this.satis3Check.AutoSize = true;
+            this.satis3Check.Font = new System.Drawing.Font("Nirmala UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.satis3Check.Location = new System.Drawing.Point(654, 99);
+            this.satis3Check.Name = "satis3Check";
+            this.satis3Check.Size = new System.Drawing.Size(89, 17);
+            this.satis3Check.TabIndex = 16;
+            this.satis3Check.Text = "Satış Fiyatı 3";
+            this.satis3Check.UseVisualStyleBackColor = true;
+            this.satis3Check.Visible = false;
+            this.satis3Check.CheckedChanged += new System.EventHandler(this.satis3Check_CheckedChanged);
+            // 
+            // satis2Check
+            // 
+            this.satis2Check.AutoSize = true;
+            this.satis2Check.Font = new System.Drawing.Font("Nirmala UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.satis2Check.Location = new System.Drawing.Point(555, 99);
+            this.satis2Check.Name = "satis2Check";
+            this.satis2Check.Size = new System.Drawing.Size(89, 17);
+            this.satis2Check.TabIndex = 15;
+            this.satis2Check.Text = "Satış Fiyatı 2";
+            this.satis2Check.UseVisualStyleBackColor = true;
+            this.satis2Check.Visible = false;
+            this.satis2Check.CheckedChanged += new System.EventHandler(this.satis2Check_CheckedChanged);
+            // 
+            // satis1Check
+            // 
+            this.satis1Check.AutoSize = true;
+            this.satis1Check.Font = new System.Drawing.Font("Nirmala UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.satis1Check.Location = new System.Drawing.Point(454, 99);
+            this.satis1Check.Name = "satis1Check";
+            this.satis1Check.Size = new System.Drawing.Size(89, 17);
+            this.satis1Check.TabIndex = 14;
+            this.satis1Check.Text = "Satış Fiyatı 1";
+            this.satis1Check.UseVisualStyleBackColor = true;
+            this.satis1Check.Visible = false;
+            this.satis1Check.CheckedChanged += new System.EventHandler(this.satis1Check_CheckedChanged);
+            // 
+            // AlisFiyatCheck
+            // 
+            this.AlisFiyatCheck.AutoSize = true;
+            this.AlisFiyatCheck.Font = new System.Drawing.Font("Nirmala UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.AlisFiyatCheck.Location = new System.Drawing.Point(353, 99);
+            this.AlisFiyatCheck.Name = "AlisFiyatCheck";
+            this.AlisFiyatCheck.Size = new System.Drawing.Size(74, 17);
+            this.AlisFiyatCheck.TabIndex = 13;
+            this.AlisFiyatCheck.Text = "Alış Fiyatı";
+            this.AlisFiyatCheck.UseVisualStyleBackColor = true;
+            this.AlisFiyatCheck.Visible = false;
+            this.AlisFiyatCheck.CheckedChanged += new System.EventHandler(this.AlisFiyatCheck_CheckedChanged);
+            // 
+            // BarkodCheck
+            // 
+            this.BarkodCheck.AutoSize = true;
+            this.BarkodCheck.Font = new System.Drawing.Font("Nirmala UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.BarkodCheck.Location = new System.Drawing.Point(253, 99);
+            this.BarkodCheck.Name = "BarkodCheck";
+            this.BarkodCheck.Size = new System.Drawing.Size(63, 17);
+            this.BarkodCheck.TabIndex = 12;
+            this.BarkodCheck.Text = "Barkod";
+            this.BarkodCheck.UseVisualStyleBackColor = true;
+            this.BarkodCheck.Visible = false;
+            this.BarkodCheck.CheckedChanged += new System.EventHandler(this.BarkodCheck_CheckedChanged);
+            // 
+            // UrunadiCheck
+            // 
+            this.UrunadiCheck.AutoSize = true;
+            this.UrunadiCheck.Font = new System.Drawing.Font("Nirmala UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.UrunadiCheck.Location = new System.Drawing.Point(154, 99);
+            this.UrunadiCheck.Name = "UrunadiCheck";
+            this.UrunadiCheck.Size = new System.Drawing.Size(72, 17);
+            this.UrunadiCheck.TabIndex = 11;
+            this.UrunadiCheck.Text = "Ürün Adı";
+            this.UrunadiCheck.UseVisualStyleBackColor = true;
+            this.UrunadiCheck.Visible = false;
+            this.UrunadiCheck.CheckedChanged += new System.EventHandler(this.UrunadiCheck_CheckedChanged);
             // 
             // UrunlerDetayliaramacheckBox
             // 
@@ -1423,6 +1694,7 @@
             this.UrunlerDetayliaramacheckBox.TabIndex = 10;
             this.UrunlerDetayliaramacheckBox.Text = "Detaylı Arama Yap";
             this.UrunlerDetayliaramacheckBox.UseVisualStyleBackColor = true;
+            this.UrunlerDetayliaramacheckBox.CheckedChanged += new System.EventHandler(this.UrunlerDetayliaramacheckBox_CheckedChanged);
             // 
             // UrunlerListeleButon
             // 
@@ -1515,7 +1787,7 @@
             this.UrunlerpictureBox1.InitialImage = null;
             this.UrunlerpictureBox1.Location = new System.Drawing.Point(0, 0);
             this.UrunlerpictureBox1.Name = "UrunlerpictureBox1";
-            this.UrunlerpictureBox1.Size = new System.Drawing.Size(137, 100);
+            this.UrunlerpictureBox1.Size = new System.Drawing.Size(137, 140);
             this.UrunlerpictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.UrunlerpictureBox1.TabIndex = 0;
             this.UrunlerpictureBox1.TabStop = false;
@@ -2752,5 +3024,23 @@
         private Panel panel11;
         private PictureBox pictureBox1;
         private DataGridViewTextBoxColumn Tutar;
+        private CheckBox UrunadiCheck;
+        private CheckBox sonIslemCheck;
+        private CheckBox cikisTarihiCheck;
+        private CheckBox ilkGirisCheck;
+        private CheckBox kdvCheck;
+        private CheckBox birimCheck;
+        private CheckBox devirCheck;
+        private CheckBox kategoriCheck;
+        private CheckBox stokGrupCheck;
+        private CheckBox aciklamaCheck;
+        private CheckBox adetCheck;
+        private CheckBox urunKodCheck;
+        private CheckBox satis4Check;
+        private CheckBox satis3Check;
+        private CheckBox satis2Check;
+        private CheckBox satis1Check;
+        private CheckBox AlisFiyatCheck;
+        private CheckBox BarkodCheck;
     }
 }
