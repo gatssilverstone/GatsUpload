@@ -135,7 +135,8 @@ namespace sondeneme1
 
         private void sToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
-
+            GirisFisi GirisFisi = new GirisFisi();
+            GirisFisi.ShowDialog();
         }
 
         private void UrunlerUrunaditextBox_TextChanged(object sender, EventArgs e)
@@ -503,6 +504,11 @@ namespace sondeneme1
         {
             Musterikayit MusteriKayit = new Musterikayit();
             MusteriKayit.ShowDialog();
+        }
+
+        private void UrunlerGiriscikistoolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
