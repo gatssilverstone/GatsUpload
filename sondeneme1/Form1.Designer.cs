@@ -2075,6 +2075,7 @@
             this.MusterilerMusteriekletoolStripMenuItem.Name = "MusterilerMusteriekletoolStripMenuItem";
             this.MusterilerMusteriekletoolStripMenuItem.Size = new System.Drawing.Size(112, 23);
             this.MusterilerMusteriekletoolStripMenuItem.Text = "Müşteri Ekle";
+            this.MusterilerMusteriekletoolStripMenuItem.Click += new System.EventHandler(this.MusterilerMusteriekletoolStripMenuItem_Click);
             // 
             // dataGridView7
             // 

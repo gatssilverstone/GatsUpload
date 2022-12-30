@@ -498,5 +498,11 @@ namespace sondeneme1
                 dataGridView6.Columns["son iþlem tarihi"].Visible = false;
             }
         }
+
+        private void MusterilerMusteriekletoolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Musterikayit MusteriKayit = new Musterikayit();
+            MusteriKayit.ShowDialog();
+        }
     }
 }
