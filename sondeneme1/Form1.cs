@@ -510,5 +510,11 @@ namespace sondeneme1
         {
 
         }
+
+        private void MusterilerTahsilahtoolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Tahsilat›slemleri Tahsilat›slem = new Tahsilat›slemleri();
+            Tahsilat›slem.ShowDialog();
+        }
     }
 }
