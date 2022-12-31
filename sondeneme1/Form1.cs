@@ -516,5 +516,10 @@ namespace sondeneme1
             Tahsilat›slemleri Tahsilat›slem = new Tahsilat›slemleri();
             Tahsilat›slem.ShowDialog();
         }
+
+        private void SatisKisayolbuton14_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
