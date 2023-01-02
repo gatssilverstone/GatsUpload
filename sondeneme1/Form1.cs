@@ -35,10 +35,26 @@ namespace sondeneme1
 
 
         }
+        public void VeriCekMusteri() {
+
+            SqlBaglanti.MusteriConnect.Open();
+
+            SqlCommand cmd = new SqlCommand("select * from zenokodc_IstocPosProtoype.Musteriler", SqlBaglanti.MusteriConnect);
+            SqlDataAdapter dataAdapter=new SqlDataAdapter(cmd);
+            DataTable dataTable= new DataTable();
+            dataAdapter.Fill(dataTable);
+            dataGridView7.DataSource= dataTable;
+
+        
+        
+        
+            SqlBaglanti.MusteriConnect.Close();
+        }
 
         private void Form1_Load(object sender, EventArgs e)
         {
            VeriCek();
+            VeriCekMusteri();
         }
 
         private void label1_Click(object sender, EventArgs e)

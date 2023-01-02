@@ -78,6 +78,7 @@ namespace sondeneme1
 
         }
 
+        
         private void UrunEkle_Load(object sender, EventArgs e)
         {
 
