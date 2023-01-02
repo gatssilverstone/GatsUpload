@@ -537,5 +537,16 @@ namespace sondeneme1
         {
 
         }
+
+        private void toolStripMenuItem14_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStripMenuItem12_Click(object sender, EventArgs e)
+        {
+            AlinanSiparis AlinanSiparis = new AlinanSiparis();
+            AlinanSiparis.ShowDialog();
+        }
     }
 }
