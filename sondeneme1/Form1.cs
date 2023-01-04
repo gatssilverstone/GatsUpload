@@ -44,7 +44,7 @@ namespace sondeneme1
             SqlDataAdapter dataAdapter=new SqlDataAdapter(cmd);
             DataTable dataTable= new DataTable();
             dataAdapter.Fill(dataTable);
-            dataGridView7.DataSource= dataTable;
+            //dataGridView7.DataSource= dataTable;
 
         
         
@@ -704,6 +704,50 @@ namespace sondeneme1
         private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void MusterilerKatagoricomboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void MusterilerKatagoricomboBox_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                SqlBaglanti.MusteriConnect.Open();
+
+                SqlCommand cmd = new SqlCommand("select * from zenokodc_IstocPosProtoype.Musteriler where [Firma Adý] like '%" + MusterilerKatagoricomboBox.Text + "%'", SqlBaglanti.MusteriConnect);
+                SqlDataAdapter dataAdapter = new SqlDataAdapter(cmd);
+                DataTable dataTable = new DataTable();
+                dataAdapter.Fill(dataTable);
+                dataGridView7.DataSource = dataTable;
+
+                SqlBaglanti.MusteriConnect.Close();
+            }
+        }
+
+        private void MusterilerMusteriaditextBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                SqlBaglanti.MusteriConnect.Open();
+
+                SqlCommand cmd = new SqlCommand("select * from zenokodc_IstocPosProtoype.Musteriler where [Adý Soyadý] like '%" + MusterilerKatagoricomboBox.Text + "%'", SqlBaglanti.MusteriConnect);
+                SqlDataAdapter dataAdapter = new SqlDataAdapter(cmd);
+                DataTable dataTable = new DataTable();
+                dataAdapter.Fill(dataTable);
+                dataGridView7.DataSource = dataTable;
+
+                SqlBaglanti.MusteriConnect.Close();
+            }
+        }
+
+        private void MusterilerMusterikartitoolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form3 MusteriKarti = new Form3();
+            MusteriKarti.ShowDialog();
+            
         }
     }
 }
