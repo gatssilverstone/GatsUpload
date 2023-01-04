@@ -44,9 +44,6 @@
             this.SatistabControl = new System.Windows.Forms.TabControl();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.listView1 = new System.Windows.Forms.ListView();
-            this.ColumndUrunAdi = new System.Windows.Forms.ColumnHeader();
-            this.columnBarkod = new System.Windows.Forms.ColumnHeader();
-            this.columnFiyat = new System.Windows.Forms.ColumnHeader();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.tabPage7 = new System.Windows.Forms.TabPage();
@@ -87,6 +84,8 @@
             this.ımageList1 = new System.Windows.Forms.ImageList(this.components);
             this.SatisKredisatisbuton = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel6 = new System.Windows.Forms.Panel();
             this.SatisToplamtutarcomboBox = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -260,6 +259,12 @@
             this.panel11 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.columnUrunAdi = new System.Windows.Forms.ColumnHeader();
+            this.columnUrunAdet = new System.Windows.Forms.ColumnHeader();
+            this.columnBirimFiyat = new System.Windows.Forms.ColumnHeader();
+            this.columnTutar = new System.Windows.Forms.ColumnHeader();
+            this.columnBarkod = new System.Windows.Forms.ColumnHeader();
+            this.columnStok = new System.Windows.Forms.ColumnHeader();
             this.AnaekranmenuStrip.SuspendLayout();
             this.panel1.SuspendLayout();
             this.AnaekrantabControl.SuspendLayout();
@@ -475,30 +480,20 @@
             // listView1
             // 
             this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.ColumndUrunAdi,
+            this.columnUrunAdi,
+            this.columnUrunAdet,
+            this.columnBirimFiyat,
+            this.columnTutar,
             this.columnBarkod,
-            this.columnFiyat});
-            this.listView1.Location = new System.Drawing.Point(1, 0);
+            this.columnStok});
+            this.listView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listView1.Location = new System.Drawing.Point(3, 3);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(521, 234);
+            this.listView1.Size = new System.Drawing.Size(515, 228);
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
-            // 
-            // ColumndUrunAdi
-            // 
-            this.ColumndUrunAdi.Text = "Ürün Adı";
-            this.ColumndUrunAdi.Width = 230;
-            // 
-            // columnBarkod
-            // 
-            this.columnBarkod.Text = "Barkod";
-            this.columnBarkod.Width = 180;
-            // 
-            // columnFiyat
-            // 
-            this.columnFiyat.Text = "Fiyat";
-            this.columnFiyat.Width = 103;
+            this.listView1.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
             // 
             // tabPage6
             // 
@@ -521,6 +516,7 @@
             this.dataGridView2.RowTemplate.Height = 25;
             this.dataGridView2.Size = new System.Drawing.Size(515, 234);
             this.dataGridView2.TabIndex = 6;
+            this.dataGridView2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellContentClick);
             // 
             // tabPage7
             // 
@@ -976,6 +972,8 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.label7);
+            this.panel2.Controls.Add(this.textBox1);
             this.panel2.Controls.Add(this.panel6);
             this.panel2.Controls.Add(this.SatisMiktarcomboBox);
             this.panel2.Controls.Add(this.SatisTutarcomboBox);
@@ -995,6 +993,23 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1126, 171);
             this.panel2.TabIndex = 0;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(190, 6);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(60, 21);
+            this.label7.TabIndex = 18;
+            this.label7.Text = "Miktar";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(278, 4);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ShortcutsEnabled = false;
+            this.textBox1.Size = new System.Drawing.Size(56, 26);
+            this.textBox1.TabIndex = 17;
             // 
             // panel6
             // 
@@ -1117,7 +1132,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(186, 4);
+            this.label1.Location = new System.Drawing.Point(332, 6);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(63, 21);
             this.label1.TabIndex = 2;
@@ -1145,7 +1160,7 @@
             // 
             // SatisBarkodtextBox
             // 
-            this.SatisBarkodtextBox.Location = new System.Drawing.Point(278, 6);
+            this.SatisBarkodtextBox.Location = new System.Drawing.Point(401, 4);
             this.SatisBarkodtextBox.Name = "SatisBarkodtextBox";
             this.SatisBarkodtextBox.Size = new System.Drawing.Size(249, 26);
             this.SatisBarkodtextBox.TabIndex = 0;
@@ -2734,6 +2749,30 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // columnUrunAdi
+            // 
+            this.columnUrunAdi.Text = "Ürün Adı";
+            // 
+            // columnUrunAdet
+            // 
+            this.columnUrunAdet.Text = "Adet";
+            // 
+            // columnBirimFiyat
+            // 
+            this.columnBirimFiyat.Text = "Birim Fiyat";
+            // 
+            // columnTutar
+            // 
+            this.columnTutar.Text = "Tutar";
+            // 
+            // columnBarkod
+            // 
+            this.columnBarkod.Text = "Barkod";
+            // 
+            // columnStok
+            // 
+            this.columnStok.Text = "Stok";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -3095,8 +3134,13 @@
         private CheckBox AlisFiyatCheck;
         private CheckBox BarkodCheck;
         private ListView listView1;
-        private ColumnHeader ColumndUrunAdi;
+        private Label label7;
+        private TextBox textBox1;
+        private ColumnHeader columnUrunAdi;
+        private ColumnHeader columnUrunAdet;
+        private ColumnHeader columnBirimFiyat;
+        private ColumnHeader columnTutar;
         private ColumnHeader columnBarkod;
-        private ColumnHeader columnFiyat;
+        private ColumnHeader columnStok;
     }
 }
