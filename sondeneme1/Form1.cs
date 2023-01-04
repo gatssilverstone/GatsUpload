@@ -24,12 +24,13 @@ namespace sondeneme1
             SqlCommand cmd = new SqlCommand("select * from zenokodc_IstocPosPrototype.Urun_Bilgisi", SqlBaglanti.connect);
           
 
-            SqlBaglanti.CheckConnection(SqlBaglanti.connect);
+            SqlBaglanti.connect.Open(); 
             SqlDataAdapter dataAdapter = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
             dataAdapter.Fill(dt);
             dataGridView6.DataSource = dt;
 
+            SqlBaglanti.connect.Close();
             
 
 
@@ -49,6 +50,35 @@ namespace sondeneme1
         
         
             SqlBaglanti.MusteriConnect.Close();
+        }
+
+        private void SatisBarkodOkutma() { 
+            SqlBaglanti.connect.Open();
+
+            string barkod=SatisBarkodtextBox.Text;
+
+            SqlCommand cmd = new SqlCommand("Select [Ürün Adý],barkod,[satýþ fiyat] from zenokodc_IstocPosPrototype.Urun_Bilgisi where barkod=@barcode", SqlBaglanti.connect);
+            cmd.Parameters.AddWithValue("@barcode", barkod);
+            SqlDataReader read = cmd.ExecuteReader();
+
+
+            while (read.Read())
+            {
+
+                ListViewItem add = new ListViewItem();
+                add.Text = read["Ürün Adý"].ToString();
+                add.SubItems.Add(read["barkod"].ToString());
+                add.SubItems.Add(read["satýþ fiyat"].ToString());
+                listView1.Items.Add(add);
+
+
+
+            }
+
+
+            SqlBaglanti.connect.Close();
+        
+        
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -157,12 +187,14 @@ namespace sondeneme1
 
         private void UrunlerUrunaditextBox_TextChanged(object sender, EventArgs e)
         {
-            SqlBaglanti.CheckConnection(SqlBaglanti.connect);
+            SqlBaglanti.connect.Open();
             DataTable dataTable = new DataTable();
             SqlDataAdapter find = new SqlDataAdapter("select * from zenokodc_IstocPosPrototype.Urun_Bilgisi where [Ürün Adý] like '%" + UrunlerUrunaditextBox.Text + "%'", SqlBaglanti.connect);
             
             find.Fill(dataTable);
             dataGridView6.DataSource = dataTable;
+
+            SqlBaglanti.connect.Close();
 
         }
 
@@ -187,23 +219,26 @@ namespace sondeneme1
 
             if (e.KeyCode == Keys.Enter)
             {
-                SqlBaglanti.CheckConnection(SqlBaglanti.connect);
+                SqlBaglanti.connect.Open();
                 DataTable dataTable = new DataTable();
                 SqlDataAdapter find = new SqlDataAdapter("select * from zenokodc_IstocPosPrototype.Urun_Bilgisi where barkod like '%" + UrunlerBarkodtextBox.Text + "%'", SqlBaglanti.connect);
 
                 find.Fill(dataTable);
                 dataGridView6.DataSource = dataTable;
+                SqlBaglanti.connect.Close();
             }
         }
 
         private void UrunlerStokGrubucomboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
-            SqlBaglanti.CheckConnection(SqlBaglanti.connect);
+            SqlBaglanti.connect.Open();
             DataTable dataTable = new DataTable();
             SqlDataAdapter find = new SqlDataAdapter("select * from zenokodc_IstocPosPrototype.Urun_Bilgisi where [Stok Grubu] like '%" + UrunlerStokGrubucomboBox.Text + "%'", SqlBaglanti.connect);
 
             find.Fill(dataTable);
             dataGridView6.DataSource = dataTable;
+
+            SqlBaglanti.connect.Close();
         }
 
         private void BarkodCheck_CheckedChanged(object sender, EventArgs e)
@@ -547,6 +582,75 @@ namespace sondeneme1
         {
             AlinanSiparis AlinanSiparis = new AlinanSiparis();
             AlinanSiparis.ShowDialog();
+        }
+
+        private void SatisBarkodtextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
+        }
+
+        public static decimal topla;
+
+
+        private void SatisBarkodtextBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyValue == (char)Keys.Enter)
+            {
+
+                SatisBarkodOkutma();
+                SatisBarkodtextBox.Clear();
+
+                topla = 0;
+
+                for (int sayi = 0; sayi <= listView1.Items.Count - 1; sayi++)
+
+                {
+
+                    decimal sayi1;
+
+                    string sayi2;
+
+                    sayi2 = listView1.Items[sayi].SubItems[2].Text;
+
+                    sayi1 = decimal.Parse(sayi2);
+
+                    topla = topla + sayi1;
+
+                }
+
+                SatisToplamtutartextBox.Text = Convert.ToString(topla);
+
+            }
+        }
+
+        private void SatisSatirsilbuton_Click(object sender, EventArgs e)
+        {
+
+            decimal toplam = Convert.ToDecimal(SatisToplamtutartextBox.Text);
+
+            decimal silici = Convert.ToDecimal(listView1.SelectedItems[0].SubItems[2].Text);
+            listView1.Items.Remove(listView1.SelectedItems[0]);
+            SatisToplamtutartextBox.Text = Convert.ToString(toplam - silici);
+        }
+        public void clearListWiew()
+        {
+            listView1.Items.Clear();
+            topla = 0;
+            SatisToplamtutartextBox.Clear();
+        }
+        private void SatisEvraksilbuton_Click(object sender, EventArgs e)
+        {
+            clearListWiew();
+        }
+
+        private void SatisNakitsatisbuton_Click(object sender, EventArgs e)
+        {
+            NakitPerakendeSatis nakitPerakendeSatis=new NakitPerakendeSatis();
+            nakitPerakendeSatis.Show();
+            
+            clearListWiew();
+
+
         }
     }
 }
