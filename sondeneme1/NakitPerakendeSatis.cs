@@ -50,29 +50,21 @@ namespace sondeneme1
             }
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-            if (paraUstu >= 0)
-            {
-
-                var clr = (Form1)Application.OpenForms["Form1"];
-                clr.clearListWiew();
-
-
-                this.Close();
-            }
-            else
-                MessageBox.Show("eksik para verdi bu hıyar");
-        }
+        
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (paraUstu >= 0)
+             if (paraUstu >= 0)
             {
 
                 var clr = (Form1)Application.OpenForms["Form1"];
                 clr.clearListWiew();
 
+                Form1 frm1=new Form1();
+                frm1.StoktanDus();
+
+               // var dus = (Form1)Application.OpenForms["Form1"];
+              //  dus.StoktanDus();
 
                 this.Close();
             }

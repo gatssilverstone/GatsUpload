@@ -88,6 +88,31 @@ namespace sondeneme1
         
         }
 
+        
+            public void StoktanDus()
+            {
+
+                SqlBaglanti.connect.Open();
+
+
+                for (int i = 0; i < listView1.Items.Count; i++)
+                {
+                SqlCommand cmd = new SqlCommand("Update zenokodc_IstocPosPrototype.Urun_Bilgisi set adet=adet-@dusenAdet where barkod=@barkod", SqlBaglanti.connect);
+                string barkod = listView1.Items[i].SubItems[4].Text;
+                    int dusenAdet = Convert.ToInt32( listView1.Items[i].SubItems[1].Text);
+                MessageBox.Show("barkod: " + barkod);
+                MessageBox.Show("düþen adet: " + dusenAdet);
+
+                
+                    cmd.Parameters.AddWithValue("@barkod", barkod);
+                    cmd.Parameters.AddWithValue("@dusenAdet", dusenAdet);
+                    cmd.ExecuteNonQuery();
+                }
+                SqlBaglanti.connect.Close();
+
+            }
+        
+
         private void Form1_Load(object sender, EventArgs e)
         {
            VeriCek();
@@ -680,6 +705,7 @@ namespace sondeneme1
             listView1.Items.Clear();
             topla = 0;
             SatisToplamtutartextBox.Clear();
+            MessageBox.Show("ok");
         }
         private void SatisEvraksilbuton_Click(object sender, EventArgs e)
         {
@@ -689,9 +715,9 @@ namespace sondeneme1
         private void SatisNakitsatisbuton_Click(object sender, EventArgs e)
         {
             NakitPerakendeSatis nakitPerakendeSatis=new NakitPerakendeSatis();
-            nakitPerakendeSatis.Show();
+            nakitPerakendeSatis.ShowDialog();
             
-            clearListWiew();
+            
 
 
         }
@@ -748,6 +774,11 @@ namespace sondeneme1
             Form3 MusteriKarti = new Form3();
             MusteriKarti.ShowDialog();
             
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            StoktanDus();
         }
     }
 }
