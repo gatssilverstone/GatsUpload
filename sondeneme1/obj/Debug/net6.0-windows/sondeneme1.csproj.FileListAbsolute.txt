@@ -1,0 +1,15 @@
+C:\Users\ZenoCode\source\repos\sondeneme1\0601son\sondeneme1\obj\Debug\net6.0-windows\sondeneme1.csproj.AssemblyReference.cache
+C:\Users\ZenoCode\source\repos\sondeneme1\0601son\sondeneme1\obj\Debug\net6.0-windows\sondeneme1.Form1.resources
+C:\Users\ZenoCode\source\repos\sondeneme1\0601son\sondeneme1\obj\Debug\net6.0-windows\sondeneme1.AlinanSiparis.resources
+C:\Users\ZenoCode\source\repos\sondeneme1\0601son\sondeneme1\obj\Debug\net6.0-windows\sondeneme1.Form3.resources
+C:\Users\ZenoCode\source\repos\sondeneme1\0601son\sondeneme1\obj\Debug\net6.0-windows\sondeneme1.GirisFisi.resources
+C:\Users\ZenoCode\source\repos\sondeneme1\0601son\sondeneme1\obj\Debug\net6.0-windows\sondeneme1.Musterikayit.resources
+C:\Users\ZenoCode\source\repos\sondeneme1\0601son\sondeneme1\obj\Debug\net6.0-windows\sondeneme1.NakitPerakendeSatis.resources
+C:\Users\ZenoCode\source\repos\sondeneme1\0601son\sondeneme1\obj\Debug\net6.0-windows\sondeneme1.Properties.Resources.resources
+C:\Users\ZenoCode\source\repos\sondeneme1\0601son\sondeneme1\obj\Debug\net6.0-windows\sondeneme1.Tahsilatİslemleri.resources
+C:\Users\ZenoCode\source\repos\sondeneme1\0601son\sondeneme1\obj\Debug\net6.0-windows\sondeneme1.UrunEkle.resources
+C:\Users\ZenoCode\source\repos\sondeneme1\0601son\sondeneme1\obj\Debug\net6.0-windows\sondeneme1.csproj.GenerateResource.cache
+C:\Users\ZenoCode\source\repos\sondeneme1\0601son\sondeneme1\obj\Debug\net6.0-windows\sondeneme1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ZenoCode\source\repos\sondeneme1\0601son\sondeneme1\obj\Debug\net6.0-windows\sondeneme1.AssemblyInfoInputs.cache
+C:\Users\ZenoCode\source\repos\sondeneme1\0601son\sondeneme1\obj\Debug\net6.0-windows\sondeneme1.AssemblyInfo.cs
+C:\Users\ZenoCode\source\repos\sondeneme1\0601son\sondeneme1\obj\Debug\net6.0-windows\sondeneme1.csproj.CoreCompileInputs.cache
