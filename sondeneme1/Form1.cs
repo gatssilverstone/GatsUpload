@@ -65,23 +65,26 @@ namespace sondeneme1
             
             while (read.Read())
             {
+                decimal urunMiktar;
+                urunMiktar = Convert.ToDecimal(textBox1.Text);
 
-                
-                
-                
+                String Fiyat = read["satýþ fiyat"].ToString();
+                decimal x = Convert.ToDecimal(Fiyat);
+                decimal urunTutar = urunMiktar * x;
                 ListViewItem add = new ListViewItem();
                 add.Text = read["Ürün Adý"].ToString();
                 add.SubItems.Add(textBox1.Text);
                 add.SubItems.Add(read["satýþ fiyat"].ToString());
-                add.SubItems.Add(Convert.ToString (urunTutar));
+                add.SubItems.Add(Convert.ToString(urunTutar));
                 add.SubItems.Add(read["barkod"].ToString());
                 add.SubItems.Add(read["adet"].ToString());
                 listView1.Items.Add(add);
 
 
 
+
             }
-            
+
 
             SqlBaglanti.connect.Close();
         
@@ -632,8 +635,7 @@ namespace sondeneme1
                     int urunMiktar;
                     urunMiktar = Convert.ToInt32(textBox1.Text);
 
-                    for (int i = 0; i < urunMiktar; i++)
-                    {
+                    
                         for (int sayi = 0; sayi <= listView1.Items.Count - 1; sayi++)
 
                         {
@@ -642,9 +644,9 @@ namespace sondeneme1
 
                             string sayi2;
 
-                            sayi2 = listView1.Items[sayi].SubItems[2].Text;
+                            sayi2 = listView1.Items[sayi].SubItems[3].Text;
 
-                            sayi1 = decimal.Parse(sayi2);
+                            sayi1 = Math.Round(decimal.Parse(sayi2),2);
 
                             topla = topla + sayi1;
                             
@@ -654,7 +656,7 @@ namespace sondeneme1
 
                         
 
-                    }
+                    
 
                 }
                 
@@ -748,6 +750,11 @@ namespace sondeneme1
             Form3 MusteriKarti = new Form3();
             MusteriKarti.ShowDialog();
             
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

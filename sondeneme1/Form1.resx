@@ -610,6 +610,24 @@
   <metadata name="menuStrip5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>406, 3</value>
   </metadata>
+  <metadata name="menuStrip4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>406, 3</value>
+  </metadata>
+  <metadata name="menuStrip3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>406, 3</value>
+  </metadata>
+  <metadata name="menuStrip2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>406, 3</value>
+  </metadata>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>406, 3</value>
+  </metadata>
+  <metadata name="UrunlerUrunkatimenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>406, 3</value>
+  </metadata>
+  <metadata name="UrunlerUruneklemenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>406, 3</value>
+  </metadata>
   <data name="UrunlerDosyatoolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
@@ -1054,9 +1072,6 @@
         ysj0/wC456oXd4KMAAAAAElFTkSuQmCC
 </value>
   </data>
-  <metadata name="menuStrip4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>406, 3</value>
-  </metadata>
   <data name="UrunlerFiyatdegistoolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
@@ -1296,9 +1311,6 @@
         0wV0KcXCOzdT3NgX0w30A7qQzqUT6Ch6Me1M65MkddzDHvb/ADPGo9GOycz0AAAAAElFTkSuQmCC
 </value>
   </data>
-  <metadata name="menuStrip3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>406, 3</value>
-  </metadata>
   <data name="UrunlerStokkartitoolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAWXlJREFUeF7t
@@ -1686,9 +1698,6 @@
         IYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIUQP+Nzn/n/KkzJJ3w43pgAAAABJRU5ErkJggg==
 </value>
   </data>
-  <metadata name="menuStrip2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>406, 3</value>
-  </metadata>
   <data name="UrunlerSayimtoolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAwAAAAMACAYAAACTgQCOAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
@@ -2289,9 +2298,6 @@
         TkSuQmCC
 </value>
   </data>
-  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>406, 3</value>
-  </metadata>
   <data name="UrunlerGiriscikistoolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAtAAAALQCAYAAAC5V0ecAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
@@ -3864,9 +3870,6 @@
         OI7jOIrwqv8fSn7kkssrnbQAAAAASUVORK5CYII=
 </value>
   </data>
-  <metadata name="UrunlerUrunkatimenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>406, 3</value>
-  </metadata>
   <data name="UrunlerUrunkartitoolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAvMAAAIQCAYAAAAM1eH7AAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1
@@ -7058,9 +7061,6 @@
         L8lNMzrimuH8uBwMG+P20xC3WO8EAFn9H9SDuiO2jXmwAAAAAElFTkSuQmCC
 </value>
   </data>
-  <metadata name="UrunlerUruneklemenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>406, 3</value>
-  </metadata>
   <data name="UrunelerUrunekleToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAnwAAAKACAYAAAAGvaU0AAAABGdBTUEAALGPC/xhBQAA/8dJREFUeF7s
@@ -10652,6 +10652,33 @@
   <metadata name="menuStrip15.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>406, 3</value>
   </metadata>
+  <metadata name="menuStrip14.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>406, 3</value>
+  </metadata>
+  <metadata name="menuStrip13.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>406, 3</value>
+  </metadata>
+  <metadata name="menuStrip6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>406, 3</value>
+  </metadata>
+  <metadata name="menuStrip7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>406, 3</value>
+  </metadata>
+  <metadata name="menuStrip8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>406, 3</value>
+  </metadata>
+  <metadata name="menuStrip9.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>406, 3</value>
+  </metadata>
+  <metadata name="menuStrip10.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>406, 3</value>
+  </metadata>
+  <metadata name="menuStrip11.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>406, 3</value>
+  </metadata>
+  <metadata name="menuStrip12.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>406, 3</value>
+  </metadata>
   <data name="MusterilerKaralistetoolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAWYtJREFUeF7t
@@ -11040,9 +11067,6 @@
         qvTdcAAAAABJRU5ErkJggg==
 </value>
   </data>
-  <metadata name="menuStrip14.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>406, 3</value>
-  </metadata>
   <data name="MusterilerIskontotoolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAwAAAAMACAYAAACTgQCOAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
@@ -11643,9 +11667,6 @@
         TkSuQmCC
 </value>
   </data>
-  <metadata name="menuStrip13.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>406, 3</value>
-  </metadata>
   <data name="MusterilerMusterihareketleritoolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
@@ -12376,9 +12397,6 @@
         AAAAAElFTkSuQmCC
 </value>
   </data>
-  <metadata name="menuStrip6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>406, 3</value>
-  </metadata>
   <data name="toolStripMenuItem1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAOAAAADhCAMAAADmr0l2AAAABGdBTUEAALGPC/xhBQAAAHVQTFRF9fX1
@@ -12440,9 +12458,6 @@
         rkJggg==
 </value>
   </data>
-  <metadata name="menuStrip7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>406, 3</value>
-  </metadata>
   <data name="MusterilerFaturatoolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAKoAAACPCAYAAABqF0AHAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
@@ -12633,9 +12648,6 @@
         C0uRVcQMYsqfVJLjc8xXtWbK9uYCJq9l9/zakbVj77ml+v/zfpHF9wOi5wAAAABJRU5ErkJggg==
 </value>
   </data>
-  <metadata name="menuStrip8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>406, 3</value>
-  </metadata>
   <data name="MusterilerExtretoolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAWXlJREFUeF7t
@@ -13023,9 +13035,6 @@
         IYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIUQP+Nzn/n/KkzJJ3w43pgAAAABJRU5ErkJggg==
 </value>
   </data>
-  <metadata name="menuStrip9.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>406, 3</value>
-  </metadata>
   <data name="MusterilerTahsilahtoolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
@@ -13077,9 +13086,6 @@
         40Lj0dGNIAAAAABJRU5ErkJggg==
 </value>
   </data>
-  <metadata name="menuStrip10.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>406, 3</value>
-  </metadata>
   <data name="MusterilerSiparistoolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
@@ -13153,9 +13159,6 @@
         b1O+jcJ4h6jRAAAAAElFTkSuQmCC
 </value>
   </data>
-  <metadata name="menuStrip11.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>406, 3</value>
-  </metadata>
   <data name="MusterilerMusterikartitoolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
@@ -13726,9 +13729,6 @@
         8715zGkAAAAASUVORK5CYII=
 </value>
   </data>
-  <metadata name="menuStrip12.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>406, 3</value>
-  </metadata>
   <data name="MusterilerMusteriekletoolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAnwAAAKACAYAAAAGvaU0AAAABGdBTUEAALGPC/xhBQAA/8dJREFUeF7s
@@ -15821,6 +15821,33 @@
   <metadata name="menuStrip16.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>406, 3</value>
   </metadata>
+  <metadata name="menuStrip17.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>406, 3</value>
+  </metadata>
+  <metadata name="menuStrip18.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>406, 3</value>
+  </metadata>
+  <metadata name="menuStrip19.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>406, 3</value>
+  </metadata>
+  <metadata name="menuStrip20.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>406, 3</value>
+  </metadata>
+  <metadata name="menuStrip21.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>406, 3</value>
+  </metadata>
+  <metadata name="menuStrip22.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>406, 3</value>
+  </metadata>
+  <metadata name="ToptanciSiparismenuStrip23.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>406, 3</value>
+  </metadata>
+  <metadata name="menuStrip24.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>406, 3</value>
+  </metadata>
+  <metadata name="menuStrip25.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>406, 3</value>
+  </metadata>
   <data name="ToptanKaralistetoolStripMenuItem2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAWYtJREFUeF7t
@@ -16209,9 +16236,6 @@
         qvTdcAAAAABJRU5ErkJggg==
 </value>
   </data>
-  <metadata name="menuStrip17.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>406, 3</value>
-  </metadata>
   <data name="ToptanAlimdurtoolStripMenuItem3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
@@ -16451,9 +16475,6 @@
         0wV0KcXCOzdT3NgX0w30A7qQzqUT6Ch6Me1M65MkddzDHvb/ADPGo9GOycz0AAAAAElFTkSuQmCC
 </value>
   </data>
-  <metadata name="menuStrip18.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>406, 3</value>
-  </metadata>
   <data name="ToptanTicarianaliztoolStripMenuItem4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
@@ -17184,9 +17205,6 @@
         AAAAAElFTkSuQmCC
 </value>
   </data>
-  <metadata name="menuStrip19.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>406, 3</value>
-  </metadata>
   <data name="ToptanDekonttoolStripMenuItem8.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAOAAAADhCAMAAADmr0l2AAAABGdBTUEAALGPC/xhBQAAAHVQTFRF9fX1
@@ -17248,9 +17266,6 @@
         rkJggg==
 </value>
   </data>
-  <metadata name="menuStrip20.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>406, 3</value>
-  </metadata>
   <data name="ToptanFaturatoolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAKoAAACPCAYAAABqF0AHAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
@@ -17441,9 +17456,6 @@
         C0uRVcQMYsqfVJLjc8xXtWbK9uYCJq9l9/zakbVj77ml+v/zfpHF9wOi5wAAAABJRU5ErkJggg==
 </value>
   </data>
-  <metadata name="menuStrip21.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>406, 3</value>
-  </metadata>
   <data name="ToptanExtrelertoolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAWXlJREFUeF7t
@@ -17831,9 +17843,6 @@
         IYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIUQP+Nzn/n/KkzJJ3w43pgAAAABJRU5ErkJggg==
 </value>
   </data>
-  <metadata name="menuStrip22.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>406, 3</value>
-  </metadata>
   <data name="ToptanTahsilattoolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
@@ -17885,9 +17894,6 @@
         40Lj0dGNIAAAAABJRU5ErkJggg==
 </value>
   </data>
-  <metadata name="ToptanciSiparismenuStrip23.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>406, 3</value>
-  </metadata>
   <data name="ToptanSiparistoolStripMenuItem20.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAA5gAAAOYBAMAAABC5kGOAAAABGdBTUEAALGPC/xhBQAAAA9QTFRF6Vc/
@@ -18046,9 +18052,6 @@
         AAAAAElFTkSuQmCC
 </value>
   </data>
-  <metadata name="menuStrip24.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>406, 3</value>
-  </metadata>
   <data name="toolStripMenuItem26.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAYAAAB5fY51AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
@@ -18297,9 +18300,6 @@
         YRjGK3jmmf8H/LHQjm+T45cAAAAASUVORK5CYII=
 </value>
   </data>
-  <metadata name="menuStrip25.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>406, 3</value>
-  </metadata>
   <data name="ToptanStogumtoolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAnwAAAKACAYAAAAGvaU0AAAABGdBTUEAALGPC/xhBQAA/8dJREFUeF7s
