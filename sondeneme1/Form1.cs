@@ -57,7 +57,7 @@ namespace sondeneme1
 
             string barkod=SatisBarkodtextBox.Text;
 
-            SqlCommand cmd = new SqlCommand("Select [Ürün Adý],barkod,[satýþ fiyat],adet from zenokodc_IstocPosPrototype.Urun_Bilgisi where barkod=@barcode", SqlBaglanti.connect);
+            SqlCommand cmd = new SqlCommand("Select [ÃœrÃ¼n AdÄ±],barkod,[satÄ±ÅŸ fiyat],adet from zenokodc_IstocPosPrototype.Urun_Bilgisi where barkod=@barcode", SqlBaglanti.connect);
             cmd.Parameters.AddWithValue("@barcode", barkod);
             SqlDataReader read = cmd.ExecuteReader();
 
@@ -65,53 +65,31 @@ namespace sondeneme1
             
             while (read.Read())
             {
+                decimal urunMiktar;
+                urunMiktar = Convert.ToDecimal(textBox1.Text);
 
-                
-                
-                
+                String Fiyat = read["satÄ±ÅŸ fiyat"].ToString();
+                decimal x = Convert.ToDecimal(Fiyat);
+                decimal urunTutar = urunMiktar * x;
                 ListViewItem add = new ListViewItem();
-                add.Text = read["Ürün Adý"].ToString();
+                add.Text = read["ÃœrÃ¼n AdÄ±"].ToString();
                 add.SubItems.Add(textBox1.Text);
-                add.SubItems.Add(read["satýþ fiyat"].ToString());
-                add.SubItems.Add(Convert.ToString (urunTutar));
+                add.SubItems.Add(read["satÄ±ÅŸ fiyat"].ToString());
+                add.SubItems.Add(Convert.ToString(urunTutar));
                 add.SubItems.Add(read["barkod"].ToString());
                 add.SubItems.Add(read["adet"].ToString());
                 listView1.Items.Add(add);
 
 
 
+
             }
-            
+
 
             SqlBaglanti.connect.Close();
         
         
         }
-
-        
-            public void StoktanDus()
-            {
-
-                SqlBaglanti.connect.Open();
-
-
-                for (int i = 0; i < listView1.Items.Count; i++)
-                {
-                SqlCommand cmd = new SqlCommand("Update zenokodc_IstocPosPrototype.Urun_Bilgisi set adet=adet-@dusenAdet where barkod=@barkod", SqlBaglanti.connect);
-                string barkod = listView1.Items[i].SubItems[4].Text;
-                    int dusenAdet = Convert.ToInt32( listView1.Items[i].SubItems[1].Text);
-                MessageBox.Show("barkod: " + barkod);
-                MessageBox.Show("düþen adet: " + dusenAdet);
-
-                
-                    cmd.Parameters.AddWithValue("@barkod", barkod);
-                    cmd.Parameters.AddWithValue("@dusenAdet", dusenAdet);
-                    cmd.ExecuteNonQuery();
-                }
-                SqlBaglanti.connect.Close();
-
-            }
-        
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -221,7 +199,7 @@ namespace sondeneme1
         {
             SqlBaglanti.connect.Open();
             DataTable dataTable = new DataTable();
-            SqlDataAdapter find = new SqlDataAdapter("select * from zenokodc_IstocPosPrototype.Urun_Bilgisi where [Ürün Adý] like '%" + UrunlerUrunaditextBox.Text + "%'", SqlBaglanti.connect);
+            SqlDataAdapter find = new SqlDataAdapter("select * from zenokodc_IstocPosPrototype.Urun_Bilgisi where [ÃœrÃ¼n AdÄ±] like '%" + UrunlerUrunaditextBox.Text + "%'", SqlBaglanti.connect);
             
             find.Fill(dataTable);
             dataGridView6.DataSource = dataTable;
@@ -291,11 +269,11 @@ namespace sondeneme1
         {
             if (UrunadiCheck.Checked == true)
             {
-                dataGridView6.Columns["Ürün Adý"].Visible = true;
+                dataGridView6.Columns["ÃœrÃ¼n AdÄ±"].Visible = true;
             }
             else
             {
-                dataGridView6.Columns["Ürün Adý"].Visible = false;
+                dataGridView6.Columns["ÃœrÃ¼n AdÄ±"].Visible = false;
             }
 
 
@@ -308,22 +286,22 @@ namespace sondeneme1
         {
             if (UrunlerDetayliaramacheckBox.Checked == true)
             {
-                dataGridView6.Columns["Ürün Adý"].Visible = false;
+                dataGridView6.Columns["ÃœrÃ¼n AdÄ±"].Visible = false;
                 dataGridView6.Columns["barkod"].Visible = false;
-                dataGridView6.Columns["alýþ fiyatý"].Visible = false;
-                dataGridView6.Columns["satýþ fiyat"].Visible = false;
-                dataGridView6.Columns["ürün kodu"].Visible = false;
-                dataGridView6.Columns["son iþlem tarihi"].Visible = false;
+                dataGridView6.Columns["alÄ±ÅŸ fiyatÄ±"].Visible = false;
+                dataGridView6.Columns["satÄ±ÅŸ fiyat"].Visible = false;
+                dataGridView6.Columns["Ã¼rÃ¼n kodu"].Visible = false;
+                dataGridView6.Columns["son iÅŸlem tarihi"].Visible = false;
                 dataGridView6.Columns["adet"].Visible = false;
-                dataGridView6.Columns["giriþ tarihi"].Visible = false;
-                dataGridView6.Columns["çýkýþ tarihi"].Visible = false;
-                dataGridView6.Columns["satýþ fiyatý 2"].Visible = false;
-                dataGridView6.Columns["satýþ fiyatý 3"].Visible = false;
-                dataGridView6.Columns["satýþ fiyatý 4"].Visible = false;
-                dataGridView6.Columns["ürün açýklamasý"].Visible = false;
+                dataGridView6.Columns["giriÅŸ tarihi"].Visible = false;
+                dataGridView6.Columns["Ã§Ä±kÄ±ÅŸ tarihi"].Visible = false;
+                dataGridView6.Columns["satÄ±ÅŸ fiyatÄ± 2"].Visible = false;
+                dataGridView6.Columns["satÄ±ÅŸ fiyatÄ± 3"].Visible = false;
+                dataGridView6.Columns["satÄ±ÅŸ fiyatÄ± 4"].Visible = false;
+                dataGridView6.Columns["Ã¼rÃ¼n aÃ§Ä±klamasÄ±"].Visible = false;
                 dataGridView6.Columns["Stok Grubu"].Visible = false;
-                dataGridView6.Columns["Ürün Kategori"].Visible = false;
-                dataGridView6.Columns["Devir Miktarý"].Visible = false;
+                dataGridView6.Columns["ÃœrÃ¼n Kategori"].Visible = false;
+                dataGridView6.Columns["Devir MiktarÄ±"].Visible = false;
                 dataGridView6.Columns["Birim"].Visible = false;
                 dataGridView6.Columns["kdv"].Visible = false;
 
@@ -349,22 +327,22 @@ namespace sondeneme1
             }
             else {
 
-                dataGridView6.Columns["Ürün Adý"].Visible = true;
+                dataGridView6.Columns["ÃœrÃ¼n AdÄ±"].Visible = true;
                 dataGridView6.Columns["barkod"].Visible = true;
-                dataGridView6.Columns["alýþ fiyatý"].Visible = true;
-                dataGridView6.Columns["satýþ fiyat"].Visible = true;
-                dataGridView6.Columns["ürün kodu"].Visible = true;
-                dataGridView6.Columns["son iþlem tarihi"].Visible = true;
+                dataGridView6.Columns["alÄ±ÅŸ fiyatÄ±"].Visible = true;
+                dataGridView6.Columns["satÄ±ÅŸ fiyat"].Visible = true;
+                dataGridView6.Columns["Ã¼rÃ¼n kodu"].Visible = true;
+                dataGridView6.Columns["son iÅŸlem tarihi"].Visible = true;
                 dataGridView6.Columns["adet"].Visible = true;
-                dataGridView6.Columns["giriþ tarihi"].Visible = true;
-                dataGridView6.Columns["çýkýþ tarihi"].Visible = true;
-                dataGridView6.Columns["satýþ fiyatý 2"].Visible = true;
-                dataGridView6.Columns["satýþ fiyatý 3"].Visible = true;
-                dataGridView6.Columns["satýþ fiyatý 4"].Visible = true;
-                dataGridView6.Columns["ürün açýklamasý"].Visible = true;
+                dataGridView6.Columns["giriÅŸ tarihi"].Visible = true;
+                dataGridView6.Columns["Ã§Ä±kÄ±ÅŸ tarihi"].Visible = true;
+                dataGridView6.Columns["satÄ±ÅŸ fiyatÄ± 2"].Visible = true;
+                dataGridView6.Columns["satÄ±ÅŸ fiyatÄ± 3"].Visible = true;
+                dataGridView6.Columns["satÄ±ÅŸ fiyatÄ± 4"].Visible = true;
+                dataGridView6.Columns["Ã¼rÃ¼n aÃ§Ä±klamasÄ±"].Visible = true;
                 dataGridView6.Columns["Stok Grubu"].Visible = true;
-                dataGridView6.Columns["Ürün Kategori"].Visible = true;
-                dataGridView6.Columns["Devir Miktarý"].Visible = true;
+                dataGridView6.Columns["ÃœrÃ¼n Kategori"].Visible = true;
+                dataGridView6.Columns["Devir MiktarÄ±"].Visible = true;
                 dataGridView6.Columns["Birim"].Visible = true;
                 dataGridView6.Columns["kdv"].Visible = true;
 
@@ -396,11 +374,11 @@ namespace sondeneme1
             
             if (AlisFiyatCheck.Checked == true)
             {
-                dataGridView6.Columns["alýþ fiyatý"].Visible = true;
+                dataGridView6.Columns["alÄ±ÅŸ fiyatÄ±"].Visible = true;
             }
             else
             {
-                dataGridView6.Columns["alýþ fiyatý"].Visible = false;
+                dataGridView6.Columns["alÄ±ÅŸ fiyatÄ±"].Visible = false;
             }
 
         }
@@ -409,11 +387,11 @@ namespace sondeneme1
         {
             if (satis1Check.Checked == true)
             {
-                dataGridView6.Columns["satýþ fiyatý 2"].Visible = true;
+                dataGridView6.Columns["satÄ±ÅŸ fiyatÄ± 2"].Visible = true;
             }
             else
             {
-                dataGridView6.Columns["satýþ fiyatý 2"].Visible = false;
+                dataGridView6.Columns["satÄ±ÅŸ fiyatÄ± 2"].Visible = false;
             }
         }
 
@@ -421,11 +399,11 @@ namespace sondeneme1
         {
             if (satis2Check.Checked == true)
             {
-                dataGridView6.Columns["satýþ fiyat"].Visible = true;
+                dataGridView6.Columns["satÄ±ÅŸ fiyat"].Visible = true;
             }
             else
             {
-                dataGridView6.Columns["satýþ fiyat"].Visible = false;
+                dataGridView6.Columns["satÄ±ÅŸ fiyat"].Visible = false;
             }
         }
 
@@ -433,11 +411,11 @@ namespace sondeneme1
         {
             if (satis3Check.Checked == true)
             {
-                dataGridView6.Columns["satýþ fiyatý 3"].Visible = true;
+                dataGridView6.Columns["satÄ±ÅŸ fiyatÄ± 3"].Visible = true;
             }
             else
             {
-                dataGridView6.Columns["satýþ fiyatý 3"].Visible = false;
+                dataGridView6.Columns["satÄ±ÅŸ fiyatÄ± 3"].Visible = false;
             }
         }
 
@@ -445,11 +423,11 @@ namespace sondeneme1
         {
             if (satis4Check.Checked == true)
             {
-                dataGridView6.Columns["satýþ fiyatý 4"].Visible = true;
+                dataGridView6.Columns["satÄ±ÅŸ fiyatÄ± 4"].Visible = true;
             }
             else
             {
-                dataGridView6.Columns["satýþ fiyatý 4"].Visible = false;
+                dataGridView6.Columns["satÄ±ÅŸ fiyatÄ± 4"].Visible = false;
             }
         }
 
@@ -457,11 +435,11 @@ namespace sondeneme1
         {
             if (urunKodCheck.Checked == true)
             {
-                dataGridView6.Columns["ürün kodu"].Visible = true;
+                dataGridView6.Columns["Ã¼rÃ¼n kodu"].Visible = true;
             }
             else
             {
-                dataGridView6.Columns["ürün kodu"].Visible = false;
+                dataGridView6.Columns["Ã¼rÃ¼n kodu"].Visible = false;
             }
         }
 
@@ -481,11 +459,11 @@ namespace sondeneme1
         {
             if (aciklamaCheck.Checked == true)
             {
-                dataGridView6.Columns["ürün açýklamasý"].Visible = true;
+                dataGridView6.Columns["Ã¼rÃ¼n aÃ§Ä±klamasÄ±"].Visible = true;
             }
             else
             {
-                dataGridView6.Columns["ürün açýklamasý"].Visible = false;
+                dataGridView6.Columns["Ã¼rÃ¼n aÃ§Ä±klamasÄ±"].Visible = false;
             }
         }
 
@@ -505,11 +483,11 @@ namespace sondeneme1
         {
             if (kategoriCheck.Checked == true)
             {
-                dataGridView6.Columns["Ürün Kategori"].Visible = true;
+                dataGridView6.Columns["ÃœrÃ¼n Kategori"].Visible = true;
             }
             else
             {
-                dataGridView6.Columns["Ürün Kategori"].Visible = false;
+                dataGridView6.Columns["ÃœrÃ¼n Kategori"].Visible = false;
             }
         }
 
@@ -517,11 +495,11 @@ namespace sondeneme1
         {
             if (devirCheck.Checked == true)
             {
-                dataGridView6.Columns["Devir Miktarý"].Visible = true;
+                dataGridView6.Columns["Devir MiktarÄ±"].Visible = true;
             }
             else
             {
-                dataGridView6.Columns["Devir Miktarý"].Visible = false;
+                dataGridView6.Columns["Devir MiktarÄ±"].Visible = false;
             }
         }
 
@@ -553,11 +531,11 @@ namespace sondeneme1
         {
             if (ilkGirisCheck.Checked == true)
             {
-                dataGridView6.Columns["giriþ tarihi"].Visible = true;
+                dataGridView6.Columns["giriÅŸ tarihi"].Visible = true;
             }
             else
             {
-                dataGridView6.Columns["giriþ tarihi"].Visible = false;
+                dataGridView6.Columns["giriÅŸ tarihi"].Visible = false;
             }
         }
 
@@ -565,11 +543,11 @@ namespace sondeneme1
         {
             if (cikisTarihiCheck.Checked == true)
             {
-                dataGridView6.Columns["çýkýþ tarihi"].Visible = true;
+                dataGridView6.Columns["Ã§Ä±kÄ±ÅŸ tarihi"].Visible = true;
             }
             else
             {
-                dataGridView6.Columns["çýkýþ tarihi"].Visible = false;
+                dataGridView6.Columns["Ã§Ä±kÄ±ÅŸ tarihi"].Visible = false;
             }
         }
 
@@ -577,11 +555,11 @@ namespace sondeneme1
         {
             if (sonIslemCheck.Checked == true)
             {
-                dataGridView6.Columns["son iþlem tarihi"].Visible = true;
+                dataGridView6.Columns["son iÅŸlem tarihi"].Visible = true;
             }
             else
             {
-                dataGridView6.Columns["son iþlem tarihi"].Visible = false;
+                dataGridView6.Columns["son iÅŸlem tarihi"].Visible = false;
             }
         }
 
@@ -598,8 +576,8 @@ namespace sondeneme1
 
         private void MusterilerTahsilahtoolStripMenuItem_Click(object sender, EventArgs e)
         {
-            TahsilatÝslemleri TahsilatÝslem = new TahsilatÝslemleri();
-            TahsilatÝslem.ShowDialog();
+            TahsilatÄ°slemleri TahsilatÄ°slem = new TahsilatÄ°slemleri();
+            TahsilatÄ°slem.ShowDialog();
         }
 
         private void SatisKisayolbuton14_Click(object sender, EventArgs e)
@@ -657,8 +635,7 @@ namespace sondeneme1
                     int urunMiktar;
                     urunMiktar = Convert.ToInt32(textBox1.Text);
 
-                    for (int i = 0; i < urunMiktar; i++)
-                    {
+                    
                         for (int sayi = 0; sayi <= listView1.Items.Count - 1; sayi++)
 
                         {
@@ -667,9 +644,9 @@ namespace sondeneme1
 
                             string sayi2;
 
-                            sayi2 = listView1.Items[sayi].SubItems[2].Text;
+                            sayi2 = listView1.Items[sayi].SubItems[3].Text;
 
-                            sayi1 = decimal.Parse(sayi2);
+                            sayi1 = Math.Round(decimal.Parse(sayi2),2);
 
                             topla = topla + sayi1;
                             
@@ -679,7 +656,7 @@ namespace sondeneme1
 
                         
 
-                    }
+                    
 
                 }
                 
@@ -705,7 +682,6 @@ namespace sondeneme1
             listView1.Items.Clear();
             topla = 0;
             SatisToplamtutartextBox.Clear();
-            MessageBox.Show("ok");
         }
         private void SatisEvraksilbuton_Click(object sender, EventArgs e)
         {
@@ -715,9 +691,9 @@ namespace sondeneme1
         private void SatisNakitsatisbuton_Click(object sender, EventArgs e)
         {
             NakitPerakendeSatis nakitPerakendeSatis=new NakitPerakendeSatis();
-            nakitPerakendeSatis.ShowDialog();
+            nakitPerakendeSatis.Show();
             
-            
+            clearListWiew();
 
 
         }
@@ -743,7 +719,7 @@ namespace sondeneme1
             {
                 SqlBaglanti.MusteriConnect.Open();
 
-                SqlCommand cmd = new SqlCommand("select * from zenokodc_IstocPosProtoype.Musteriler where [Firma Adý] like '%" + MusterilerKatagoricomboBox.Text + "%'", SqlBaglanti.MusteriConnect);
+                SqlCommand cmd = new SqlCommand("select * from zenokodc_IstocPosProtoype.Musteriler where [Firma AdÄ±] like '%" + MusterilerKatagoricomboBox.Text + "%'", SqlBaglanti.MusteriConnect);
                 SqlDataAdapter dataAdapter = new SqlDataAdapter(cmd);
                 DataTable dataTable = new DataTable();
                 dataAdapter.Fill(dataTable);
@@ -759,7 +735,7 @@ namespace sondeneme1
             {
                 SqlBaglanti.MusteriConnect.Open();
 
-                SqlCommand cmd = new SqlCommand("select * from zenokodc_IstocPosProtoype.Musteriler where [Adý Soyadý] like '%" + MusterilerKatagoricomboBox.Text + "%'", SqlBaglanti.MusteriConnect);
+                SqlCommand cmd = new SqlCommand("select * from zenokodc_IstocPosProtoype.Musteriler where [AdÄ± SoyadÄ±] like '%" + MusterilerKatagoricomboBox.Text + "%'", SqlBaglanti.MusteriConnect);
                 SqlDataAdapter dataAdapter = new SqlDataAdapter(cmd);
                 DataTable dataTable = new DataTable();
                 dataAdapter.Fill(dataTable);
@@ -776,9 +752,9 @@ namespace sondeneme1
             
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void label6_Click(object sender, EventArgs e)
         {
-            StoktanDus();
+
         }
     }
 }
