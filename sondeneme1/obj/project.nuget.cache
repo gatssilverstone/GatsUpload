@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QkoWOuXpaUZoL1N1TL6cNAAOUXiuabUDQ5Gc6UL2jcJLdYHaxN4QtrKLt9kz38DSqwnnZWntWg98vHwFTi6pmg==",
+  "dgSpecHash": "J9TvEScD0eb/gNJgp9eKzA4HXraq0DIiiFvT28VTRPZieYG6uQZI9TP6o7slRiJ4wE0zil3Q1U9cRHj7nSspTQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ZenoCode\\source\\repos\\sondeneme1\\0601\\sondeneme1\\sondeneme1.csproj",
+  "projectFilePath": "C:\\Users\\ZenoCode\\source\\repos\\sondeneme1\\enson0601\\sondeneme1\\sondeneme1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ZenoCode\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\ZenoCode\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

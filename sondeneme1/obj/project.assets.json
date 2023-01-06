@@ -476,11 +476,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ZenoCode\\source\\repos\\sondeneme1\\0601\\sondeneme1\\sondeneme1.csproj",
+      "projectUniqueName": "C:\\Users\\ZenoCode\\source\\repos\\sondeneme1\\enson0601\\sondeneme1\\sondeneme1.csproj",
       "projectName": "sondeneme1",
-      "projectPath": "C:\\Users\\ZenoCode\\source\\repos\\sondeneme1\\0601\\sondeneme1\\sondeneme1.csproj",
+      "projectPath": "C:\\Users\\ZenoCode\\source\\repos\\sondeneme1\\enson0601\\sondeneme1\\sondeneme1.csproj",
       "packagesPath": "C:\\Users\\ZenoCode\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ZenoCode\\source\\repos\\sondeneme1\\0601\\sondeneme1\\obj\\",
+      "outputPath": "C:\\Users\\ZenoCode\\source\\repos\\sondeneme1\\enson0601\\sondeneme1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -605,7 +605,7 @@ namespace sondeneme1
 
         int urunMiktar;
         int urunTutar;
-        int stsFiyat;
+       
         private void SatisBarkodtextBox_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyValue == (char)Keys.Enter)
@@ -616,7 +616,7 @@ namespace sondeneme1
                 
                 SatisBarkodOkutma();
                 
-                stsFiyat = (int) Convert.ToInt32(satisFiyat);
+               
                 
                // urunMiktar = (int) Convert.ToInt32(textBox1.Text);
                 // urunTutar = urunMiktar *  stsFiyat;
@@ -646,7 +646,7 @@ namespace sondeneme1
 
                             sayi2 = listView1.Items[sayi].SubItems[3].Text;
 
-                            sayi1 = Math.Round(decimal.Parse(sayi2),2);
+                            sayi1 = Math.Round(decimal.Parse(sayi2),1);
 
                             topla = topla + sayi1;
                             
