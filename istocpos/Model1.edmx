@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="istocposDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="UrunBilgisi">
+          <Key>
+            <PropertyRef Name="UrunId" />
+          </Key>
+          <Property Name="UrunId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UrunAdi" Type="nvarchar" MaxLength="100" />
+          <Property Name="Urunbarkod" Type="nvarchar" MaxLength="100" />
+          <Property Name="Birim" Type="nvarchar" MaxLength="50" />
+          <Property Name="KdvOrani" Type="int" />
+          <Property Name="KdvTutari" Type="float" />
+          <Property Name="AlisFiyati" Type="float" />
+          <Property Name="SatisFiyati1" Type="float" />
+          <Property Name="Satisfiyati2" Type="float" />
+          <Property Name="SatisFiyati3" Type="float" />
+          <Property Name="SatisFiyati4" Type="float" />
+          <Property Name="Grup1" Type="nvarchar" MaxLength="50" />
+          <Property Name="Grup2" Type="nvarchar" MaxLength="50" />
+          <Property Name="Grup3" Type="nvarchar" MaxLength="50" />
+          <Property Name="Aciklama" Type="nvarchar" MaxLength="100" />
+          <Property Name="Kritikseviye" Type="float" />
+          <Property Name="Maximumseviye" Type="float" />
+          <Property Name="kullanici" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityContainer Name="istocposDBModelStoreContainer">
+          <EntitySet Name="UrunBilgisi" EntityType="Self.UrunBilgisi" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="istocposDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="UrunBilgisi">
+          <Key>
+            <PropertyRef Name="UrunId" />
+          </Key>
+          <Property Name="UrunId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UrunAdi" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Urunbarkod" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Birim" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="KdvOrani" Type="Int32" />
+          <Property Name="KdvTutari" Type="Double" />
+          <Property Name="AlisFiyati" Type="Double" />
+          <Property Name="SatisFiyati1" Type="Double" />
+          <Property Name="Satisfiyati2" Type="Double" />
+          <Property Name="SatisFiyati3" Type="Double" />
+          <Property Name="SatisFiyati4" Type="Double" />
+          <Property Name="Grup1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Grup2" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Grup3" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Aciklama" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Kritikseviye" Type="Double" />
+          <Property Name="Maximumseviye" Type="Double" />
+          <Property Name="kullanici" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityContainer Name="istocposDBEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="UrunBilgisi" EntityType="Self.UrunBilgisi" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="istocposDBModelStoreContainer" CdmEntityContainer="istocposDBEntities">
+          <EntitySetMapping Name="UrunBilgisi">
+            <EntityTypeMapping TypeName="istocposDBModel.UrunBilgisi">
+              <MappingFragment StoreEntitySet="UrunBilgisi">
+                <ScalarProperty Name="UrunId" ColumnName="UrunId" />
+                <ScalarProperty Name="UrunAdi" ColumnName="UrunAdi" />
+                <ScalarProperty Name="Urunbarkod" ColumnName="Urunbarkod" />
+                <ScalarProperty Name="Birim" ColumnName="Birim" />
+                <ScalarProperty Name="KdvOrani" ColumnName="KdvOrani" />
+                <ScalarProperty Name="KdvTutari" ColumnName="KdvTutari" />
+                <ScalarProperty Name="AlisFiyati" ColumnName="AlisFiyati" />
+                <ScalarProperty Name="SatisFiyati1" ColumnName="SatisFiyati1" />
+                <ScalarProperty Name="Satisfiyati2" ColumnName="Satisfiyati2" />
+                <ScalarProperty Name="SatisFiyati3" ColumnName="SatisFiyati3" />
+                <ScalarProperty Name="SatisFiyati4" ColumnName="SatisFiyati4" />
+                <ScalarProperty Name="Grup1" ColumnName="Grup1" />
+                <ScalarProperty Name="Grup2" ColumnName="Grup2" />
+                <ScalarProperty Name="Grup3" ColumnName="Grup3" />
+                <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+                <ScalarProperty Name="Kritikseviye" ColumnName="Kritikseviye" />
+                <ScalarProperty Name="Maximumseviye" ColumnName="Maximumseviye" />
+                <ScalarProperty Name="kullanici" ColumnName="kullanici" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
