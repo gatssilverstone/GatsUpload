@@ -101,6 +101,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Model1.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Nakit Perakende Satis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nakit Perakende Satis.Designer.cs">
+      <DependentUpon>Nakit Perakende Satis.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UrunBilgisi.cs">
@@ -111,6 +117,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="HizliButonUrunEkle.resx">
       <DependentUpon>HizliButonUrunEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nakit Perakende Satis.resx">
+      <DependentUpon>Nakit Perakende Satis.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -201,5 +201,76 @@ namespace istocpos
             b.Text = "-" + "\n" + "0";
 
         }
+
+        private void buttonMuhtelif_Click(object sender, EventArgs e)
+        {
+            if (textBox2.Text != "") {
+                int satirSayisi = dataGridView1.Rows.Count;
+                dataGridView1.Rows.Add();
+                dataGridView1.Rows[satirSayisi].Cells["Barkod"].Value = "111111111116";
+                dataGridView1.Rows[satirSayisi].Cells["UrunAdi"].Value = "Muhtelif Ürün";
+                dataGridView1.Rows[satirSayisi].Cells["Barkod"].Value = Convert.ToInt32 (MiktarTextBox1.Text);
+                dataGridView1.Rows[satirSayisi].Cells["Fiyat"].Value = Convert.ToInt32(textBox2.Text);
+                dataGridView1.Rows[satirSayisi].Cells["Tutar"].Value = Convert.ToInt32(textBox2.Text)* Convert.ToInt32(MiktarTextBox1.Text);
+                GenelToplam();
+                textBox2.Clear();
+            }
+        }
+
+        private void checkBoxIade_CheckedChanged(object sender, EventArgs e)
+        {
+
+            if (checkBoxIade.Checked == false)
+            {
+
+                checkBoxIade.Visible = true;
+
+                BarkodTextBox1.Focus();
+            }
+            else
+            {
+                BarkodTextBox1.Focus();
+                checkBoxIade.Visible = false;
+                
+
+            }
+        }
+
+        public void temizle()
+        {
+
+            MiktarTextBox1.Clear();
+            BarkodTextBox1.Clear();
+            textBox2.Clear();
+            checkBoxIade.Checked = false;
+            ToplamtextBox1.Text=0.ToString("C2");
+            dataGridView1.Rows.Clear();
+
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            if (checkBoxIade.Checked == false)
+            {
+
+                checkBoxIade.Visible = true;
+                checkBoxIade.Checked = true;
+
+            }
+            else
+            {
+
+                checkBoxIade.Visible = false;
+                checkBoxIade.Checked = false;
+
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            temizle();
+        }
     }
 }

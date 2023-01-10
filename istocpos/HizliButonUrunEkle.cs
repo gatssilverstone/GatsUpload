@@ -50,5 +50,19 @@ namespace istocpos
                 this.Close();
             }
         }
+
+        private void HizliUrunAraChekBox_CheckedChanged(object sender, EventArgs e)
+        {
+            if (HizliUrunAraChekBox.Checked)
+            {
+                HizliUrunEkleUrunlerGrid.DataSource = db.UrunBilgisi.ToList();
+
+            }
+            else {
+                HizliUrunEkleUrunlerGrid.DataSource = null;
+            }
+            
+             
+        }
     }
 }

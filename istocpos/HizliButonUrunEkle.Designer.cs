@@ -30,12 +30,12 @@
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.HizliUrunEkleUrunlerGrid = new System.Windows.Forms.DataGridView();
+            this.BNolabel = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.HizliUrunAraChekBox = new System.Windows.Forms.CheckBox();
             this.HizliUrunAraLabel = new System.Windows.Forms.Label();
             this.HizliUrunAraTextbox = new System.Windows.Forms.TextBox();
-            this.HizliUrunAraChekBox = new System.Windows.Forms.CheckBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.BNolabel = new System.Windows.Forms.Label();
+            this.HizliUrunEkleUrunlerGrid = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -66,6 +66,65 @@
             this.splitContainer1.SplitterDistance = 81;
             this.splitContainer1.TabIndex = 0;
             // 
+            // BNolabel
+            // 
+            this.BNolabel.AutoSize = true;
+            this.BNolabel.BackColor = System.Drawing.Color.Transparent;
+            this.BNolabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.BNolabel.ForeColor = System.Drawing.Color.DarkCyan;
+            this.BNolabel.Location = new System.Drawing.Point(134, 9);
+            this.BNolabel.Name = "BNolabel";
+            this.BNolabel.Size = new System.Drawing.Size(38, 17);
+            this.BNolabel.TabIndex = 29;
+            this.BNolabel.Text = "BNo";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.ForeColor = System.Drawing.Color.DarkCyan;
+            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(116, 17);
+            this.label1.TabIndex = 28;
+            this.label1.Text = "Hızlı Buton No:";
+            // 
+            // HizliUrunAraChekBox
+            // 
+            this.HizliUrunAraChekBox.AutoSize = true;
+            this.HizliUrunAraChekBox.BackColor = System.Drawing.Color.Transparent;
+            this.HizliUrunAraChekBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.HizliUrunAraChekBox.ForeColor = System.Drawing.Color.DarkCyan;
+            this.HizliUrunAraChekBox.Location = new System.Drawing.Point(316, 45);
+            this.HizliUrunAraChekBox.Name = "HizliUrunAraChekBox";
+            this.HizliUrunAraChekBox.Size = new System.Drawing.Size(139, 24);
+            this.HizliUrunAraChekBox.TabIndex = 27;
+            this.HizliUrunAraChekBox.Text = "Tümünü Göster";
+            this.HizliUrunAraChekBox.UseVisualStyleBackColor = false;
+            this.HizliUrunAraChekBox.CheckedChanged += new System.EventHandler(this.HizliUrunAraChekBox_CheckedChanged);
+            // 
+            // HizliUrunAraLabel
+            // 
+            this.HizliUrunAraLabel.AutoSize = true;
+            this.HizliUrunAraLabel.BackColor = System.Drawing.Color.Transparent;
+            this.HizliUrunAraLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.HizliUrunAraLabel.ForeColor = System.Drawing.Color.DarkCyan;
+            this.HizliUrunAraLabel.Location = new System.Drawing.Point(12, 48);
+            this.HizliUrunAraLabel.Name = "HizliUrunAraLabel";
+            this.HizliUrunAraLabel.Size = new System.Drawing.Size(73, 17);
+            this.HizliUrunAraLabel.TabIndex = 26;
+            this.HizliUrunAraLabel.Text = "Ürün Ara";
+            // 
+            // HizliUrunAraTextbox
+            // 
+            this.HizliUrunAraTextbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.HizliUrunAraTextbox.Location = new System.Drawing.Point(91, 45);
+            this.HizliUrunAraTextbox.Name = "HizliUrunAraTextbox";
+            this.HizliUrunAraTextbox.Size = new System.Drawing.Size(219, 23);
+            this.HizliUrunAraTextbox.TabIndex = 25;
+            this.HizliUrunAraTextbox.TextChanged += new System.EventHandler(this.HizliUrunAraTextbox_TextChanged);
+            // 
             // HizliUrunEkleUrunlerGrid
             // 
             this.HizliUrunEkleUrunlerGrid.AllowUserToAddRows = false;
@@ -91,61 +150,6 @@
             this.HizliUrunEkleUrunlerGrid.Size = new System.Drawing.Size(733, 308);
             this.HizliUrunEkleUrunlerGrid.TabIndex = 1;
             this.HizliUrunEkleUrunlerGrid.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.HizliUrunEkleUrunlerGrid_CellContentDoubleClick);
-            // 
-            // HizliUrunAraLabel
-            // 
-            this.HizliUrunAraLabel.AutoSize = true;
-            this.HizliUrunAraLabel.BackColor = System.Drawing.Color.Transparent;
-            this.HizliUrunAraLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.HizliUrunAraLabel.ForeColor = System.Drawing.Color.DarkCyan;
-            this.HizliUrunAraLabel.Location = new System.Drawing.Point(12, 48);
-            this.HizliUrunAraLabel.Name = "HizliUrunAraLabel";
-            this.HizliUrunAraLabel.Size = new System.Drawing.Size(73, 17);
-            this.HizliUrunAraLabel.TabIndex = 26;
-            this.HizliUrunAraLabel.Text = "Ürün Ara";
-            // 
-            // HizliUrunAraTextbox
-            // 
-            this.HizliUrunAraTextbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.HizliUrunAraTextbox.Location = new System.Drawing.Point(91, 45);
-            this.HizliUrunAraTextbox.Name = "HizliUrunAraTextbox";
-            this.HizliUrunAraTextbox.Size = new System.Drawing.Size(219, 23);
-            this.HizliUrunAraTextbox.TabIndex = 25;
-            this.HizliUrunAraTextbox.TextChanged += new System.EventHandler(this.HizliUrunAraTextbox_TextChanged);
-            // 
-            // HizliUrunAraChekBox
-            // 
-            this.HizliUrunAraChekBox.AutoSize = true;
-            this.HizliUrunAraChekBox.Location = new System.Drawing.Point(316, 51);
-            this.HizliUrunAraChekBox.Name = "HizliUrunAraChekBox";
-            this.HizliUrunAraChekBox.Size = new System.Drawing.Size(99, 17);
-            this.HizliUrunAraChekBox.TabIndex = 27;
-            this.HizliUrunAraChekBox.Text = "Tümünü Göster";
-            this.HizliUrunAraChekBox.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.ForeColor = System.Drawing.Color.DarkCyan;
-            this.label1.Location = new System.Drawing.Point(12, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(116, 17);
-            this.label1.TabIndex = 28;
-            this.label1.Text = "Hızlı Buton No:";
-            // 
-            // BNolabel
-            // 
-            this.BNolabel.AutoSize = true;
-            this.BNolabel.BackColor = System.Drawing.Color.Transparent;
-            this.BNolabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BNolabel.ForeColor = System.Drawing.Color.DarkCyan;
-            this.BNolabel.Location = new System.Drawing.Point(134, 9);
-            this.BNolabel.Name = "BNolabel";
-            this.BNolabel.Size = new System.Drawing.Size(38, 17);
-            this.BNolabel.TabIndex = 29;
-            this.BNolabel.Text = "BNo";
             // 
             // HizliButonUrunEkle
             // 
