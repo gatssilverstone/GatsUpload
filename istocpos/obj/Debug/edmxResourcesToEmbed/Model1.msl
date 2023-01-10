@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="istocposDBModelStoreContainer" CdmEntityContainer="istocposDBEntities">
+    <EntitySetMapping Name="UrunBilgisi">
+      <EntityTypeMapping TypeName="istocposDBModel.UrunBilgisi">
+        <MappingFragment StoreEntitySet="UrunBilgisi">
+          <ScalarProperty Name="StokMiktari" ColumnName="StokMiktari" />
+          <ScalarProperty Name="Tarih" ColumnName="Tarih" />
+          <ScalarProperty Name="UrunId" ColumnName="UrunId" />
+          <ScalarProperty Name="UrunAdi" ColumnName="UrunAdi" />
+          <ScalarProperty Name="Urunbarkod" ColumnName="Urunbarkod" />
+          <ScalarProperty Name="Birim" ColumnName="Birim" />
+          <ScalarProperty Name="KdvOrani" ColumnName="KdvOrani" />
+          <ScalarProperty Name="KdvTutari" ColumnName="KdvTutari" />
+          <ScalarProperty Name="AlisFiyati" ColumnName="AlisFiyati" />
+          <ScalarProperty Name="SatisFiyati1" ColumnName="SatisFiyati1" />
+          <ScalarProperty Name="Satisfiyati2" ColumnName="Satisfiyati2" />
+          <ScalarProperty Name="SatisFiyati3" ColumnName="SatisFiyati3" />
+          <ScalarProperty Name="SatisFiyati4" ColumnName="SatisFiyati4" />
+          <ScalarProperty Name="Grup1" ColumnName="Grup1" />
+          <ScalarProperty Name="Grup2" ColumnName="Grup2" />
+          <ScalarProperty Name="Grup3" ColumnName="Grup3" />
+          <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+          <ScalarProperty Name="Kritikseviye" ColumnName="Kritikseviye" />
+          <ScalarProperty Name="Maximumseviye" ColumnName="Maximumseviye" />
+          <ScalarProperty Name="kullanici" ColumnName="kullanici" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HizliUrun">
+      <EntityTypeMapping TypeName="istocposDBModel.HizliUrun">
+        <MappingFragment StoreEntitySet="HizliUrun">
+          <ScalarProperty Name="Fiyat1" ColumnName="Fiyat1" />
+          <ScalarProperty Name="UrunAdi" ColumnName="UrunAdi" />
+          <ScalarProperty Name="Barkod" ColumnName="Barkod" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
