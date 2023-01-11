@@ -104,6 +104,8 @@ namespace istocpos
                 dataGridView1.Rows[SatirSayisi].Cells["UrunAdi"].Value = urun.UrunAdi;
                 dataGridView1.Rows[SatirSayisi].Cells["Miktar"].Value = miktar;
                 dataGridView1.Rows[SatirSayisi].Cells["Fiyat"].Value = urun.SatisFiyati1;
+                dataGridView1.Rows[SatirSayisi].Cells["alisFiyat"].Value = urun.AlisFiyati;
+                dataGridView1.Rows[SatirSayisi].Cells["kdvTutar"].Value = urun.KdvTutari;
                 dataGridView1.Rows[SatirSayisi].Cells["Tutar"].Value = Math.Round(miktar * (double)urun.SatisFiyati1, 2);
             }
             dataGridView1.ClearSelection();
@@ -235,7 +237,37 @@ namespace istocpos
 
             }
         }
+         public void satisYap(string odemesekli)
+        {
+            int satirSayisi = dataGridView1.Rows.Count;
+            bool iadeSatis=checkBoxIade.Checked;
+            double alisFiyatToplam = 0;
+            if (satirSayisi > 0)
+            {
+                int? islemNo = db.Islem.First().IslemNo;
+                Satis satis = new Satis();
+                for (int i = 0; i < satirSayisi; i++) {
+                    satis.IslemBo = islemNo;
+                    satis.UrunAd = dataGridView1.Rows[i].Cells["UrunAdi"].Value.ToString();
+                    satis.Barkod= dataGridView1.Rows[i].Cells["Barkod"].Value.ToString();
+                    satis.Satis1=islemler.DoubleYap( dataGridView1.Rows[i].Cells["Fiyat"].Value.ToString());
+                    satis.Miktar = islemler.DoubleYap(dataGridView1.Rows[i].Cells["Miktar"].Value.ToString());
+                    satis.Toplam = islemler.DoubleYap(dataGridView1.Rows[i].Cells["Tutar"].Value.ToString());
+                    satis.AlisFiyat= islemler.DoubleYap(dataGridView1.Rows[i].Cells["alisFiyat"].Value.ToString());
+                    satis.KdvTutar= islemler.DoubleYap(dataGridView1.Rows[i].Cells["kdvTutar"].Value.ToString())* islemler.DoubleYap(dataGridView1.Rows[i].Cells["Miktar"].Value.ToString());
+                    satis.OdemeSekli = odemesekli;
+                    satis.Iade = iadeSatis;
+                    satis.Tarih=DateTime.Now;
+                    satis.Kullanici = kullaniciLabel.Text;
+                    db.Satis.Add( satis );
+                    db.SaveChanges();
+                    
 
+                }
+
+            }
+
+        }
         public void temizle()
         {
 
@@ -271,6 +303,11 @@ namespace istocpos
         private void button2_Click(object sender, EventArgs e)
         {
             temizle();
+        }
+
+        private void button25_Click(object sender, EventArgs e)
+        {
+            satisYap("Nakit");
         }
     }
 }

@@ -27,5 +27,8 @@ namespace istocpos
     
         public virtual DbSet<UrunBilgisi> UrunBilgisi { get; set; }
         public virtual DbSet<HizliUrun> HizliUrun { get; set; }
+        public virtual DbSet<Islem> Islem { get; set; }
+        public virtual DbSet<IslemOzet> IslemOzet { get; set; }
+        public virtual DbSet<Satis> Satis { get; set; }
     }
 }

@@ -28,6 +28,9 @@
   <EntityContainer Name="istocposDBEntities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="UrunBilgisi" EntityType="Self.UrunBilgisi" />
     <EntitySet Name="HizliUrun" EntityType="istocposDBModel.HizliUrun" />
+    <EntitySet Name="Islem" EntityType="istocposDBModel.Islem" />
+    <EntitySet Name="IslemOzet" EntityType="istocposDBModel.IslemOzet" />
+    <EntitySet Name="Satis" EntityType="istocposDBModel.Satis" />
   </EntityContainer>
   <EntityType Name="HizliUrun">
     <Key>
@@ -37,5 +40,52 @@
     <Property Name="Barkod" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
     <Property Name="UrunAdi" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
     <Property Name="Fiyat1" Type="Double" />
+  </EntityType>
+  <EntityType Name="Islem">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IslemNo" Type="Int32" />
+  </EntityType>
+  <EntityType Name="IslemOzet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IslemNo" Type="Int32" />
+    <Property Name="IsIade" Type="Boolean" />
+    <Property Name="OdemeSekli" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Nakit" Type="Double" />
+    <Property Name="Kart" Type="Double" />
+    <Property Name="Gelir" Type="Boolean" />
+    <Property Name="Gider" Type="Boolean" />
+    <Property Name="AlisFiyatToplam" Type="Double" />
+    <Property Name="Aciklama" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Tarih" Type="DateTime" Precision="3" />
+    <Property Name="Kullanici" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Satis">
+    <Key>
+      <PropertyRef Name="SatisID" />
+    </Key>
+    <Property Name="SatisID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IslemBo" Type="Int32" />
+    <Property Name="UrunAd" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Barkod" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Grup" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Birim" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="AlisFiyat" Type="Double" />
+    <Property Name="Satis1" Type="Double" />
+    <Property Name="Satis2" Type="Double" />
+    <Property Name="Satis3" Type="Double" />
+    <Property Name="Satis4" Type="Double" />
+    <Property Name="Miktar" Type="Double" />
+    <Property Name="Toplam" Type="Double" />
+    <Property Name="KdvTutar" Type="Double" />
+    <Property Name="OdemeSekli" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Iade" Type="Boolean" />
+    <Property Name="Tarih" Type="DateTime" Precision="3" />
+    <Property Name="Kullanici" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
   </EntityType>
 </Schema>
