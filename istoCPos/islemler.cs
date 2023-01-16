@@ -16,5 +16,30 @@ namespace istoCPos
             return sonuc;
 
         }
+
+        public static void StokAzalt(string barkod, double miktar) {
+            using (var db = new istocDBEntities())
+            {
+                var urunbilgi = db.Urunler.SingleOrDefault(x => x.UrunBarkod == barkod);
+                urunbilgi.StokMiktari -= miktar;
+                db.SaveChanges();
+
+
+            }
+        
+        }
+
+        public static void StokArttir(string barkod, double miktar)
+        {
+            using (var db = new istocDBEntities())
+            {
+                var urunbilgi = db.Urunler.SingleOrDefault(x => x.UrunBarkod == barkod);
+                urunbilgi.StokMiktari += miktar;
+                db.SaveChanges();
+
+
+            }
+
+        }
     }
 }

@@ -97,6 +97,7 @@ namespace istoCPos
                 dataGridView1.Rows[SatirSayisi].Cells["Miktar"].Value = miktar;
                 dataGridView1.Rows[SatirSayisi].Cells["Fiyat"].Value = urun.SatisFiyati1;
                 dataGridView1.Rows[SatirSayisi].Cells["KdvTutari"].Value = urun.KdvTutari;
+                dataGridView1.Rows[SatirSayisi].Cells["AlisFiyati"].Value = urun.AlisFiyati;
                 dataGridView1.Rows[SatirSayisi].Cells["Tutar"].Value = Math.Round(miktar * (double)urun.SatisFiyati1, 2);
             }
             dataGridView1.ClearSelection();
@@ -250,13 +251,93 @@ namespace istoCPos
                     satis.Kullanici = kullaniciLabel.Text;
                     db.Satis1.Add(satis);
                     db.SaveChanges();
-                    MessageBox.Show(Convert.ToString(i));
 
                     
+
+                    if (!iadeSatis)
+                    {
+
+                        islemler.StokAzalt(dataGridView1.Rows[i].Cells["Barkod"].Value.ToString(), Convert.ToInt32(dataGridView1.Rows[i].Cells["Miktar"].Value.ToString()));
+                    }
+                    else
+                    {
+                        islemler.StokArttir(dataGridView1.Rows[i].Cells["Barkod"].Value.ToString(), Convert.ToInt32(dataGridView1.Rows[i].Cells["Miktar"].Value.ToString()));
+                    }
+                    alisFiyatToplam += islemler.DoubleYap(dataGridView1.Rows[i].Cells["AlisFiyati"].Value.ToString());
+
+
+
                 }
+                IslemOzet islemOzet = new IslemOzet();
+                islemOzet.IslemNo = islemNo;
+                islemOzet.Iade = iadeSatis;
+                islemOzet.AlisFiyatiToplam = alisFiyatToplam;
+                //islemOzet.Gelir = false;
+                //islemOzet.Gider = false;
+                if (!iadeSatis) {
+                    islemOzet.Aciklama = odemesekli + " Satış gerçekleşti.";
+                    
+
+                }
+                else
+                {
+                    islemOzet.Aciklama = "İade işlemi (" + odemesekli + ")";
+                }
+                islemOzet.Kullanci = kullaniciLabel.Text;
+                islemOzet.OdemeSekli = odemesekli;
+                islemOzet.Tarih = DateTime.Now;
+
+                switch (odemesekli)
+                {
+                    case "Nakit":
+                        islemOzet.Nakit = islemler.DoubleYap(ToplamtextBox1.Text);
+                        islemOzet.Kart = 0;
+                        break;
+                    case "Kart":
+                        islemOzet.Nakit = 0;
+                        islemOzet.Kart = islemler.DoubleYap(ToplamtextBox1.Text);
+                            break;
+                    case "Kart-Nakit":
+                        islemOzet.Nakit = islemler.DoubleYap(labelNakit.Text);
+                        islemOzet.Kart = islemler.DoubleYap(labelKart.Text);
+                        break;
+
+                }
+                db.IslemOzet.Add(islemOzet);
+                db.SaveChanges();
+
+                var islemNoArttir = db.Islem.First();
+                islemNoArttir.IslemNo += 1;
+                db.SaveChanges();
+
+                MessageBox.Show("yazdırma işlemi");
 
             }
 
+        }
+
+        private void checkBoxIade_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBoxIade.Checked == true)
+            {
+                checkBoxIade.Visible = true;
+
+            }
+            else
+            {
+                checkBoxIade.Visible = false;
+            }
+                
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (checkBoxIade.Checked == false)
+                checkBoxIade.Checked = true;
+            else
+                checkBoxIade.Checked = false;
+           
+            
         }
     }
 }
