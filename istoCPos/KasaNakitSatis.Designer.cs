@@ -145,6 +145,7 @@
             this.NakitSatisYapButon.TabIndex = 85;
             this.NakitSatisYapButon.Text = "Ödeme Yap ( F5 )";
             this.NakitSatisYapButon.UseVisualStyleBackColor = false;
+            this.NakitSatisYapButon.Click += new System.EventHandler(this.NakitSatisYapButon_Click);
             // 
             // label3
             // 

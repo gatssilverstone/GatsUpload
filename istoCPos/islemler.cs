@@ -17,7 +17,7 @@ namespace istoCPos
 
         }
 
-        public static void StokAzalt(string barkod, double miktar) {
+        public static void StokAzalt(string barkod, int miktar) {
             using (var db = new istocDBEntities())
             {
                 var urunbilgi = db.Urunler.SingleOrDefault(x => x.UrunBarkod == barkod);
@@ -29,7 +29,7 @@ namespace istoCPos
         
         }
 
-        public static void StokArttir(string barkod, double miktar)
+        public static void StokArttir(string barkod, int miktar)
         {
             using (var db = new istocDBEntities())
             {

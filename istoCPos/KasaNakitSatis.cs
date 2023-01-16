@@ -16,5 +16,10 @@ namespace istoCPos
         {
             InitializeComponent();
         }
+
+        private void NakitSatisYapButon_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

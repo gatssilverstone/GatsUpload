@@ -256,12 +256,13 @@ namespace istoCPos
 
                     if (!iadeSatis)
                     {
-
+                        MessageBox.Show("Stok Azalt");
                         islemler.StokAzalt(dataGridView1.Rows[i].Cells["Barkod"].Value.ToString(), Convert.ToInt32(dataGridView1.Rows[i].Cells["Miktar"].Value.ToString()));
                     }
                     else
                     {
                         islemler.StokArttir(dataGridView1.Rows[i].Cells["Barkod"].Value.ToString(), Convert.ToInt32(dataGridView1.Rows[i].Cells["Miktar"].Value.ToString()));
+                        MessageBox.Show("Stok Artır");
                     }
                     alisFiyatToplam += islemler.DoubleYap(dataGridView1.Rows[i].Cells["AlisFiyati"].Value.ToString());
 
@@ -276,8 +277,6 @@ namespace istoCPos
                 //islemOzet.Gider = false;
                 if (!iadeSatis) {
                     islemOzet.Aciklama = odemesekli + " Satış gerçekleşti.";
-                    
-
                 }
                 else
                 {
@@ -294,9 +293,9 @@ namespace istoCPos
                         islemOzet.Kart = 0;
                         break;
                     case "Kart":
-                        islemOzet.Nakit = 0;
                         islemOzet.Kart = islemler.DoubleYap(ToplamtextBox1.Text);
-                            break;
+                        islemOzet.Nakit = 0;
+                        break;
                     case "Kart-Nakit":
                         islemOzet.Nakit = islemler.DoubleYap(labelNakit.Text);
                         islemOzet.Kart = islemler.DoubleYap(labelKart.Text);
@@ -338,6 +337,18 @@ namespace istoCPos
                 checkBoxIade.Checked = false;
            
             
+        }
+
+        private void KartButon_Click(object sender, EventArgs e)
+        {
+            KasaKartSatis Ksatis = new KasaKartSatis();
+            Ksatis.Show();
+            satisYap("Kart");
+        }
+
+        private void BarkodTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
